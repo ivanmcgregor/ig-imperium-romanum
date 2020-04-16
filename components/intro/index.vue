@@ -86,6 +86,7 @@ export default {
   }
 
   &.ig-intro-small {
+    margin-bottom: $large-margin / 2;
     .ig-marble-1 {
       height: 100px;
       .ig-offset-image {
