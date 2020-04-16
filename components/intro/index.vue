@@ -1,5 +1,5 @@
 <template>
-  <div class="ig-intro text-center">
+  <div :class="classes">
     <div class="ig-mosaic"></div>
     <div class="ig-marble-1">
       <div class="ig-offset-image">
@@ -24,7 +24,19 @@
 
 <script>
 export default {
-  name: 'Intro'
+  name: 'Intro',
+  props: {
+    small: {
+      type: Boolean,
+      default: false,
+      required: false
+    }
+  },
+  computed: {
+    classes() {
+      return `ig-intro text-center${this.small ? ' ig-intro-small' : ''}`
+    }
+  }
 }
 </script>
 
@@ -58,7 +70,7 @@ export default {
 
       img {
         height: 540px;
-        max-width: 100%;
+        width: 100%;
       }
     }
   }
@@ -70,6 +82,17 @@ export default {
 
     .ig-border-box {
       padding: 20px;
+    }
+  }
+
+  &.ig-intro-small {
+    .ig-marble-1 {
+      height: 100px;
+      .ig-offset-image {
+        img {
+          height: 330px;
+        }
+      }
     }
   }
 }

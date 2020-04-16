@@ -1,6 +1,14 @@
 <template>
   <div>
-    <h1>Unsere Mitglieder</h1>
+    <Intro small>
+      <h2 class="mb-5">Unsere Mitglieder</h2>
+      <b-row class="mb-4">
+        <b-col offset-md="1" md="10">
+          Text für Mitglieder
+        </b-col>
+      </b-row>
+    </Intro>
+
     <b-row
       v-for="member in members"
       :key="member.key"
@@ -20,8 +28,11 @@
 </template>
 
 <script>
+import Intro from '~/components/intro'
+
 export default {
   name: 'IndexVue',
+  components: { Intro },
   data: () => ({
     members: [
       {

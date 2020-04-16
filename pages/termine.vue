@@ -1,6 +1,13 @@
 <template>
   <div>
-    <h2>Termine und Veranstaltungen</h2>
+    <Intro small>
+      <h2 class="mb-5">Termine und Veranstaltungen</h2>
+      <b-row class="mb-4">
+        <b-col offset-md="1" md="10">
+          Text für Galerien
+        </b-col>
+      </b-row>
+    </Intro>
 
     Zunächst warten wir ab, was COVID-19 macht, entsprechend werden ggf. Termine
     noch abgesagt.
@@ -10,10 +17,12 @@
 </template>
 
 <script>
+import Intro from '~/components/intro'
 import TerminComponent from '~/components/Termine'
+
 export default {
   name: 'Termine',
-  components: { TerminComponent }
+  components: { Intro, TerminComponent }
 }
 </script>
 
