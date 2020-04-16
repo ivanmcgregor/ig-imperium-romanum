@@ -1,8 +1,19 @@
 <template>
-  <div>
+  <div class="layout">
+    <HeaderComponent />
     <nuxt />
+    <FooterComponent />
   </div>
 </template>
+
+<script>
+import HeaderComponent from '~/components/header'
+import FooterComponent from '~/components/footer'
+export default {
+  name: 'DefaultLayout',
+  components: { HeaderComponent, FooterComponent }
+}
+</script>
 
 <style>
 html {

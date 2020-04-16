@@ -1,10 +1,10 @@
 <template>
-  <span>Anleitungen</span>
+  <span>Hier werden mal unsere Galerien verlinkt</span>
 </template>
 
 <script>
 export default {
-  name: 'IndexVue'
+  name: 'Galerie'
 }
 </script>
 

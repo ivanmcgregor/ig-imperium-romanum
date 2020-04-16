@@ -23,7 +23,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/scss/entry.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -31,12 +31,12 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
-    '@nuxtjs/stylelint-module'
-  ],
+  // buildModules: [
+  //   // Doc: https://github.com/nuxt-community/eslint-module
+  //   '@nuxtjs/eslint-module',
+  //   // Doc: https://github.com/nuxt-community/stylelint-module
+  //   '@nuxtjs/stylelint-module'
+  // ],
   /*
    ** Nuxt.js modules
    */
@@ -44,6 +44,10 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt'
   ],
+  bootstrapVue: {
+    bootstrapCSS: false, // Or `css: false`
+    bootstrapVueCSS: false // Or `bvCSS: false`
+  },
   /*
    ** Build configuration
    */
