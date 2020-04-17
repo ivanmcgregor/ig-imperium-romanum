@@ -12,7 +12,9 @@
             welcher Reihenfolge angeschafft werden sollten.
           </p>
           <button-wrapper to="/Tipps & Tricks/anschaffungsratgeber"
-            >Zum Anschaffungsratgeber</button-wrapper
+            >Zum Anschaffungs<span class="d-inline-block d-md-none"
+              >-<br /></span
+            >ratgeber</button-wrapper
           >
           <p>
             Bei vielen Gegenständen, die man als Römer braucht, lohnt es sich,

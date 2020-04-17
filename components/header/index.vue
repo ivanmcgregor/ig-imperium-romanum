@@ -56,6 +56,15 @@ export default {
     height: 60px;
   }
 }
+@media (max-width: 767.98px) {
+  .ig-banner {
+    .ig-hero {
+      a {
+        font-size: 3rem;
+      }
+    }
+  }
+}
 
 .ig-nav.navbar-light .navbar-nav .nav-link {
   font-family: $headings-font-family;

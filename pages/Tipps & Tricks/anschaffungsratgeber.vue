@@ -1,7 +1,10 @@
 <template>
   <div>
     <Intro small>
-      <h2 class="mb-5">Anschaffungsratgeber</h2>
+      <h2 class="mb-5">
+        Anschaffungs<span class="d-inline-block d-md-none">-<br /></span
+        >ratgeber
+      </h2>
       <b-row class="mb-4">
         <b-col offset-md="1" md="10">
           <p>

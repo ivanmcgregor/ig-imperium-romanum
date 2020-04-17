@@ -3,8 +3,10 @@
     <div class="ig-mosaic mb-4">
       <b-container>
         <b-row>
-          <b-col offset-md="2" md="8" class="ig-border-box">
-            <h2 class="ig-section-heading">{{ title }}</h2>
+          <b-col offset-md="2" md="8">
+            <div class="ig-border-box">
+              <h2 class="ig-section-heading">{{ title }}</h2>
+            </div>
           </b-col>
         </b-row>
       </b-container>
@@ -45,6 +47,13 @@ export default {
     margin-bottom: 0;
     text-align: center;
     padding: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .ig-mosaic {
+    .ig-section-heading {
+      font-size: 1.9rem;
+    }
   }
 }
 </style>
