@@ -27,16 +27,18 @@
         </b-col>
       </b-row>
     </Intro>
+    <AnleitunsVerzeichnis />
   </div>
 </template>
 
 <script>
+import AnleitunsVerzeichnis from '~/components/AnleitunsVerzeichnis'
 import ButtonWrapper from '~/components/ButtonWrapper'
 import Intro from '~/components/intro'
 
 export default {
   name: 'TippsUndTricks',
-  components: { ButtonWrapper, Intro }
+  components: { AnleitunsVerzeichnis, ButtonWrapper, Intro }
 }
 </script>
 
