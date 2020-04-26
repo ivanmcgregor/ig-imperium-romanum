@@ -22,7 +22,6 @@
         :src="require('assets/anleitungen/nicos_focale.jpg')"
         fluid
       />
-
     </Section>
   </div>
 </template>

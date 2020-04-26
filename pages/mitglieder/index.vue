@@ -4,7 +4,15 @@
       <h2 class="mb-5">Unsere Mitglieder</h2>
       <b-row class="mb-4">
         <b-col offset-md="1" md="10">
-          Text für Mitglieder
+          <p>
+            Hier sind alle aufgelistet, die momentan in der IG Imperium Romanum
+            aktiv sind.
+          </p>
+          <p>
+            Auch wenn die Liste aktuell viele Soldaten enthält, so freuen wir
+            uns doch, wenn wir bald hoffentlich mehr der Zivilbevölkerung
+            darstellen können.
+          </p>
         </b-col>
       </b-row>
     </Intro>
