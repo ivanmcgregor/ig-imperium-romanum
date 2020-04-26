@@ -7,8 +7,12 @@
         </b-col>
         <b-col cols="12" md="6">
           <b-nav vertical>
-            <b-nav-item v-for="route in primaryRoutes" :key="route.name">
-              <nuxt-link :to="route.path">{{ route.text }}</nuxt-link>
+            <b-nav-item
+              v-for="route in primaryRoutes"
+              :key="route.name"
+              :to="route.path"
+            >
+              {{ route.text }}
 
               <b-nav
                 v-if="route.children && route.name.startsWith('Tipp')"
@@ -26,8 +30,12 @@
             </b-nav-item>
           </b-nav>
           <b-nav vertical class="mt-4">
-            <b-nav-item v-for="route in secondaryRoutes" :key="route.name">
-              <nuxt-link :to="route.path">{{ route.text }}</nuxt-link>
+            <b-nav-item
+              v-for="route in secondaryRoutes"
+              :key="route.name"
+              :to="route.path"
+            >
+              {{ route.text }}
             </b-nav-item>
           </b-nav>
         </b-col>
@@ -71,11 +79,10 @@ export default {
 
   .nav-link {
     padding: 0;
-    a {
-      color: $white;
-      &.nuxt-link-exact-active {
-        text-decoration: underline;
-      }
+
+    color: $white;
+    &.nuxt-link-exact-active {
+      text-decoration: underline;
     }
   }
 

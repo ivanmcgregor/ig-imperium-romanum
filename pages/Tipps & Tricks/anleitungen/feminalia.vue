@@ -29,7 +29,8 @@
         verwenden. Es ist davon auszugehen, dass der Schnitt der Thorsberghose
         auch schon zu jener Zeit verwendet wurde und sich Legionäre bei lokalen
         Händlern eingedeckt haben. Ich habe
-        <a target="_blank"
+        <a
+          target="_blank"
           href="http://www.shelaghlewins.com/reenactment/thorsbjerg_construction/thorsbjerg_trews_construction.htm"
           >diese Anleitung</a
         >
