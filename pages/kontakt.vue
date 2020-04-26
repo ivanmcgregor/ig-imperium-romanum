@@ -4,9 +4,15 @@
       <h2 class="mb-5">Kontakt</h2>
       <b-row class="mb-4">
         <b-col offset-md="1" md="10">
-          Text für Galerien
+          Du hast Fragen zu unserer Truppe oder den vielen Anleitungen? Du hast
+          Interesse an der Darstellung eines antiken Römers oder möchtest sogar
+          mal bei einem Event bei unserer Gruppe reinschnuppern? Dann melde Dich
+          einfach bei uns, wir heißen jeden herzlich willkommen!
         </b-col>
       </b-row>
+      <a href="mailto:ig-romanum@web.de" class="text-center"
+        >IG-Romanum@web.de</a
+      >
     </Intro>
   </div>
 </template>
