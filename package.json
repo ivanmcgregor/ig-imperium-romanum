@@ -19,7 +19,8 @@
     "lodash": "^4.17.15",
     "nuxt": "^2.0.0",
     "node-sass": "^4.13.0",
-    "sass-loader": "7.1.0"
+    "sass-loader": "7.1.0",
+    "vue-gallery": "^2.0.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
