@@ -5,8 +5,8 @@
         <b-col cols="12" md="2">
           <b-img fluid :src="require(`assets/schild.jpg`)"></b-img>
         </b-col>
-        <b-col cols="12" md="6">
-          <b-nav vertical>
+        <b-col cols="12" md="3">
+          <b-nav vertical class="mt-4 mt-md-0">
             <b-nav-item
               v-for="route in primaryRoutes"
               :key="route.name"
@@ -29,7 +29,9 @@
               </b-nav>
             </b-nav-item>
           </b-nav>
-          <b-nav vertical class="mt-4">
+        </b-col>
+        <b-col cols="12" md="3">
+          <b-nav vertical class="mt-4 mt-md-0">
             <b-nav-item
               v-for="route in secondaryRoutes"
               :key="route.name"
@@ -39,7 +41,7 @@
             </b-nav-item>
           </b-nav>
         </b-col>
-        <b-col cols="12" md="4" class="text-right">
+        <b-col cols="12" md="4" class="text-right mt-4 mt-md-0">
           © {{ year }}, IG Imperium Romanum
         </b-col>
       </b-row>
