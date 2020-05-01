@@ -4,11 +4,7 @@
     <div class="ig-marble-1">
       <div class="ig-offset-image">
         <div class="container">
-          <b-img
-            fluid
-            :src="require(`assets/banner.jpg`)"
-            class="ig-img-cover"
-          ></b-img>
+          <b-img fluid :src="imageUrl" class="ig-img-cover"></b-img>
         </div>
       </div>
     </div>
@@ -30,6 +26,11 @@ export default {
       type: Boolean,
       default: false,
       required: false
+    },
+    imageUrl: {
+      type: String,
+      required: false,
+      default: require(`~/assets/banner.jpg`)
     }
   },
   computed: {
