@@ -47,6 +47,9 @@ export default {
     a {
       color: $white;
       font-size: 3.5rem;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 
