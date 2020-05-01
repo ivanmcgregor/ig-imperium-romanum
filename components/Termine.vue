@@ -20,9 +20,23 @@
         </b-col>
       </b-row>
     </div>
-    <div v-else>
-      TBD
-    </div>
+    <b-container v-else>
+      <div v-for="termin in termine" :key="termin.key">
+        <h3 class="h4 text-center mt-5">
+          {{ termin.titel }}
+        </h3>
+        <p class="text-center">
+          <span v-if="termin.bis" class="text-primary"
+            >{{ termin.von }} - {{ termin.bis }}</span
+          >
+          <span v-else class="text-primary">{{ termin.von }}</span>
+
+          <span v-if="termin.beschreibung" class="w-50 mx-auto">
+            <br />{{ termin.beschreibung }}
+          </span>
+        </p>
+      </div>
+    </b-container>
   </div>
 </template>
 
@@ -46,12 +60,32 @@ const kalender = [
     time: '2020-09-18',
     von: '18.09.2020',
     bis: '20.09.2020',
-    titel: 'Römer- & Frankenlager'
+    titel: 'Römer- & Frankenlager',
+    beschreibung: 'Ein Freundschaftslager mit dem befreundeten Frankenclan.'
   },
   {
     time: '2020-12-06',
     von: '06.12.2020',
-    titel: 'Termin Winterwanderung?'
+    titel: 'Termin Winterwanderung?',
+    beschreibung:
+      'Wir nutzen dieses Event um unsere Winterausrüstung auszuprobieren. Das Event ist IG-intern. Der Termin nicht final.'
+  },
+  {
+    time: '2020-12-06',
+    von: '06.12.2020',
+    bis: '07.12.2020',
+    titel: 'Termin Platzhalter',
+    beschreibung: 'Platzhalter mit Beschreibungstext'
+  },
+  {
+    time: '2020-12-06',
+    von: '06.12.2020',
+    titel: 'Termin Platzhalter'
+  },
+  {
+    time: '2020-12-06',
+    von: '06.12.2020',
+    titel: 'Termin Platzhalter'
   }
 ]
 
@@ -66,15 +100,18 @@ export default {
   },
   computed: {
     termine() {
-      const processed = kalender.map(({ time, von, bis, titel }, i) => {
-        return {
-          time: new Date(time).getTime(),
-          key: `${time}-${i}`,
-          von,
-          bis,
-          titel
+      const processed = kalender.map(
+        ({ time, von, bis, titel, beschreibung }, i) => {
+          return {
+            time: new Date(time).getTime(),
+            key: `${time}-${i}`,
+            von,
+            bis,
+            titel,
+            beschreibung
+          }
         }
-      })
+      )
 
       // aussortieren von abgelaufenen Daten
       const now = new Date().getTime()
