@@ -24,6 +24,12 @@
             Anleitungen, die dazu einladen sollen, sich selbst daran zu
             versuchen.
           </p>
+          <p>
+            Für alles, was man nicht selbst herstellen kann oder möchte
+            empfehlen wir, auf der
+            <nuxt-link to="/Tipps & Tricks/links">Link Seite</nuxt-link>
+            nachzuschauen.
+          </p>
         </b-col>
       </b-row>
     </Intro>
