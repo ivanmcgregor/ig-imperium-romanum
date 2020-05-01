@@ -64,4 +64,6 @@ const kalender = [
 ];
 ```
 
+### Galerien
 
+Die Bilder aus den Galerien werden nicht über Webpack ausgeliefert, da dies komplikationen beim automatischen erkennen des Pfades im Code hervorruft. Stattdessen werden sie statisch ausgeliefert und sind deshalb im Ordner `static/Galerien`.
