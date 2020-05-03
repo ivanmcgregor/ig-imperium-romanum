@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Intro small>
+    <Intro small :image-url="require('~/assets/banner/banner_kontakt2.jpg')">
       <h2 class="mb-5">Kontakt</h2>
       <b-row class="mb-4">
         <b-col offset-md="1" md="10">
