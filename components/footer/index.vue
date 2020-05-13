@@ -1,5 +1,5 @@
 <template>
-  <div class="ig-footer py-5">
+  <div class="ig-footer py-5 mt-5">
     <b-container>
       <b-row>
         <b-col cols="12" md="2">

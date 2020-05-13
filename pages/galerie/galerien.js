@@ -1,0 +1,162 @@
+export default {
+  '2019_Winterwanderung': {
+    title: 'Winterwanderung Donnersberg',
+    description: 'Am 08.12.19',
+    folder: 'Winterwanderung Donnersberg 08.12.19',
+    coverFoto: 'DSC_1212XXXX.jpg',
+    fotos: [
+      'DSC_1170XX.jpg',
+      'DSC_1202XX.jpg',
+      'DSC_1212XXXX.jpg',
+      'DSC_1222XXXX.jpg',
+      'DSC_1253.JPG',
+      'DSC_1257XXX.jpg'
+    ]
+  },
+  '2019_Hassloch': {
+    title: 'Hassloch Marktbesuch',
+    description: 'Am 31.08.19',
+    folder: 'Hassloch Marktbesuch 31.08.19',
+    coverFoto: 'IMG-20190831-WA0066.jpg',
+    fotos: [
+      'IMG-20190831-WA0049.jpg',
+      'IMG-20190831-WA0057.jpg',
+      'IMG-20190831-WA0061.jpg',
+      'IMG-20190831-WA0064.jpg',
+      'IMG-20190831-WA0066.jpg'
+    ]
+  },
+  '2019_Angelbachtal': {
+    title: 'Angelbachtal Marktbesuch',
+    description: 'Am 11.08.2019',
+    folder: 'Angelbachtal Marktbesuch 11.08.2019',
+    coverFoto: 'IMG-20190824-WA0031.jpg',
+    fotos: [
+      'IMG-20190811-WA0017.jpeg',
+      'IMG-20190811-WA0021.jpg',
+      'IMG-20190811-WA0022.jpg',
+      'IMG-20190811-WA0024.jpg',
+      'IMG-20190811-WA0025.jpg',
+      'IMG-20190811-WA0032.jpeg',
+      'IMG-20190821-WA0015.jpg',
+      'IMG-20190821-WA0022.jpg',
+      'IMG-20190824-WA0031.jpg'
+    ]
+  },
+  '2019_Teufelsburg': {
+    title: 'Teufelsburg',
+    description: 'Vom 5.07 bis 7.07.19',
+    folder: 'Teufelsburg 5.07-7.07.19',
+    coverFoto: 'DSC_0245.JPG',
+    fotos: [
+      'DSC_0024.JPG',
+      'DSC_0036.JPG',
+      'DSC_0062.JPG',
+      'DSC_0083.JPG',
+      'DSC_0092.JPG',
+      'DSC_0127.JPG',
+      'DSC_0137.JPG',
+      'DSC_0139.JPG',
+      'DSC_0158.JPG',
+      'DSC_0162.JPG',
+      'DSC_0178.JPG',
+      'DSC_0181.JPG',
+      'DSC_0200.JPG',
+      'DSC_0203.JPG',
+      'DSC_0215.JPG',
+      'DSC_0217.JPG',
+      'DSC_0228.JPG',
+      'DSC_0232.JPG',
+      'DSC_0238.JPG',
+      'DSC_0245.JPG',
+      'DSC_0251.JPG',
+      'DSC_0271.JPG',
+      'DSC_0278.JPG',
+      'DSC_0283.JPG',
+      'DSC_0295.JPG',
+      'DSC_0300.JPG',
+      'DSC_0310.JPG',
+      'DSC_0334.JPG',
+      'DSC_0336.JPG',
+      'DSC_0337.JPG',
+      'DSC_0342.JPG',
+      'IMG_20190705_202755282.jpg',
+      'IMG-20190707-WA0018.jpg',
+      'IMG-20190707-WA0019.jpg',
+      'IMG-20190707-WA0020.jpg',
+      'IMG-20190707-WA0026.jpg',
+      'IMG-20190707-WA0028.jpg',
+      'IMG-20190707-WA0033.jpg',
+      'IMG-20190707-WA0040.jpg',
+      'IMG-20190707-WA0044.jpg'
+    ]
+  },
+  '2018_Spektakulum': {
+    title: 'Spectaculum Worms',
+    description: 'Vom 10.05 bis 13.05.18',
+    folder: 'Spectaculum Worms 10.05-13.05.18',
+    coverFoto: '32453887_1585507298213278_3882416042038788096_o.jpg',
+    fotos: [
+      '31897608_198530397432088_1924441001271754752_n.jpg',
+      '32453887_1585507298213278_3882416042038788096_o.jpg',
+      '32457918_1585506958213312_5245024623199780864_o.jpg',
+      '32460660_1889183171133678_3778015265497808896_o.jpg',
+      '32530740_1585505401546801_9093003256681988096_o.jpg',
+      'IMG_20180511_133015.jpg',
+      'IMG_20180512_221954.jpg',
+      'IMG_20180512_222043.jpg',
+      'IMG_20180512_222135.jpg',
+      'IMG-20180513-WA0034.jpg',
+      'IMG-20180513-WA0035.jpg',
+      'IMG-20180513-WA0037.jpg',
+      'IMG-20180513-WA0039.jpg',
+      'IMG-20180513-WA0041.jpg',
+      'IMG-20180513-WA0043.jpg',
+      'IMG-20180513-WA0048.jpg',
+      'IMG-20180513-WA0050.jpg',
+      'IMG-20180513-WA0051.jpg',
+      'IMG-20180513-WA0059.jpg',
+      'IMG-20180515-WA0002.jpg',
+      'IMG-20180516-WA0023.jpg',
+      'Worms (38 von 383).jpg',
+      'Worms (329 von 383).jpg',
+      'Worms (330 von 383).jpg'
+    ]
+  },
+  '2018_Tiergarten': {
+    title: 'Tiergarten Werbeaktion',
+    description: 'Am 29.04.2018',
+    folder: 'Tiergarten Werbeaktion 29.04.2018',
+    coverFoto: 'DSC02454.JPG',
+    fotos: [
+      'DSC02443.JPG',
+      'DSC02454.JPG',
+      'DSC02477.JPG',
+      'DSC02480.JPG',
+      'DSC02482.JPG',
+      'DSC02483.JPG',
+      'DSC02484.JPG',
+      'DSC02489.JPG',
+      'DSC02491.JPG',
+      'DSC02495.JPG',
+      'DSC02502.JPG'
+    ]
+  },
+  '2018_Winterwanderung': {
+    title: 'Winterwanderung Donnersberg',
+    description: 'Am 04.02.2018',
+    folder: 'Winterwanderung Donnersberg 04.02.2018',
+    coverFoto: '27624693_1345886392183382_6358278783868118534_o.jpg',
+    fotos: [
+      '27624693_1345886392183382_6358278783868118534_o.jpg',
+      '27629533_1345886815516673_522036589577566252_o.jpg',
+      '27711404_1237764579690179_1705747562_o.jpg',
+      '27744136_1237767493023221_1359544900_o.jpg',
+      '27745070_1237764666356837_1490045079_o.jpg',
+      '27746188_1237762406357063_987216590_o.jpg',
+      '27747496_1345886075516747_2506664013442706204_o.jpg',
+      '27785327_1237762653023705_773061439_o.jpg',
+      'IMG_20180208_134811.jpg'
+    ]
+  }
+}
