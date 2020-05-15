@@ -1,14 +1,21 @@
 <template>
   <Section title="Anleitungen und Infos">
-    <b-nav vertical>
-      <b-nav-item
+    <b-row>
+      <b-col
         v-for="anleitung in anleitungen"
         :key="anleitung.name"
-        :to="anleitung.path"
+        cols="12"
+        md="6"
       >
-        {{ anleitung.text }}
-      </b-nav-item>
-    </b-nav>
+        <!-- The images should have the same name as the page and be in the
+         folder `static/AnleitungsBilder` and in `.png format. -->
+        <LinkImage
+          :to="anleitung.path"
+          :bg-image="`/AnleitungsBilder/${anleitung.text}.png`"`
+          >{{ anleitung.text }}</LinkImage
+        >
+      </b-col>
+    </b-row>
   </Section>
 </template>
 
@@ -16,10 +23,11 @@
 import _ from 'lodash'
 import { getRefinedRoutes } from '~/utils/routesHelper'
 import Section from '~/components/section'
+import LinkImage from '~/components/LinkImage'
 
 export default {
   name: 'AnleitungsVerzeichnis',
-  components: { Section },
+  components: { Section, LinkImage },
   computed: {
     anleitungen() {
       const routes = getRefinedRoutes(this.$router.options.routes)

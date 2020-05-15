@@ -9,13 +9,20 @@
       </b-row>
     </Intro>
     <b-container>
-      <div class="images">
-        <div v-for="(gallery, imageIndex) in galleries" :key="imageIndex">
-          <nuxt-link :to="galleryLinks[imageIndex]" append>{{
-            gallery.title
-          }}</nuxt-link>
-        </div>
-      </div>
+      <b-row>
+        <b-col
+          v-for="(gallery, imageIndex) in galleries"
+          :key="imageIndex"
+          cols="12"
+          md="6"
+        >
+          <LinkImage
+            :to="galleryLinks[imageIndex]"
+            :bg-image="`/Galerien/${gallery.folder}/${gallery.coverFoto}`"
+            >{{ gallery.title }}</LinkImage
+          >
+        </b-col>
+      </b-row>
     </b-container>
   </div>
 </template>
@@ -23,10 +30,11 @@
 <script>
 import Galerien from './galerien'
 import Intro from '~/components/intro'
+import LinkImage from '~/components/LinkImage'
 
 export default {
   name: 'Galerie',
-  components: { Intro },
+  components: { Intro, LinkImage },
   computed: {
     galleryLinks() {
       return Object.keys(Galerien)

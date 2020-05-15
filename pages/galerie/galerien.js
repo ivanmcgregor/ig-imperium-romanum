@@ -45,7 +45,7 @@ export default {
   },
   '2019_Teufelsburg': {
     title: 'Teufelsburg',
-    description: 'Vom 5.07 bis 7.07.19',
+    description: 'Vom 05.07 bis 07.07.19',
     folder: 'Teufelsburg 5.07-7.07.19',
     coverFoto: 'DSC_0245.JPG',
     fotos: [
