@@ -11,7 +11,7 @@
          folder `static/AnleitungsBilder` and in `.png format. -->
         <LinkImage
           :to="anleitung.path"
-          :bg-image="`/AnleitungsBilder/${anleitung.text}.png`"`
+          :bg-image="`/AnleitungsBilder/${anleitung.text}.png`"
           >{{ anleitung.text }}</LinkImage
         >
       </b-col>
