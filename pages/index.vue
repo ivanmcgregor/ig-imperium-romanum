@@ -30,28 +30,18 @@
     <Section title="Tipps und Tricks">
       <b-row>
         <b-col cols="12" md="6">
-          <b-button variant="primary" size="lg" to="/Tipps & Tricks" block
-            >Anschaffungsratgeber</b-button
+          <LinkImage
+            to="/Tipps & Tricks"
+            :bg-image="require(`assets/rüstungen.jpg`)"
+            >Anschaffungsratgeber</LinkImage
           >
-          <b-img
-            fluid
-            :src="require(`assets/rüstungen.jpg`)"
-            class="ig-teaser-img"
-          ></b-img>
         </b-col>
         <b-col cols="12" md="6">
-          <b-button
-            variant="primary"
-            size="lg"
+          <LinkImage
             to="/Tipps & Tricks/scutum"
-            block
-            >Bauanleitung Scutum</b-button
+            :bg-image="require(`assets/anleitungen/scutum-außen-teaser.jpeg`)"
+            >Bauanleitung Scutum (404)</LinkImage
           >
-          <b-img
-            fluid
-            :src="require(`assets/anleitungen/scutum-außen-teaser.jpeg`)"
-            class="ig-teaser-img"
-          ></b-img>
         </b-col>
       </b-row>
     </Section>
@@ -63,15 +53,8 @@ import Intro from '~/components/intro'
 import ButtonWrapper from '~/components/ButtonWrapper'
 import Termine from '~/components/Termine'
 import Section from '~/components/section'
+import LinkImage from '~/components/LinkImage'
 export default {
-  components: { Intro, ButtonWrapper, Termine, Section }
+  components: { Intro, ButtonWrapper, Termine, Section, LinkImage }
 }
 </script>
-
-<style lang="scss" scoped>
-.ig-teaser-img {
-  max-width: 100%;
-  height: 240px;
-  opacity: 0.5;
-}
-</style>
