@@ -17,7 +17,7 @@
           md="6"
         >
           <LinkImage
-            :to="galleryLinks[imageIndex]"
+            :to="`/galerie/${galleryLinks[imageIndex]}`"
             :bg-image="`/Galerien/${gallery.folder}/${gallery.coverFoto}`"
             >{{ gallery.title }}</LinkImage
           >
