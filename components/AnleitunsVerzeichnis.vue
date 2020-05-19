@@ -8,10 +8,10 @@
         md="6"
       >
         <!-- The images should have the same name as the page and be in the
-         folder `static/AnleitungsBilder` and in `.png format. -->
+         folder `static/AnleitungsBilder` and in `.jpg format. -->
         <LinkImage
           :to="anleitung.path"
-          :bg-image="`/AnleitungsBilder/${anleitung.text}.png`"
+          :bg-image="`/AnleitungsBilder/${anleitung.text}.jpg`"
           >{{ anleitung.text }}</LinkImage
         >
       </b-col>
