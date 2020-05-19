@@ -41,13 +41,20 @@ export default {
   name: 'Galerie',
   components: { Intro },
   validate({ params }) {
-    return Object.keys(Galerien).includes(params.galerie)
+    const check = Object.keys(Galerien).includes(params.galerie)
+    if (!check) {
+      console.warn('Invalid gallery identifier!')
+    }
+    return check
   },
   data: () => ({
     index: null
   }),
   computed: {
-    usedGallery() {
+    usedGallery({ payload }) {
+      if (payload) {
+        return payload
+      }
       return Galerien[this.$route.params.galerie]
     },
     images() {

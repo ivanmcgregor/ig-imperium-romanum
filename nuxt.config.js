@@ -1,3 +1,5 @@
+import Galerien from './pages/galerie/galerien'
+
 export default {
   mode: 'universal',
   /*
@@ -56,5 +58,20 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  /*
+   * Static site generation
+   */
+  generate: {
+    routes() {
+      return new Promise((resolve) => {
+        resolve(
+          Object.keys(Galerien).map((gal, idx) => ({
+            route: `/galerie/${gal}`,
+            payload: Galerien[idx]
+          }))
+        )
+      })
+    }
   }
 }
