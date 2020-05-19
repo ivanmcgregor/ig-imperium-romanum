@@ -40,10 +40,15 @@ import Intro from '~/components/intro'
 export default {
   name: 'Galerie',
   components: { Intro },
-  validate({ params }) {
-    const check = Object.keys(Galerien).includes(params.galerie)
+  validate({ params, payload }) {
+    const gallery = params.galerie.toLowerCase()
+    const check =
+      payload ||
+      Object.keys(Galerien)
+        .map((g) => g.toLowerCase())
+        .includes(gallery)
     if (!check) {
-      console.warn('Invalid gallery identifier!')
+      console.warn('Invalid gallery identifier', gallery)
     }
     return check
   },
@@ -55,7 +60,13 @@ export default {
       if (payload) {
         return payload
       }
-      return Galerien[this.$route.params.galerie]
+
+      const gallery = this.$route.params.galerie.toLowerCase()
+      return Object.values(Galerien)[
+        Object.keys(Galerien)
+          .map((g) => g.toLowerCase())
+          .findIndex((g) => g === gallery)
+      ]
     },
     images() {
       return this.usedGallery.fotos.map(this.toSrc)
