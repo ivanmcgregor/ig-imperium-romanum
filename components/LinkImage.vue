@@ -54,27 +54,13 @@ export default {
       background-size: cover;
       transition: transform 300ms;
       position: relative;
-
-      &::before {
-        content: '';
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgba(255, 255, 255, 0.4);
-        transition: background-color 300ms;
-      }
     }
   }
   &:hover,
   &:focus {
     .image {
       cursor: pointer;
-      transform: scale(1.1);
-      &::before {
-        background-color: rgba(0, 0, 0, 0);
-      }
+      transform: scale(1.15);
     }
     .btn {
       color: white;
