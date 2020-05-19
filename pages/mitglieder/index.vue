@@ -17,10 +17,20 @@
       </b-row>
     </Intro>
 
-    <div v-for="memberGroup in memberGroups" class="ig-mosaic">
+    <div
+      v-for="(memberGroup, index) in memberGroups"
+      :key="index"
+      class="ig-mosaic"
+    >
       <b-container
         ><b-row>
-          <b-col v-for="member in memberGroup" cols="12" md="4" class="mb-3">
+          <b-col
+            v-for="(member, idx) in memberGroup"
+            :key="idx"
+            cols="12"
+            md="4"
+            class="mb-3"
+          >
             <div class="ig-border-box d-flex justify-content-center">
               <h3 class="mb-0 align-self-center">{{ member.name }}</h3>
             </div>
@@ -101,6 +111,18 @@ export default {
         groups.push(members.splice(0, 3))
       }
       return groups
+    }
+  },
+  head() {
+    return {
+      title: 'Mitglieder',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Mitglieder der IG Romanum'
+        }
+      ]
     }
   }
 }

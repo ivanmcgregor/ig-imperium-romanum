@@ -45,8 +45,18 @@ import Intro from '~/components/intro'
 
 export default {
   name: 'LoricaHamata',
-  components: { Intro }
+  components: { Intro },
+  head() {
+    return {
+      title: 'Lorica Hamata',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitung zur Lorica Hamata der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

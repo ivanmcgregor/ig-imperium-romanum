@@ -53,8 +53,18 @@ import Section from '~/components/section'
 
 export default {
   name: 'Subarmalis',
-  components: { Intro, Section }
+  components: { Intro, Section },
+  head() {
+    return {
+      title: 'Subarmalis',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitung für Subarmalis der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

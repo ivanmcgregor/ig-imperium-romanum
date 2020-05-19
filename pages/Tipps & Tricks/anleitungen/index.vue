@@ -18,8 +18,18 @@ import Intro from '~/components/intro'
 
 export default {
   name: 'Anleitungen',
-  components: { AnleitunsVerzeichnis, Intro }
+  components: { AnleitunsVerzeichnis, Intro },
+  head() {
+    return {
+      title: 'Anleitungen',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitungen für römische Gegenstände der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

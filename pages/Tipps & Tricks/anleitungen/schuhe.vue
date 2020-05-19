@@ -57,8 +57,18 @@ import Intro from '~/components/intro'
 
 export default {
   name: 'Schuhe',
-  components: { Intro }
+  components: { Intro },
+  head() {
+    return {
+      title: 'Schuhe',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitung zu Schuhen der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

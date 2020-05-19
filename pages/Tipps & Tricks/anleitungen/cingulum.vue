@@ -37,9 +37,19 @@
 import Intro from '~/components/intro'
 
 export default {
-  name: 'Feminalia',
-  components: { Intro }
+  name: 'Cingulum',
+  components: { Intro },
+  head() {
+    return {
+      title: 'Cingulum',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitung für Cingulum der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

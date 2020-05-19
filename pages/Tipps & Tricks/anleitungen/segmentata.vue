@@ -76,8 +76,18 @@ import Section from '~/components/section'
 
 export default {
   name: 'LoricaSegmentata',
-  components: { Intro, Section }
+  components: { Intro, Section },
+  head() {
+    return {
+      title: 'Lorica Segmentata',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitung zur Lorica Segmentata der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

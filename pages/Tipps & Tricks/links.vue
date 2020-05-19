@@ -75,8 +75,18 @@ import Intro from '~/components/intro'
 
 export default {
   name: 'LinksVue',
-  components: { Intro }
+  components: { Intro },
+  head() {
+    return {
+      title: 'Links',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Von der IG Romanum weiter empfohlene Seiten'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

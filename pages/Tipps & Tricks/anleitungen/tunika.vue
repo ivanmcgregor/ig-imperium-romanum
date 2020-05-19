@@ -71,8 +71,18 @@ import Section from '~/components/section'
 
 export default {
   name: 'Tunika',
-  components: { Intro, Section }
+  components: { Intro, Section },
+  head() {
+    return {
+      title: 'Tunika',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitung für Tunika der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

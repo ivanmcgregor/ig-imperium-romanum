@@ -42,6 +42,18 @@ export default {
     galleries() {
       return Object.values(Galerien)
     }
+  },
+  head() {
+    return {
+      title: 'Galerien',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Galerien von Veranstaltungen der IG Romanum'
+        }
+      ]
+    }
   }
 }
 </script>

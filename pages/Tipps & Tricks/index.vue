@@ -1,6 +1,9 @@
 <template>
   <div>
-    <Intro small :image-url="require('~/assets/banner/banner_tipps+tricks.jpg')">
+    <Intro
+      small
+      :image-url="require('~/assets/banner/banner_tipps+tricks.jpg')"
+    >
       <h2 class="mb-5">Tipps und Tricks</h2>
       <b-row class="mb-4">
         <b-col offset-md="1" md="10">
@@ -44,8 +47,18 @@ import Intro from '~/components/intro'
 
 export default {
   name: 'TippsUndTricks',
-  components: { AnleitunsVerzeichnis, ButtonWrapper, Intro }
+  components: { AnleitunsVerzeichnis, ButtonWrapper, Intro },
+  head() {
+    return {
+      title: 'Tipps und Tricks',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Tipps, Tricks und Anleitungen der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

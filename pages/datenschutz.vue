@@ -14,8 +14,11 @@ import Intro from '~/components/intro'
 
 export default {
   name: 'Datenschutz',
-  components: { Intro }
+  components: { Intro },
+  head() {
+    return {
+      title: 'Datenschutz'
+    }
+  }
 }
 </script>
-
-<style scoped></style>

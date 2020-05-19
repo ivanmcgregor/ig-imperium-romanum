@@ -11,7 +11,43 @@ import HeaderComponent from '~/components/header'
 import FooterComponent from '~/components/footer'
 export default {
   name: 'DefaultLayout',
-  components: { HeaderComponent, FooterComponent }
+  components: { HeaderComponent, FooterComponent },
+  head() {
+    return {
+      // if no subcomponents specify a metaInfo.title, this title will be used
+      title: 'IG Imperium Romanum',
+      // all titles will be injected into this template
+      titleTemplate: '%s | IG Imperium Romanum',
+
+      htmlAttrs: {
+        lang: 'de'
+      },
+
+      meta: [
+        {
+          hid: 'overall',
+          name: 'description',
+          content:
+            'Wir sind eine Interessengemeinschaft, die zivile wie militärische römische Darstellung um die Zeit 150n. Chr betreibt.'
+        },
+        {
+          hid: 'overallRobots',
+          name: 'robots',
+          content: 'index, follow'
+        },
+        {
+          hid: 'ogType',
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          hid: 'ogSiteName',
+          property: 'og:site_name',
+          content: 'vioma GmbH'
+        }
+      ]
+    }
+  }
 }
 </script>
 

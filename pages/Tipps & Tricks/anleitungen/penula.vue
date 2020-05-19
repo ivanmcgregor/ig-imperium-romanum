@@ -41,9 +41,19 @@ import Intro from '~/components/intro'
 import Section from '~/components/section'
 
 export default {
-  name: 'Tunika',
-  components: { Intro, Section }
+  name: 'Penula',
+  components: { Intro, Section },
+  head() {
+    return {
+      title: 'Penula',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitung für Penula der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

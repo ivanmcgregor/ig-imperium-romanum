@@ -20,8 +20,18 @@ import TerminComponent from '~/components/Termine'
 
 export default {
   name: 'Termine',
-  components: { Intro, TerminComponent }
+  components: { Intro, TerminComponent },
+  head() {
+    return {
+      title: 'Termine',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anstehende Termine der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>
