@@ -41,7 +41,11 @@
       </b-row>
     </Intro>
 
-    <Section v-for="category in categories" :title="category.title">
+    <Section
+      v-for="(category, index) in categories"
+      :key="index"
+      :title="category.title"
+    >
       <AnschaffungsratgeberComponent
         :elements="category.elements"
         :intro="category.intro"
@@ -202,8 +206,18 @@ export default {
         ]
       }
     ]
-  })
+  }),
+  head() {
+    return {
+      title: 'Anschaffungsratgeber',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Der große Anschaffungsratgeber der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

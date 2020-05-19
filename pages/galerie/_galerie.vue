@@ -79,6 +79,18 @@ export default {
     toSrc(img) {
       return `/Galerien/${this.usedGallery.folder}/${img}`
     }
+  },
+  head() {
+    return {
+      title: this.usedGallery.title,
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: `Galerie: ${this.usedGallery.title} der IG Romanum`
+        }
+      ]
+    }
   }
 }
 </script>

@@ -14,8 +14,11 @@ import Intro from '~/components/intro'
 
 export default {
   name: 'Impressum',
-  components: { Intro }
+  components: { Intro },
+  head() {
+    return {
+      title: 'Impressum'
+    }
+  }
 }
 </script>
-
-<style scoped></style>

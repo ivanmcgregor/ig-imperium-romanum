@@ -403,8 +403,18 @@ import Section from '~/components/section'
 
 export default {
   name: 'Scutum',
-  components: { Intro, Section }
+  components: { Intro, Section },
+  head() {
+    return {
+      title: 'Scutum',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitung zum Bau eines Legionärs Scutum der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

@@ -32,8 +32,18 @@ import Section from '~/components/section'
 
 export default {
   name: 'Focale',
-  components: { Intro, Section }
+  components: { Intro, Section },
+  head() {
+    return {
+      title: 'Focale',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Anleitung für Focale der IG Romanum'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

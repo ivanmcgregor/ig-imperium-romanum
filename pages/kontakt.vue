@@ -22,8 +22,18 @@ import Intro from '~/components/intro'
 
 export default {
   name: 'KontaktVue',
-  components: { Intro }
+  components: { Intro },
+  head() {
+    return {
+      title: 'Kontakt',
+      meta: [
+        {
+          hid: 'ogTitle',
+          property: 'og:title',
+          content: 'Nimm Kontakt zur IG Romanum auf!'
+        }
+      ]
+    }
+  }
 }
 </script>
-
-<style scoped></style>

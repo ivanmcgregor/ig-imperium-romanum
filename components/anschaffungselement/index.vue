@@ -6,7 +6,14 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-col v-for="element in elements" cols="12" sm="6" md="3" class="mb-4">
+      <b-col
+        v-for="(element, index) in elements"
+        :key="index"
+        cols="12"
+        sm="6"
+        md="3"
+        class="mb-4"
+      >
         <element-component
           :img-src="element.imgSrc"
           :title="element.title"
@@ -34,5 +41,3 @@ export default {
   }
 }
 </script>
-
-<style scoped></style>
