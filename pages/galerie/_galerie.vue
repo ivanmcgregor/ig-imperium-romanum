@@ -40,8 +40,8 @@ import Intro from '~/components/intro'
 export default {
   name: 'Galerie',
   components: { Intro },
-  validate({ params }) {
-    const check = Object.keys(Galerien).includes(params.galerie)
+  validate({ params, payload }) {
+    const check = payload || Object.keys(Galerien).includes(params.galerie)
     if (!check) {
       console.warn('Invalid gallery identifier!')
     }
