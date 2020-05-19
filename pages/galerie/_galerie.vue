@@ -61,7 +61,7 @@ export default {
         return payload
       }
 
-      const gallery = this.$query.params.galerie.toLowerCase()
+      const gallery = this.$route.params.galerie.toLowerCase()
       return Object.values(Galerien)[
         Object.keys(Galerien)
           .map((g) => g.toLowerCase())
