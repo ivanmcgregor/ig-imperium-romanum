@@ -10,7 +10,8 @@ const primaryNavItems = [
 ]
 
 // menu items separately used in the footer
-const secondaryNavItems = ['impressum', 'datenschutz']
+const footerNavItemsLeft = ['galerie', 'mitglieder', 'Tipps & Tricks']
+const footerNavItemsRight = ['termine', 'kontakt', 'datenschutz']
 
 // all menu items (e.g. for a sitemap)
 export function getRefinedRoutes(inputRoutes) {
@@ -73,8 +74,11 @@ export function getSortedPrimaryMenu(inputRoutes) {
   return getMenuItems(inputRoutes, primaryNavItems)
 }
 
-export function getSortedSecondaryMenu(inputRoutes) {
-  return getMenuItems(inputRoutes, secondaryNavItems)
+export function getFooterLeftMenu(inputRoutes) {
+  return getMenuItems(inputRoutes, footerNavItemsLeft)
+}
+export function getFooterRightMenu(inputRoutes) {
+  return getMenuItems(inputRoutes, footerNavItemsRight)
 }
 
 export default getSortedPrimaryMenu
