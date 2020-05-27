@@ -48,7 +48,8 @@ const kalender = [
     time: '2018-01-01',
     von: '01.01.2018',
     bis: '03.01.2018',
-    titel: 'vergangener Termin'
+    titel: 'vergangener Termin',
+    beschreibung: 'Er wird automatisch raus gefiltert, dient aber als Beispiel'
   },
   {
     time: '2020-09-25',
@@ -69,23 +70,6 @@ const kalender = [
     titel: 'Termin Winterwanderung?',
     beschreibung:
       'Wir nutzen dieses Event um unsere Winterausrüstung auszuprobieren. Das Event ist IG-intern. Der Termin nicht final.'
-  },
-  {
-    time: '2020-12-06',
-    von: '06.12.2020',
-    bis: '07.12.2020',
-    titel: 'Termin Platzhalter',
-    beschreibung: 'Platzhalter mit Beschreibungstext'
-  },
-  {
-    time: '2020-12-06',
-    von: '06.12.2020',
-    titel: 'Termin Platzhalter'
-  },
-  {
-    time: '2020-12-06',
-    von: '06.12.2020',
-    titel: 'Termin Platzhalter'
   }
 ]
 

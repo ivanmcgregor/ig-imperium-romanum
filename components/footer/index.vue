@@ -50,10 +50,7 @@
 </template>
 
 <script>
-import {
-  getSortedPrimaryMenu,
-  getSortedSecondaryMenu
-} from '~/utils/routesHelper'
+import { getFooterLeftMenu, getFooterRightMenu } from '~/utils/routesHelper'
 
 export default {
   name: 'Footer',
@@ -62,10 +59,10 @@ export default {
       return new Date().getFullYear()
     },
     primaryRoutes() {
-      return getSortedPrimaryMenu(this.$router.options.routes)
+      return getFooterLeftMenu(this.$router.options.routes)
     },
     secondaryRoutes() {
-      return getSortedSecondaryMenu(this.$router.options.routes)
+      return getFooterRightMenu(this.$router.options.routes)
     }
   }
 }
