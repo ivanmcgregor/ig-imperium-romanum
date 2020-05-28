@@ -91,6 +91,28 @@ export default {
       'IMG-20190707-WA0044.jpg'
     ]
   },
+  '2019_Werbeaktion': {
+    title: 'Werbeaktion Tiergarten',
+    description:
+      'Werbeaktion für das Spectaculum in Worms im Wormser Tiergarten am 19.05.19',
+    folder: 'Werbeaktion 19.05.2019',
+    coverFoto: '23.18.38 (3).jpeg',
+    fotos: [
+      '23.18.35.jpeg',
+      '23.18.36 (1).jpeg',
+      '23.18.36 (2).jpeg',
+      '23.18.36.jpeg',
+      '23.18.37 (1).jpeg',
+      '23.18.37 (2).jpeg',
+      '23.18.37 (3).jpeg',
+      '23.18.37 (4).jpeg',
+      '23.18.37.jpeg',
+      '23.18.38 (1).jpeg',
+      '23.18.38 (2).jpeg',
+      '23.18.38 (3).jpeg',
+      '23.18.38.jpeg'
+    ]
+  },
   '2018_Spektakulum': {
     title: 'Spectaculum Worms',
     description: 'Vom 10.05 bis 13.05.18',
