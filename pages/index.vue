@@ -63,11 +63,6 @@ export default {
           hid: 'ogTitle',
           property: 'og:title',
           content: 'Webseite der IG Romanum'
-        },
-        {
-          hid: 'google-site-verification',
-          property: 'google-site-verification',
-          content: '8LJIXqDQlIaKG9Bh_Dd1voRp7aNbhbS6mlmDGChFuKk'
         }
       ]
     }

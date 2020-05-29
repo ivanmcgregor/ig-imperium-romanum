@@ -43,7 +43,7 @@ export default {
         {
           hid: 'ogSiteName',
           property: 'og:site_name',
-          content: 'vioma GmbH'
+          content: 'IG Imperium Romanum'
         }
       ]
     }
