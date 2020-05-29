@@ -4,7 +4,12 @@
       <h2 class="mb-5">Galerie</h2>
       <b-row class="mb-4">
         <b-col offset-md="1" md="10">
-          Hier sind einige Bilder von unseren Aktionen.
+          Hier sind einige Bilder von unseren Aktionen. Von manchen gibt es auch
+          Videos, die auf
+          <a href="https://www.youtube.com/channel/UCjS_3WWLf1DhOFzcmril1LA"
+            >unserem YouTube Kanal</a
+          >
+          geschaut werden können.
         </b-col>
       </b-row>
     </Intro>
