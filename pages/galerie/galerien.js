@@ -1,6 +1,8 @@
-export default {
-  '2019_Winterwanderung': {
+export default [
+  {
+    link: '2019_Winterwanderung',
     title: 'Winterwanderung Donnersberg',
+    date: '2019-12-08',
     description: 'Am 08.12.19',
     folder: 'Winterwanderung Donnersberg 08.12.19',
     coverFoto: 'DSC_1212XXXX.jpg',
@@ -13,8 +15,10 @@ export default {
       'DSC_1257XXX.jpg'
     ]
   },
-  '2019_Hassloch': {
+  {
+    link: '2019_Hassloch',
     title: 'Hassloch Marktbesuch',
+    date: '2019-08-31',
     description: 'Am 31.08.19',
     folder: 'Hassloch Marktbesuch 31.08.19',
     coverFoto: 'IMG-20190831-WA0066.jpg',
@@ -26,8 +30,10 @@ export default {
       'IMG-20190831-WA0066.jpg'
     ]
   },
-  '2019_Angelbachtal': {
+  {
+    link: '2019_Angelbachtal',
     title: 'Angelbachtal Marktbesuch',
+    date: '2019-08-11',
     description: 'Am 11.08.2019',
     folder: 'Angelbachtal Marktbesuch 11.08.2019',
     coverFoto: 'IMG-20190824-WA0031.jpg',
@@ -43,8 +49,10 @@ export default {
       'IMG-20190824-WA0031.jpg'
     ]
   },
-  '2019_Teufelsburg': {
+  {
+    link: '2019_Teufelsburg',
     title: 'Teufelsburg',
+    date: '2019-07-07',
     description: 'Vom 05.07 bis 07.07.19',
     folder: 'Teufelsburg 5.07-7.07.19',
     coverFoto: 'DSC_0245.JPG',
@@ -91,8 +99,10 @@ export default {
       'IMG-20190707-WA0044.jpg'
     ]
   },
-  '2019_Werbeaktion': {
+  {
+    link: '2019_Werbeaktion',
     title: 'Werbeaktion Tiergarten',
+    date: '2019-05-19',
     description:
       'Werbeaktion für das Spectaculum in Worms im Wormser Tiergarten am 19.05.19',
     folder: 'Werbeaktion 19.05.2019',
@@ -113,8 +123,10 @@ export default {
       '23.18.38.jpeg'
     ]
   },
-  '2018_Spektakulum': {
+  {
+    link: '2018_Spektakulum',
     title: 'Spectaculum Worms',
+    date: '2018-05-13',
     description: 'Vom 10.05 bis 13.05.18',
     folder: 'Spectaculum Worms 10.05-13.05.18',
     coverFoto: '32453887_1585507298213278_3882416042038788096_o.jpg',
@@ -145,8 +157,10 @@ export default {
       'Worms (330 von 383).jpg'
     ]
   },
-  '2018_Tiergarten': {
+  {
+    link: '2018_Tiergarten',
     title: 'Tiergarten Werbeaktion',
+    date: '2018-04-29',
     description: 'Am 29.04.2018',
     folder: 'Tiergarten Werbeaktion 29.04.2018',
     coverFoto: 'DSC02454.JPG',
@@ -164,8 +178,10 @@ export default {
       'DSC02502.JPG'
     ]
   },
-  '2018_Winterwanderung': {
+  {
+    link: '2018_Winterwanderung',
     title: 'Winterwanderung Donnersberg',
+    date: '2018-02-04',
     description: 'Am 04.02.2018',
     folder: 'Winterwanderung Donnersberg 04.02.2018',
     coverFoto: '27624693_1345886392183382_6358278783868118534_o.jpg',
@@ -181,4 +197,4 @@ export default {
       'IMG_20180208_134811.jpg'
     ]
   }
-}
+]

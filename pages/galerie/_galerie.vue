@@ -43,10 +43,7 @@ export default {
   validate({ params, payload }) {
     const gallery = params.galerie.toLowerCase()
     const check =
-      payload ||
-      Object.keys(Galerien)
-        .map((g) => g.toLowerCase())
-        .includes(gallery)
+      payload || Galerien.map((g) => g.link.toLowerCase()).includes(gallery)
     if (!check) {
       console.warn('Invalid gallery identifier', gallery)
     }
@@ -62,11 +59,7 @@ export default {
       }
 
       const gallery = this.$route.params.galerie.toLowerCase()
-      return Object.values(Galerien)[
-        Object.keys(Galerien)
-          .map((g) => g.toLowerCase())
-          .findIndex((g) => g === gallery)
-      ]
+      return Galerien.find((g) => g.link.toLowerCase() === gallery)
     },
     images() {
       return this.usedGallery.fotos.map(this.toSrc)

@@ -70,9 +70,11 @@ Die Bilder aus den Galerien werden nicht über Webpack ausgeliefert, da dies kom
 
 Die Galerien werden automatisch aus der Datei `pages/galerie/galerien.js` erstellt. Dabei braucht jeder Eintrag eine bestimmte Struktur:
 ```js
-export default {
-  '2019_Winterwanderung': {
+export default [
+  {
+    link: '2019_Winterwanderung',
     title: 'Winterwanderung Donnersberg',
+    date: '2019-12-08',
     description: 'Am 08.12.19',
     folder: 'Winterwanderung Donnersberg 08.12.19',
     coverFoto: 'DSC_1212XXXX.jpg',
@@ -82,9 +84,12 @@ export default {
       'DSC_1212XXXX.jpg',
     ]
   },
-  ...
-}
+  {
+    // nächstes Objekt vom gleichen Aufbau
+    // ...
+  }
+]
 ```
-Der Name des Eintrags wird auch in der URL verwendet, weshalb ein kurzer titel wichtig ist. Weiterhin bestimmt die Reihenfolge der Elemente im Objekt, in welcher Reihenfolge die Links auf der Galerie Hauptseite angezeigt werden. Aktuell sind sie chronologisch angeordnet, sodass die neusten Galerien zuerst kommen.
+Der Name des Eintrags wird auch in der URL verwendet, weshalb ein kurzer titel wichtig ist. Die Reihenfolge der Links auf der Galerie Hauptseite wird durch das `date` Feld bestimmt. Das `date` Feld erwartet einen Inhalt im Format 'JJJJ-MM-TT' (ISO 8601). Aktuell sind sie chronologisch angeordnet, sodass die neusten Galerien zuerst kommen.
 Jeder Eintrag muss einen `title` haben, welcher für den Link zur Galerie und als Titel der Galerie verwendet wird. Dieser sollte keine Zahlen enthalten, da sie von der Font in römische Lettern übersetzt werden (aber nicht smart genug, dass es Sinn ergibt). Zusätzlich kann noch eine Beschreibung des Events in der `description` angegeben werden.
 Außerdem wird immer ein `coverFoto` benötigt, um beim Link und im Intro dieses Bild anzuzeigen. Das Bild muss im selben Ordner wie die Bilder der Galerie liegen. Es muss aber nicht in den Fotos der Galerie auftauchen! Die Bilder, die in der Galerie angezeigt werden, werden über `fotos` als Array angegeben. Bei den Fotos wird nur der Dateiname (samt Endung) angegeben. Der Ordner, in dem die Bilder liegen muss (exakt gleich geschrieben) in dem Attribut `folder` angegeben werden. Der Ordner muss sich dabei in `static/Galerien/` befinden.
