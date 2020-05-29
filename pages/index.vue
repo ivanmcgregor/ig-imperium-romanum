@@ -38,9 +38,9 @@
         </b-col>
         <b-col cols="12" md="6">
           <LinkImage
-            to="/Tipps & Tricks/scutum"
+            to="/Tipps & Tricks/anleitungen"
             :bg-image="require(`assets/anleitungen/scutum-außen-teaser.jpeg`)"
-            >Bauanleitung Scutum (404)</LinkImage
+            >Zu unseren (Bau)anleitungen</LinkImage
           >
         </b-col>
       </b-row>
@@ -63,6 +63,11 @@ export default {
           hid: 'ogTitle',
           property: 'og:title',
           content: 'Webseite der IG Romanum'
+        },
+        {
+          hid: 'google-site-verification',
+          property: 'google-site-verification',
+          content: '8LJIXqDQlIaKG9Bh_Dd1voRp7aNbhbS6mlmDGChFuKk'
         }
       ]
     }
