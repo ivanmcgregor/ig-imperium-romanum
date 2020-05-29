@@ -69,4 +69,11 @@ export default {
     }
   }
 }
+@media (max-width: 767.98px) {
+  .link-with-image {
+    .image-container {
+      flex-basis: 180px;
+    }
+  }
+}
 </style>

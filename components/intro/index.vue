@@ -98,4 +98,34 @@ export default {
     }
   }
 }
+
+@media (max-width: 767.98px) {
+  .ig-intro {
+    .ig-mosaic {
+      margin-top: 80px;
+    }
+    .ig-marble-1 {
+      height: 120px;
+      .ig-offset-image {
+        top: -140px;
+        img {
+          height: 240px;
+        }
+      }
+    }
+    &.ig-intro-small {
+      .ig-mosaic {
+        margin-top: 40px;
+      }
+      .ig-marble-1 {
+        .ig-offset-image {
+          top: -100px;
+          img {
+            height: 180px;
+          }
+        }
+      }
+    }
+  }
+}
 </style>
