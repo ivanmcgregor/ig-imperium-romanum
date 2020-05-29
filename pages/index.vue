@@ -38,9 +38,9 @@
         </b-col>
         <b-col cols="12" md="6">
           <LinkImage
-            to="/Tipps & Tricks/scutum"
+            to="/Tipps & Tricks/anleitungen"
             :bg-image="require(`assets/anleitungen/scutum-außen-teaser.jpeg`)"
-            >Bauanleitung Scutum (404)</LinkImage
+            >Zu unseren (Bau)anleitungen</LinkImage
           >
         </b-col>
       </b-row>
