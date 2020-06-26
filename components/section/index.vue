@@ -5,7 +5,12 @@
         <b-row>
           <b-col offset-md="2" md="8">
             <div class="ig-border-box">
-              <h2 class="ig-section-heading">{{ title }}</h2>
+              <h2
+                class="ig-section-heading"
+                :class="{ 'alternate-font': useAlternateHeadlineFont }"
+              >
+                {{ title }}
+              </h2>
             </div>
           </b-col>
         </b-row>
@@ -24,6 +29,11 @@ export default {
     title: {
       type: String,
       required: true
+    },
+    useAlternateHeadlineFont: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   }
 }
@@ -47,6 +57,10 @@ export default {
     margin-bottom: 0;
     text-align: center;
     padding: 20px;
+
+    &.alternate-font {
+      font-family: $font-family-base;
+    }
   }
 }
 @media (max-width: 767.98px) {
