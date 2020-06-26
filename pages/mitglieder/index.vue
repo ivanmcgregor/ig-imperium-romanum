@@ -60,45 +60,60 @@ export default {
     membersRaw: [
       {
         img: 'Nico',
-        name: 'Optio Nico',
+        name: 'Optio Nicos',
         text:
-          'Man munkelt er würde mit seinem Helmbusch eine Kriegsnarbe verstecken.'
+          'Nach dem "überraschenden" Ableben des Zenturios vorläufiger Kopf der Truppe. Man munkelt er versteckt mittels dem Helmbusch eine alte Kriegsnarbe.'
       },
       {
         img: 'Fabian',
         name: 'Tesserarius Fabius',
         text:
-          'Behauptungen nach ist er der einzige der Truppe, der schreiben kann.'
+          'Behauptungen nach ist er der einzige der Truppe, der schreiben kann. Zufällig muss dringend etwas geschrieben werden, wenn es harte Arbeit gibt...'
       },
       {
         img: 'Thomas',
         name: 'Legionär Thomasus',
-        text: 'Lorem ipsum Thomasus textus.'
+        text:
+          'Erzählt gerne Geschichten über die Siege seiner Legion, auch wenn die Meisten davon freilich erfunden sind.'
       },
+      // {
+      //   img: 'Nina',
+      //   name: 'Bürgerin Nina',
+      //   text: 'Kameraden erzählen sich sie habe ein Warn-Mosaik eines Hundes vor ihrem Hof, das an Größe nur durch das Tier selbst übertroffen wird.'
+      // },
+      // {
+      //   img: 'Kristina',
+      //   name: 'Bürgerin Kristina',
+      //   text: 'Man sagt sie war eine angesehene römische Bürgerin, bis sie sich scheinbar in einen prahlerischen Legionär verguckte.'
+      // },
       {
         img: 'Manu',
         name: 'Legionär Manus',
-        text: 'Sie nannten ihn Legionär Hand.'
+        text:
+          'Sprichwörtlich die rechte Hand des Optios wenn es Aufgaben besonderer "Präzision" geht.'
       },
       {
         img: 'Franzi',
-        name: 'Bürgerin Franziska',
-        text: 'Lorem ipsum Franziska textus.'
+        name: 'Griechin Franzisca',
+        text:
+          'Bediente als Freigelassene Schankwirtin in der Nähe des Kastells indem sich Legionär Manus befand, der sie oft aufsuchte.'
       },
       {
         img: 'Andre',
         name: 'Legionär Andreus',
-        text: 'Lorem ipsum Andreus textus.'
+        text:
+          'Ist als Kind in einen Kessel voller Mulsum gefallen, und lehrt seitdem die Barbaren das Fürchten.'
       },
       {
         img: 'Max',
-        name: 'Legionär Maximilius',
-        text: 'Lorem ipsum Maximilius textus.'
+        name: 'Legionär Maxentius',
+        text: 'Gnade den Barbaren, wenn Sie die Mulsumlieferung überfallen.'
       },
       {
         img: 'Lars',
         name: 'Signifer Lars',
-        text: 'Lorem ipsum Lars textus.'
+        text:
+          'Er schwört darauf das Vexillium in der Not so rabiat zu verteidigen wie seinen Ruf als Frauenschwarm.'
       }
     ]
   }),
