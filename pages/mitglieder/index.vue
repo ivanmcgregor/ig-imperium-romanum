@@ -107,7 +107,7 @@ export default {
       },
       {
         img: 'Andre',
-        name: 'Legionär Andreus',
+        name: 'Auxiliar Andreus',
         text:
           'Ist als Kind in einen Kessel voller Mulsum gefallen, und lehrt seitdem die Barbaren das Fürchten.'
       },
