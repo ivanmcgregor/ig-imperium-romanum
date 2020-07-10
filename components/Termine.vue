@@ -65,11 +65,18 @@ const kalender = [
     beschreibung: 'Ein Freundschaftslager mit dem befreundeten Frankenclan.'
   },
   {
-    time: '2020-12-06',
-    von: '06.12.2020',
-    titel: 'Termin Winterwanderung?',
+    time: '2020-12-13',
+    von: '13.12.2020',
+    titel: 'Winterwanderung',
     beschreibung:
-      'Wir nutzen dieses Event um unsere Winterausrüstung auszuprobieren. Das Event ist IG-intern. Der Termin nicht final.'
+      'Wir nutzen dieses Event um unsere Winterausrüstung auszuprobieren. Das Event ist IG-intern.'
+  },
+  {
+    time: '2021-07-09',
+    von: '09.07.2021',
+    bis: '11.07.2021',
+    titel: 'Markt Großwallstadt',
+    beschreibung: 'Ein Lager mit keltischem Ambiente.'
   }
 ]
 

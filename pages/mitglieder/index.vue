@@ -38,7 +38,7 @@
               <div class="ig-img-overflow">
                 <b-img
                   fluid
-                  :src="require(`assets/mitglieder/PB-${member.img}.jpg`)"
+                  :src="require(`assets/mitglieder/${member.img}.jpg`)"
                 />
               </div>
               <p class="mt-3">{{ member.text }}</p>
@@ -71,16 +71,23 @@ export default {
           'Behauptungen nach ist er der einzige der Truppe, der schreiben kann. Zufällig muss dringend etwas geschrieben werden, wenn es harte Arbeit gibt...'
       },
       {
+        img: 'Lars',
+        name: 'Vexillifer Lars',
+        text:
+          'Er schwört darauf das Vexillium in der Not so rabiat zu verteidigen wie seinen Ruf als Frauenschwarm.'
+      },
+      {
         img: 'Thomas',
         name: 'Legionär Thomasus',
         text:
           'Erzählt gerne Geschichten über die Siege seiner Legion, auch wenn die Meisten davon freilich erfunden sind.'
       },
-      // {
-      //   img: 'Nina',
-      //   name: 'Bürgerin Nina',
-      //   text: 'Kameraden erzählen sich sie habe ein Warn-Mosaik eines Hundes vor ihrem Hof, das an Größe nur durch das Tier selbst übertroffen wird.'
-      // },
+      {
+        img: 'Nina',
+        name: 'Bürgerin Nina',
+        text:
+          'Kameraden erzählen sich sie habe ein Warn-Mosaik eines Hundes vor ihrem Hof, das an Größe nur durch das Tier selbst übertroffen wird.'
+      },
       // {
       //   img: 'Kristina',
       //   name: 'Bürgerin Kristina',
@@ -108,12 +115,6 @@ export default {
         img: 'Max',
         name: 'Legionär Maxentius',
         text: 'Gnade den Barbaren, wenn Sie die Mulsumlieferung überfallen.'
-      },
-      {
-        img: 'Lars',
-        name: 'Signifer Lars',
-        text:
-          'Er schwört darauf das Vexillium in der Not so rabiat zu verteidigen wie seinen Ruf als Frauenschwarm.'
       }
     ]
   }),
