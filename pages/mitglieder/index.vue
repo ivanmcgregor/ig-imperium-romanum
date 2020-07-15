@@ -59,7 +59,7 @@ export default {
   data: () => ({
     membersRaw: [
       {
-        img: 'Nico',
+        img: 'IGImperiumRomanum-4839',
         name: 'Optio Nicos',
         text:
           'Nach dem "überraschenden" Ableben des Zenturios vorläufiger Kopf der Truppe. Man munkelt er versteckt mittels dem Helmbusch eine alte Kriegsnarbe.'
