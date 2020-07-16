@@ -66,7 +66,7 @@ const kalender = [
 
 ### Galerien
 
-Die Bilder aus den Galerien werden nicht über Webpack ausgeliefert, da dies komplikationen beim automatischen erkennen des Pfades im Code hervorruft. Stattdessen werden sie statisch ausgeliefert und sind deshalb im Ordner `static/Galerien`.
+Die Bilder aus den Galerien werden nicht über Webpack ausgeliefert, da dies komplikationen beim automatischen Erkennen des Pfades im Code hervorruft. Stattdessen werden sie statisch ausgeliefert und sind deshalb im Ordner `static/Galerien`.
 
 Die Galerien werden automatisch aus der Datei `pages/galerie/galerien.js` erstellt. Dabei braucht jeder Eintrag eine bestimmte Struktur:
 ```js
@@ -92,4 +92,5 @@ export default [
 ```
 Der Name des Eintrags wird auch in der URL verwendet, weshalb ein kurzer titel wichtig ist. Die Reihenfolge der Links auf der Galerie Hauptseite wird durch das `date` Feld bestimmt. Das `date` Feld erwartet einen Inhalt im Format 'JJJJ-MM-TT' (ISO 8601). Aktuell sind sie chronologisch angeordnet, sodass die neusten Galerien zuerst kommen.
 Jeder Eintrag muss einen `title` haben, welcher für den Link zur Galerie und als Titel der Galerie verwendet wird. Dieser sollte keine Zahlen enthalten, da sie von der Font in römische Lettern übersetzt werden (aber nicht smart genug, dass es Sinn ergibt). Zusätzlich kann noch eine Beschreibung des Events in der `description` angegeben werden.
-Außerdem wird immer ein `coverFoto` benötigt, um beim Link und im Intro dieses Bild anzuzeigen. Das Bild muss im selben Ordner wie die Bilder der Galerie liegen. Es muss aber nicht in den Fotos der Galerie auftauchen! Die Bilder, die in der Galerie angezeigt werden, werden über `fotos` als Array angegeben. Bei den Fotos wird nur der Dateiname (samt Endung) angegeben. Der Ordner, in dem die Bilder liegen muss (exakt gleich geschrieben) in dem Attribut `folder` angegeben werden. Der Ordner muss sich dabei in `static/Galerien/` befinden.
+Außerdem wird immer ein `coverFoto` benötigt, um beim Link und im Intro dieses Bild anzuzeigen. Das Bild muss im selben Ordner wie die Bilder der Galerie liegen. Es muss aber nicht in den Fotos der Galerie auftauchen! Die Bilder, die in der Galerie angezeigt werden, werden über `fotos` als Array angegeben. Bei den Fotos wird nur der Dateiname (samt Endung) angegeben. Der Ordner, in dem die Bilder liegen muss (exakt gleich geschrieben) in dem Attribut `folder` angegeben werden. Der Ordner muss sich dabei in `static/Galerien/` befinden. Jede Galerie sollte einen eigenen Ordner haben.
+Wenn man die Fotos an der längeren Kante auf 1600px herunter skaliert, dann werden die Bilder angenehm klein.
