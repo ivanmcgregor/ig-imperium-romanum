@@ -1,5 +1,36 @@
 export default [
   {
+    link: '2020_Probelager',
+    title: 'Probelager',
+    date: '2020-07-04',
+    description:
+      'Wir haben erfolgreich unsere neue Ausrüstung getestet und einige Formationen trainiert.',
+    folder: 'Probelager 2020',
+    coverFoto: 'probelager_4343.jpg',
+    fotos: [
+      'probelager_008.JPG',
+      'probelager_4122.jpg',
+      'probelager_4129.jpg',
+      'probelager_4087.jpg',
+      'probelager_4101.jpg',
+      'probelager_4142.jpg',
+      'probelager_4149.jpg',
+      'probelager_4327.jpg',
+      'probelager_4343.jpg',
+      'probelager_4967.jpg',
+      'probelager_4954.jpg',
+      'probelager_4956.jpg',
+      'probelager_002.JPG',
+      'probelager_003.JPG',
+      'probelager_006.JPG',
+      'probelager_016.JPG',
+      'probelager_017.JPG',
+      'probelager_023.JPG',
+      'probelager_027.JPG',
+      'probelager_030.JPG'
+    ]
+  },
+  {
     link: '2019_Winterwanderung',
     title: 'Winterwanderung Donnersberg',
     date: '2019-12-08',
