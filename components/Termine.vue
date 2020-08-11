@@ -52,12 +52,6 @@ const kalender = [
     beschreibung: 'Er wird automatisch raus gefiltert, dient aber als Beispiel'
   },
   {
-    time: '2020-09-25',
-    von: '25.09.2020',
-    bis: '27.09.2020',
-    titel: 'Spectaculum Worms'
-  },
-  {
     time: '2020-09-18',
     von: '18.09.2020',
     bis: '20.09.2020',
