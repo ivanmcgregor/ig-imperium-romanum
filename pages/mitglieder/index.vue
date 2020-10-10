@@ -65,16 +65,22 @@ export default {
           'Nach dem "überraschenden" Ableben des Zenturios vorläufiger Kopf der Truppe. Man munkelt er versteckt mittels dem Helmbusch eine alte Kriegsnarbe.'
       },
       {
+        img: 'Lars',
+        name: 'Vexillifer Lars',
+        text:
+          'Er schwört darauf das Vexillium in der Not so rabiat zu verteidigen wie seinen Ruf als Frauenschwarm.'
+      },
+      {
         img: 'Fabian',
         name: 'Tesserarius Fabius',
         text:
           'Behauptungen nach ist er der einzige der Truppe, der schreiben kann. Zufällig muss dringend etwas geschrieben werden, wenn es harte Arbeit gibt...'
       },
       {
-        img: 'Lars',
-        name: 'Vexillifer Lars',
+        img: 'Kristin',
+        name: 'Bürgerin Kristina',
         text:
-          'Er schwört darauf das Vexillium in der Not so rabiat zu verteidigen wie seinen Ruf als Frauenschwarm.'
+          'Man sagt sie war eine angesehene römische Bürgerin, bis sie sich scheinbar in einen prahlerischen Legionär verguckte.'
       },
       {
         img: 'Thomas',
@@ -88,11 +94,6 @@ export default {
         text:
           'Kameraden erzählen sich sie habe ein Warn-Mosaik eines Hundes vor ihrem Hof, das an Größe nur durch das Tier selbst übertroffen wird.'
       },
-      // {
-      //   img: 'Kristina',
-      //   name: 'Bürgerin Kristina',
-      //   text: 'Man sagt sie war eine angesehene römische Bürgerin, bis sie sich scheinbar in einen prahlerischen Legionär verguckte.'
-      // },
       {
         img: 'Manu',
         name: 'Legionär Manus',
