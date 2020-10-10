@@ -1,5 +1,37 @@
 <template>
-  <div>
+  <div v-if="validGallery">
+    <Intro small :image-url="coverFoto">
+      <h2 class="mb-5">{{ usedGallery.title }}</h2>
+      <b-row v-if="usedGallery.description" class="mb-4">
+        <b-col offset-md="1" md="10">
+          {{ usedGallery.description }}
+        </b-col>
+      </b-row>
+    </Intro>
+    <b-container>
+      <client-only>
+        <v-gallery
+          :images="images"
+          :index="index"
+          @close="index = null"
+        ></v-gallery>
+      </client-only>
+      <div class="images">
+        <div
+          v-for="(image, imageIndex) in images"
+          :key="imageIndex"
+          class="image"
+          @click="index = imageIndex"
+        >
+          <div
+            class="bg-image"
+            :style="{ backgroundImage: `url('${image}')` }"
+          ></div>
+        </div>
+      </div>
+    </b-container>
+  </div>
+  <div v-else>
     <Intro small :image-url="require('~/assets/banner/banner_galerien.jpg')">
       <h2 class="mb-5">Galerie</h2>
       <b-row class="mb-4">
@@ -28,7 +60,7 @@
             md="6"
           >
             <LinkImage
-              :to="`/galerie/${gallery.link}`"
+              :to="`/galerie?galerie=${gallery.link}`"
               :bg-image="`/Galerien/${gallery.folder}/${gallery.coverFoto}`"
               >{{ gallery.title }}</LinkImage
             >
@@ -49,7 +81,33 @@ import Section from '~/components/section/index'
 export default {
   name: 'Galerie',
   components: { Intro, LinkImage, Section },
+  data: () => ({
+    index: null
+  }),
   computed: {
+    validGallery() {
+      const gallery = this.$route.query.galerie || ''
+      return Galerien.map((g) => g.link.toLowerCase()).includes(
+        gallery.toLowerCase()
+      )
+    },
+    usedGallery({ payload }) {
+      if (payload) {
+        return payload
+      }
+      if (!this.validGallery) {
+        return {}
+      }
+
+      const gallery = this.$route.query.galerie.toLowerCase()
+      return Galerien.find((g) => g.link.toLowerCase() === gallery)
+    },
+    images() {
+      return this.usedGallery.fotos.map(this.toSrc)
+    },
+    coverFoto() {
+      return this.toSrc(this.usedGallery.coverFoto)
+    },
     splitGalleries() {
       const sorted = _.orderBy(Galerien, ['date'], ['desc'])
       const split = sorted.reduce((prev, curr) => {
@@ -74,7 +132,24 @@ export default {
       return _.orderBy(Object.values(this.splitGalleries), ['year'], ['desc'])
     }
   },
+  methods: {
+    toSrc(img) {
+      return `/Galerien/${this.usedGallery.folder}/${img}`
+    }
+  },
   head() {
+    if (this.validGallery) {
+      return {
+        title: this.usedGallery.title,
+        meta: [
+          {
+            hid: 'ogTitle',
+            property: 'og:title',
+            content: `Galerie: ${this.usedGallery.title} der IG Romanum`
+          }
+        ]
+      }
+    }
     return {
       title: 'Galerien',
       meta: [
@@ -89,4 +164,24 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.image {
+  flex: 1 1 25%;
+  padding: 5px;
+  max-width: 50%;
+  cursor: pointer;
+
+  .bg-image {
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    background-position: center;
+    background-size: cover;
+  }
+}
+</style>
