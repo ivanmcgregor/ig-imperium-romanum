@@ -1,5 +1,37 @@
 export default [
   {
+    link: '2020_Freundschaftslager',
+    title: 'Freundschaftslager',
+    date: '2020-09-19',
+    description:
+      'Wir danken dem Frankenklan dafür, dass sie das Freundschaftslager organisiert haben und uns dazu eingeladen haben! Wir hatten viel spaß und freuen uns auf ein nächstes gemeinsames Lager.',
+    folder: '2020-09-19_Frankenlager',
+    coverFoto: 'IMG_7773.JPG',
+    fotos: [
+      'IMG_7808.JPG',
+      'IMG_7565.JPG',
+      'IMG_7588.JPG',
+      'IMG_7591.JPG',
+      'IMG_7596.JPG',
+      'IMG_7598.JPG',
+      'IMG_7599.JPG',
+      'IMG_7602.JPG',
+      'IMG_7608.JPG',
+      'IMG_7711.JPG',
+      'IMG_7715.JPG',
+      'IMG_7716.JPG',
+      'IMG_7717.JPG',
+      'IMG_7772.JPG',
+      'IMG_7773.JPG',
+      'IMG_7774.JPG',
+      'IMG_7775.JPG',
+      'IMG_7801.JPG',
+      'IMG_7816.JPG',
+      'IMG_7575.JPG',
+      'IMG_7795.JPG'
+    ]
+  },
+  {
     link: '2020_Probelager',
     title: 'Probelager',
     date: '2020-07-04',
