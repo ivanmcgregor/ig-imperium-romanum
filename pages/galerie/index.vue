@@ -132,6 +132,13 @@ export default {
       return _.orderBy(Object.values(this.splitGalleries), ['year'], ['desc'])
     }
   },
+  watch: {
+    usedGallery(gallery) {
+      if (gallery) {
+        window.scrollTo(0, 0)
+      }
+    }
+  },
   methods: {
     toSrc(img) {
       return `/Galerien/${this.usedGallery.folder}/${img}`
