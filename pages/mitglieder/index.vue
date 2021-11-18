@@ -66,7 +66,7 @@ export default {
       },
       {
         img: 'Lars',
-        name: 'Vexillifer Lars',
+        name: 'Vexillifer Larsos',
         text:
           'Er schwört darauf das Vexillium in der Not so rabiat zu verteidigen wie seinen Ruf als Frauenschwarm.'
       },
