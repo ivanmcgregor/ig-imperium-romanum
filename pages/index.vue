@@ -29,7 +29,7 @@
 
     <Section title="Anspruch der Gruppe">
       <p>
-        Wir wollen antike Dinge durch aktives Benutze und Erleben erforschen.
+        Wir wollen antike Dinge durch aktives Benutzen und Erleben erforschen.
         Dabei bauen und fertigen wir viele Gegenstände des römischen Alltags,
         insbesondere dem eines Soldaten. Oft setzen wir auf Autodidaktik,
         insbesondere in Bereichen wie Kampftechniken, Schützen, Gesang, Kochen,
