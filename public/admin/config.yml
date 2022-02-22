@@ -1,8 +1,11 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: public/img
+media_folder: public/assets
 public_folder: img
+site_url: https://ig-romanum.de
+display_url: https://ig-romanum.de
+locale: 'de'
 collections:
   - name: "pages"
     label: "Pages"
@@ -11,12 +14,76 @@ collections:
         name: "home"
         file: "content/home.md"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
-          - label: 'Cats'
-            name: "cats"
-            widget: list
+          - { label: "Titel", name: "title", widget: "string"}
+          - { label: "Intro Text", name: "intro", widget: "text"}
+          - label: "Intro Bild"
+            name: "img"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
+          - { label: "Galerien (link)", name: "introG", widget: "string" }
+          - { label: "Mitglieder (link)", name: "introM", widget: "string" }
+          - { label: "Veranstaltungen", name: "events", widget: "string"}
+          - { label: "Veranstaltungen (link)", name: "eventsLink", widget: "string"}
+          - { label: "Anspruch", name: "claim", widget: "string"}
+          - { label: "Anspruch Text", name: "claimText", widget: "markdown"}
+          - { label: "Tipps", name: "tips", widget: "string"}
+          - { label: "Anschaffungsratgeber (link)", name: "tipsAR", widget: "string"}
+          - label: "Anschaffungsratgeber (bild)"
+            name: "tipsArImg"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
+          - { label: "Bauanleitungen (link)", name: "tipsBA", widget: "string"}
+          - label: "Bauanleitungen (bild)"
+            name: "tipsBaImg"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
+      - label: "Termin Seite"
+        name: "termine"
+        file: "content/terminSeite.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Intro Text", name: "intro", widget: "text" }
+          - label: "Intro Bild"
+              name: "img"
+              widget: "image"
+              media_library:
+                config:
+                  multiple: false
+  - name: "dates"
+    label: "Termine"
+    files:
+      - label: "Termin Daten"
+        name: "terminDaten"
+        file: "content/termine.md"
+        fields:
+          - label: "Terminliste"
+            name: "terminListe"
+            widget: "list"
             fields:
-              - { label: "Name", name: "name", widget: "string"}
-              - { label: "Description", name: "description", widget: "text"}
+              - label: "Zeitpunkt (für Sortierung)"
+                name: "time"
+                widget: "dateTime"
+                format: "YYYY-MM-DD"
+                date_format: "YYYY-MM-DD"
+              - label: "Starttag"
+                name: "from"
+                widget: "dateTime"
+                format: "DD.MM.YYYY"
+                date_format: "DD.MM.YYYY"
+              - label: "Endtag (optional)"
+                name: "to"
+                widget: "dateTime"
+                format: "DD.MM.YYYY"
+                date_format: "DD.MM.YYYY"
+              - label: "Titel"
+                name: "title"
+                widget: "string"
+              - label: "Beschreibung (kurz)"
+                name: "description"
+                widget: "string"

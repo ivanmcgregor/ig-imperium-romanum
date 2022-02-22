@@ -1,0 +1,41 @@
+.linkWithImage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.imageContainer {
+    width: 100%;
+    overflow: hidden;
+
+    flex-grow: 1;
+    flex-basis: 240px;
+    align-items: stretch;
+    display: flex;
+}
+
+.image {
+    width: 100%;
+    background-color: lightgray; /* fallback color */
+    background-position: center;
+    background-size: cover;
+    transition: transform 300ms;
+    position: relative;
+}
+
+.linkWithImage:hover .image,
+.linkWithImage:focus .image {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+.linkWithImage:hover a,
+.linkWithImage:focus a {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+@media (max-width: 767.98px) {
+    .linkWithImage .imageContainer {
+        flex-basis: 180px;
+    }
+}
