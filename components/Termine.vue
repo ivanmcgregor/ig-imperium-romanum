@@ -52,26 +52,41 @@ const kalender = [
     beschreibung: 'Er wird automatisch raus gefiltert, dient aber als Beispiel'
   },
   {
-    time: '2020-09-18',
-    von: '18.09.2020',
-    bis: '20.09.2020',
-    titel: 'Römer- & Frankenlager',
-    beschreibung: 'Ein Freundschaftslager mit dem befreundeten Frankenclan.'
+    time: '2022-04-09',
+    von: '09.04.2022',
+    bis: '09.04.2022',
+    titel: 'Museumsbesuch',
+    beschreibung: 'Gemeinsamer Ausflug in ein Römermuseum'
   },
   {
-    time: '2020-12-13',
-    von: '13.12.2020',
-    titel: 'Winterwanderung',
+    time: '2022-04-15',
+    von: '15.04.2022',
+    bis: '17.04.2022',
+    titel: 'Probelager',
     beschreibung:
-      'Wir nutzen dieses Event um unsere Winterausrüstung auszuprobieren. Das Event ist IG-intern.'
+      'Wir nutzen dieses Event um unsere Ausrüstung vor der Saison zu Benutzen.'
   },
   {
-    time: '2021-07-09',
-    von: '09.07.2021',
-    bis: '11.07.2021',
-    titel: 'Markt Großwallstadt',
-    beschreibung: 'Ein Lager mit keltischem Ambiente.'
-  }
+    time: '2022-05-27',
+    von: '26.05.2022',
+    bis: '29.05.2022',
+    titel: 'Spektakulum Worms',
+    beschreibung: 'Lager?'
+  },
+  {
+    time: '2022-06-03',
+    von: '03.06.2022',
+    bis: '03.06.2022',
+    titel: 'Münzenberg',
+    beschreibung: 'Tagesgäste ohne Lagern'
+  },
+  {
+    time: '2022-07-08',
+    von: '08.07.2022',
+    bis: '10.07.2022',
+    titel: 'Großwallstadt',
+    beschreibung: 'Lager'
+  },
 ]
 
 export default {
