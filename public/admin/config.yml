@@ -50,11 +50,38 @@ collections:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Intro Text", name: "intro", widget: "text" }
           - label: "Intro Bild"
-              name: "img"
-              widget: "image"
-              media_library:
-                config:
-                  multiple: false
+            name: "img"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
+      - label: "Mitglieder Seite"
+        name: "mitglieder"
+        file: "content/mitglieder.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Intro Text", name: "intro", widget: "text" }
+          - label: "Intro Bild"
+            name: "img"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
+          - label: "Mitglieder"
+            name: "members"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Text"
+                name: "text"
+                widget: "text"
+              - label: "Bild"
+                name: "img"
+                widget: "image"
+                media_folder: "mitglieder"
+                allow_multiple: false
   - name: "dates"
     label: "Termine"
     files:

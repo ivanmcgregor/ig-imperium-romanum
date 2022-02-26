@@ -1,0 +1,26 @@
+.mosaic {
+    background-image: url('/assets/mosaik.jpg');
+    background-size: auto 60px;
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+
+.borderBox {
+    text-align: center;
+    height: 60px;
+}
+
+.headline {
+    font-size: 1.4rem;
+}
+
+.spacing {
+    margin: 0 5px;
+}
+.imgOverflow {
+    max-height: 520px;
+    overflow: hidden;
+}
+.image {
+    max-width: 100%;
+}
