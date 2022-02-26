@@ -82,6 +82,19 @@ collections:
                 widget: "image"
                 media_folder: "mitglieder"
                 allow_multiple: false
+      - label: "Kontakt Seite"
+        name: "Kontakt"
+        file: "content/kontakt.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Intro Text", name: "intro", widget: "text" }
+          - label: "Intro Bild"
+            name: "img"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
   - name: "dates"
     label: "Termine"
     files:
