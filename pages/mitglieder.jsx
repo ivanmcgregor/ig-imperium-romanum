@@ -21,7 +21,7 @@ const Mitglieder = () => {
       </Head>
       <PageIntro img={img}>
         <h2 className="mb-4 pb-4">{title}</h2>
-        <p className="mb-4">{intro}</p>
+        <p className="spacedParagraph mb-4">{intro}</p>
       </PageIntro>
       <Members memberGroups={memberGroups} />
     </>

@@ -7,7 +7,7 @@ import { Events } from "../components/Events/Events";
 
 const { title, intro, img } = attributes;
 
-const Home = () => {
+const Termine = () => {
   return (
     <>
       <Head>
@@ -15,11 +15,11 @@ const Home = () => {
       </Head>
       <PageIntro img={img}>
         <h2 className="mb-4 pb-4">{title}</h2>
-        <p className="mb-4">{intro}</p>
+        <p className="spacedParagraph mb-4">{intro}</p>
       </PageIntro>
       <Events></Events>
     </>
   );
 };
 
-export default Home;
+export default Termine;

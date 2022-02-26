@@ -31,7 +31,7 @@ const Home = () => {
       </Head>
       <PageIntro img={img} isHome={true}>
         <h2 className="mb-4 pb-4">{title}</h2>
-        <p className="mb-4">{intro}</p>
+        <p className="spacedParagraph mb-4">{intro}</p>
         <div className="row mb-4">
           <div className="col-md-6 offset-md-3">
             <Button to="/galerie">{introG}</Button>
@@ -47,7 +47,7 @@ const Home = () => {
         <EventPreview />
         <div className="row mb-4 mt-4">
           <div className="col-md-6 offset-md-3">
-            <Button to="/galerie">{eventsLink}</Button>
+            <Button to="/termine">{eventsLink}</Button>
           </div>
         </div>
       </Section>

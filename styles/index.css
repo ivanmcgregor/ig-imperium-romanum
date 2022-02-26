@@ -100,6 +100,12 @@ html {
         font-size: 2rem;
     }
 }
+@media (min-width: 768px) {
+    .spacedParagraph {
+        margin-left: 8.33333333%;
+        margin-right: 8.33333333%;
+    }
+}
 
 .text-primary {
     color: var(--primary) !important;
