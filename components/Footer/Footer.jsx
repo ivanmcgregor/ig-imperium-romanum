@@ -60,7 +60,7 @@ export const Footer = () => {
           <div className="col-md-3">
             {secondaryRoutes.map((route) => mapRoutes(route, pathname))}
           </div>
-          <div className="col-md-4 text-right pt-1">
+          <div className="col-md-4 text-end pt-1">
             © {year}, IG Imperium Romanum
           </div>
         </div>
