@@ -95,6 +95,19 @@ collections:
             media_library:
               config:
                 multiple: false
+      - label: "Datenschutz Seite"
+        name: "Datenschutz"
+        file: "content/datenschutz.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Intro Text", name: "intro", widget: "text" }
+          - { label: "Haupttext", name: "body", widget: "markdown" }
+          - label: "Intro Bild"
+            name: "img"
+            widget: "image"
+            media_library:
+              config:
+                multiple: false
   - name: "dates"
     label: "Termine"
     files:
