@@ -71,7 +71,7 @@ const kalender = [
     von: '26.05.2022',
     bis: '29.05.2022',
     titel: 'Spektakulum Worms',
-    beschreibung: 'Noch nicht bestätigt.'
+    beschreibung: 'Wie immer im Frühmittelalter bereich'
   },
   {
     time: '2022-06-03',
@@ -85,7 +85,7 @@ const kalender = [
     von: '08.07.2022',
     bis: '10.07.2022',
     titel: 'Großwallstadt',
-    beschreibung: 'Lager, Noch nicht bestätigt.'
+    beschreibung: 'Premiere für uns hier zu lagern, wir freuen uns schon!'
   },
 ]
 
