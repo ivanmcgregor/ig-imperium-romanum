@@ -4,8 +4,7 @@
       <h2 class="mb-5">Termine und Veranstaltungen</h2>
       <b-row class="mb-4">
         <b-col offset-md="1" md="10">
-          Zunächst warten wir ab, was COVID-19 macht, entsprechend werden ggf.
-          Termine noch abgesagt.
+          Hier könnt ihr alle kommenden Termine sehen, bei denen wir entweder in vollem Glanz als Besucher, oder als Lagerer mit allem drum und dran zu sehen sein werden.
         </b-col>
       </b-row>
     </Intro>
