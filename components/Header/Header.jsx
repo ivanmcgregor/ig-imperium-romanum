@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 const routes = [
   { path: "/", name: "STARTSEITE" },
-  { path: "/galierie", name: "GALERIE" },
+  { path: "/galerie", name: "GALERIE" },
   { path: "/mitglieder", name: "MITGLIEDER" },
   { path: "/termine", name: "TERMINE" },
   { path: "/kontakt", name: "KONTAKT" },

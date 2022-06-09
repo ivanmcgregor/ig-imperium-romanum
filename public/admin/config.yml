@@ -140,3 +140,7 @@ collections:
               - label: "Beschreibung (kurz)"
                 name: "description"
                 widget: "string"
+  - label: "Galerien"
+    name: "galerien"
+    folder: "content/galerien"
+    create: true
