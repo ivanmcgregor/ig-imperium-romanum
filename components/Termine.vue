@@ -52,40 +52,39 @@ const kalender = [
     beschreibung: 'Er wird automatisch raus gefiltert, dient aber als Beispiel'
   },
   {
-    time: '2022-04-09',
-    von: '09.04.2022',
-    bis: '09.04.2022',
-    titel: 'Museumsbesuch',
-    beschreibung: 'Gemeinsamer Ausflug in ein Römermuseum'
-  },
-  {
-    time: '2022-04-15',
-    von: '15.04.2022',
-    bis: '17.04.2022',
-    titel: 'Probelager',
-    beschreibung:
-      'Wir nutzen dieses Event um unsere Ausrüstung vor der Saison zu Benutzen.'
-  },
-  {
-    time: '2022-05-27',
-    von: '26.05.2022',
-    bis: '29.05.2022',
-    titel: 'Spektakulum Worms',
-    beschreibung: 'Wie immer im Frühmittelalter bereich'
-  },
-  {
-    time: '2022-06-03',
-    von: '03.06.2022',
-    bis: '03.06.2022',
-    titel: 'Münzenberg',
-    beschreibung: 'Tagesgäste ohne Lagern'
-  },
-  {
     time: '2022-07-08',
     von: '08.07.2022',
     bis: '10.07.2022',
     titel: 'Großwallstadt',
     beschreibung: 'Premiere für uns hier zu lagern, wir freuen uns schon!'
+  },
+  {
+    time: '2022-10-02',
+    von: '02.10.2022',
+    bis: '02.10.2022',
+    titel: 'Wanderung',
+    beschreibung: 'Wanderung in Ausrüstung bei Bad Dürkheim',
+  },
+  {
+    time: '2022-10-08',
+    von: '08.10.2022',
+    bis: '08.10.2022',
+    titel: 'Museumsbesuch',
+    beschreibung: 'Ziviler Museumsbesuch in Mainz',
+  },
+  {
+    time: '2022-11-26',
+    von: '26.11.2022',
+    bis: '26.11.2022',
+    titel: 'Arbeitseinsatz',
+    beschreibung: 'Fokus auf Schildkonstruktionen',
+  },
+  {
+    time: '2022-12-04',
+    von: '04.12.2022',
+    bis: '04.12.2022',
+    titel: 'Winterwanderung',
+    beschreibung: 'Wanderung in Ausrüstung auf dem Donnersberg',
   },
 ]
 

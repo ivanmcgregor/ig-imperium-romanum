@@ -13,6 +13,10 @@
             uns doch, wenn wir bald hoffentlich mehr der Zivilbevölkerung
             darstellen können.
           </p>
+          <p>
+            Wir wollen uns besonders bei <a target="_blank" href="https://www.instagram.com/pictrail_de">Christine Lincke</a> bedanken,
+            die für uns die meisten der hier zu sehenden Portraits aufgenommen hat.
+          </p>
         </b-col>
       </b-row>
     </Intro>

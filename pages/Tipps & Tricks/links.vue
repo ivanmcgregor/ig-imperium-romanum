@@ -57,12 +57,17 @@
         </li>
       </ul>
 
-      <h3 class="h4 mt-4">Verbündete Römische Gruppe</h3>
+      <h3 class="h4 mt-4">Freunde</h3>
       <ul class="mb-4">
         <li>
           <a target="_blank" href="http://castrum-callido.com/"
-            >Verein Für Erlebbare Geschichte der Römischen Antike CASTRUM
+          >Verein Für Erlebbare Geschichte der Römischen Antike CASTRUM
             CALLIDO e.V
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/pictrail_de"
+          >Christine Lincke (Photografin)
           </a>
         </li>
       </ul>
