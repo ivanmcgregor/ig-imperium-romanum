@@ -82,9 +82,9 @@ export default {
       },
       {
         img: 'Kristin',
-        name: 'Bürgerin Kristina',
+        name: 'Rhamis, Tochter eines Chatten',
         text:
-          'Man sagt sie war eine angesehene römische Bürgerin, bis sie sich scheinbar in einen prahlerischen Legionär verguckte.'
+          'Verschleppt nach Rom, konnte sie entkommen und schloss sich zu ihrem eigenen Schutz dieser Gruppe Legionären an um wieder in ihre Heimat zu gelangen.'
       },
       {
         img: 'Thomas',
