@@ -96,7 +96,7 @@ export default {
         img: 'Nina',
         name: 'Bürgerin Nina',
         text:
-          'Kameraden erzählen sich sie habe ein Warn-Mosaik eines Hundes vor ihrem Hof, das an Größe nur durch das Tier selbst übertroffen wird.'
+          'Kameraden erzählen sich, sie habe ein Warn-Mosaik eines Hundes vor ihrem Hof, das an Größe nur durch das Tier selbst übertroffen wird.'
       },
       {
         img: 'Manu',
