@@ -82,9 +82,9 @@ export default {
       },
       {
         img: 'Kristin',
-        name: 'Bürgerin Kristina',
+        name: 'Rhamis, Tochter eines Chatten',
         text:
-          'Man sagt sie war eine angesehene römische Bürgerin, bis sie sich scheinbar in einen prahlerischen Legionär verguckte.'
+          'Verschleppt nach Rom, konnte sie entkommen und schloss sich zu ihrem eigenen Schutz dieser Gruppe Legionären an um wieder in ihre Heimat zu gelangen.'
       },
       {
         img: 'Thomas',
@@ -96,7 +96,7 @@ export default {
         img: 'Nina',
         name: 'Bürgerin Nina',
         text:
-          'Kameraden erzählen sich sie habe ein Warn-Mosaik eines Hundes vor ihrem Hof, das an Größe nur durch das Tier selbst übertroffen wird.'
+          'Kameraden erzählen sich, sie habe ein Warn-Mosaik eines Hundes vor ihrem Hof, das an Größe nur durch das Tier selbst übertroffen wird.'
       },
       {
         img: 'Manu',
