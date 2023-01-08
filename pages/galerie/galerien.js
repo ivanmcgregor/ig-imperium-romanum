@@ -6,7 +6,7 @@ export default [
     description:
       'Auch im Winter 2022 haben wir unsere Ausrüstung in kälterem Klima getestet. Das Wetter hat uns auch schöne Bilder im Schnee beschert, besonder erfreut hat das auch das Kamerateam, das uns begleitet hat. Danke an alle Beteiligten!',
     folder: '2022-12_winterwanderung',
-    coverFoto: '8.jpeg',
+    coverFoto: 'titel.jpeg',
     fotos: [
       "1.jpeg",
       "2.jpeg",
@@ -17,8 +17,8 @@ export default [
       "7.jpeg",
       "8.jpeg",
       "9.jpeg",
-      "10.jpeg", 
-      "11.jpeg", 
+      "10.jpeg",
+      "11.jpeg",
     ]
   },
   {
@@ -28,7 +28,7 @@ export default [
     description:
       'Hier haben wir eine kleine Wanderung veranstaltet, um zu schauen was wir bis zur Winterwanderung alles optimieren wollen.',
     folder: '2022-10_herbstwanderung',
-    coverFoto: '2.jpeg',
+    coverFoto: 'titel.jpg',
     fotos: [
       "1.jpeg",
       "2.jpeg",
@@ -45,20 +45,19 @@ export default [
     description:
       'Im Jahr 2022 konnte ganz Worms unser Lager bestaunen und Groß und Klein ließen sich Ausrüstung erklären oder bewunderten sie im Einsatz in der Feldschlacht.',
     folder: '2022-07_grosswallstadt',
-    coverFoto: 'Gruppe6.jpeg',
+    coverFoto: 'titel.jpeg',
     fotos: [
-      "Nacht16.jpeg",
+      "Gruppe2.jpeg",
+      "Gruppe3.jpeg",
+      "Gruppe6.jpeg",
+      "Gruppe 1.jpeg",
+      "Gruppe 6.jpeg",
       "feldschlacht1.jpeg",
       "Feldschlacht2.jpeg",
       "Feldschlacht5.jpeg",
       "Feldschlacht8.jpeg",
-      "Gruppe 1.jpeg",
       "Gruppe 3.jpeg",
-      "Gruppe 6.jpeg",
       "Gruppe.jpeg",
-      "Gruppe2.jpeg",
-      "Gruppe3.jpeg",
-      "Gruppe6.jpeg",
       "Gruppe7.jpeg",
       "Lager 1.jpeg",
       "Lager 2.jpeg",
@@ -75,6 +74,7 @@ export default [
       "Nacht13.jpeg",
       "Nacht14.jpeg",
       "Nacht15.jpeg",
+      "Nacht16.jpeg",
     ]
   },
   {
