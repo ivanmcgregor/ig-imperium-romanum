@@ -52,9 +52,9 @@ const kalender = [
     beschreibung: 'Er wird automatisch raus gefiltert, dient aber als Beispiel'
   },
   {
-    time: '2023-05-19',
-    von: '19.05.2023',
-    bis: '21.05.2023',
+    time: '2023-04-28',
+    von: '28.04.2023',
+    bis: '30.04.2023',
     titel: 'Probelager',
     beschreibung: 'Wie jedes Jahr schauen wir, wie unsere Ausrüstung die Zeit im Winterlager verkraftet hat',
   },
@@ -63,7 +63,7 @@ const kalender = [
     von: '19.05.2023',
     bis: '21.05.2023',
     titel: 'Spectaculum Worms',
-    beschreibung: 'Wir sind wir auch dieses Jahr wieder auf einem der schönsten mittelalterlichen Märkte deutschlands (zumindest als Tagesgäste)',
+    beschreibung: 'Wir sind wir auch dieses Jahr wieder auf einem der schönsten mittelalterlichen Märkte deutschlands',
   },
   {
     time: '2023-06-16',
