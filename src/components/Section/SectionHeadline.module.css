@@ -1,0 +1,31 @@
+/**
+    Styling a headline should enable to use the section styling in parsed
+     markdown by only applying the .sectionHeadline class (from the module)
+ */
+
+.sectionHeadline h2, .sectionHeadline .h2 {
+    background-color: var(--white);
+    border: 5px solid var(--primary);
+    margin: 3rem auto;
+    max-width: 620px; /* TODO: adjust to screen sizes */
+    padding: 20px;
+    text-align: center;
+}
+
+.sectionHeadline h2::before, .sectionHeadline .h2::before {
+    background-image: url(/assets/mosaik.jpg);
+    background-size: auto 60px;
+    background-position: left center;
+    background-repeat: repeat-x;
+    content: " . ";
+    display: block;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+}
+
+.sectionHeadline h3, .sectionHeadline .h3 {
+    margin-top: 1.5rem;
+}
