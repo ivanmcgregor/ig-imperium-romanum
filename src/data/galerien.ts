@@ -14,7 +14,7 @@ export const galleries: Array<GalleryType> = [
     title: "Winterwanderung",
     date: "2022-12-04",
     description:
-      "Auch im Winter 2022 haben wir unsere Ausrüstung in kälterem Klima getestet. Das Wetter hat uns auch schöne Bilder im Schnee beschert, besonders erfreut hat das auch das Kamerateam vom SWR, das uns begleitet hat. Danke an alle Beteiligten!",
+      "Auch im Winter 2022 haben wir unsere Ausrüstung in kälterem Klima getestet. Das Wetter hat uns auch schöne Bilder im Schnee beschert, besonders erfreut hat das auch das Kamerateam vom SWR, das uns begleitet hat. Die Videos sind auf der Video Seite verlinkt. Danke an alle Beteiligten!",
     folder: "2022-12_winterwanderung",
     coverFoto: "titel.jpeg",
     fotos: [
