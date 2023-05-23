@@ -1,5 +1,10 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import Banner from "@/images/banner.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Cingulum",
+};
 
 const cingulum = () => (
   <PageIntro img={Banner}>
@@ -9,10 +14,16 @@ const cingulum = () => (
         <p>
           Das hauptsächliche Erkennungsmerkmal eines Legionärs war sein mit
           Metallplättchen beschlagener Gürtel. Dieser wurde sowohl auf der
-          Tunika, als auch auf der Rüstung getragen. Mit der Zeit war der Gürtel
-          einer gewissen Mode unterworfen, sodass die Breite und die Motive sich
-          über die Zeit verändert haben. Eine sehr gute Einführung in das diese
-          Mode gibt{" "}
+          Tunika, als auch auf der Rüstung getragen. Die Metallplättchen konnten
+          sehr hochwertig sein und bildeten teils eine Notfallwährung für die
+          Legionäre, die verpfändet oder verkauft werden konnte. Unter dem
+          Gürtel wurde bisweilen auch ein gefaltener Stoff getragen, in den
+          Legionäre Alltagsgegenstände steckten.
+        </p>
+        <p>
+          Mit der Zeit war der Gürtel einer gewissen Mode unterworfen, sodass
+          die Breite und die Motive sich über die Zeit verändert haben. Eine
+          sehr gute Einführung in das diese Mode gibt{" "}
           <a
             target="_blank"
             href="https://www.academia.edu/35955546/G%C3%BCrtel-_und_Riemenbeschl%C3%A4ge_in_den_Nordwestprovinzen._Das_milit%C3%A4rische_Formenspektrum_von_tiberisch_claudischer_bis_antoninischer_Zeit"

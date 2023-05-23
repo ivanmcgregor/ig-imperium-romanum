@@ -4,6 +4,12 @@ import Image from "next/image";
 import Banner from "@/images/banner.jpg";
 import Penula from "@/images/anleitungen/nicos_penula.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Penula und Sagum",
+  description: "Anleitung für römische Mäntel (Penula bzw. Sagum)",
+};
 
 const penula = () => (
   <>

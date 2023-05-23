@@ -1,5 +1,11 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import Banner from "@/images/banner.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Hamata",
+  description: "Wichtige Hintergrundinformationen zum römischen Kettenhemd",
+};
 
 const hamata = () => (
   <PageIntro img={Banner}>
@@ -12,12 +18,14 @@ const hamata = () => (
           Segmentrüstung wurde das Kettenhemd weiter verwendet. Ähnlich der
           Segmentata gibt es ein besonderes Schutzbedürfnis der Schulterpartie
           mit einer zusätzlichen Schicht Kette (vermutlich insbesondere bei der
-          Infanterie).
+          Infanterie). Diese Schulteraufdopplung verschwindet aber im Laufe der
+          Zeit.
         </p>
         <p>
-          Ein Kettenhemd funktioniert nur mit einer Subarmalis (ansonsten
-          besteht ein extremes Risiko von inneren Blutungen und Knochenbrüchen)
-          und einem Gürtel (der das Gewicht deutlich angenehmer verteilt).
+          Ein Kettenhemd funktioniert insbesondere mit einer Subarmalis
+          (ansonsten besteht ein erhöhtes Risiko von inneren Blutungen und
+          Knochenbrüchen) und einem Gürtel (der das Gewicht deutlich angenehmer
+          verteilt).
         </p>
         <p>
           Römisches Geflecht besteht aus eher kleinen Ringen (5-7mm
@@ -32,7 +40,11 @@ const hamata = () => (
         </p>
         <p>
           Ein Kettenhemd zu stricken ist sehr zeitaufwändig, bedarf aber weniger
-          Werkzeug als für eine Segmentata notwendig sind.
+          Werkzeug als für eine Segmentata notwendig sind. Eben dieser
+          Zeitaufwand ist auch der Grund, warum vernünftige Kettenhemden oft
+          vergleichsweise teuer sind. Es ist aber zwingend von einem nicht
+          vernieteten Kettenhemd abzuraten, da man auch so schon genug Ringe
+          verliert und das auf den ersten Blick unauthentisch aussieht.
         </p>
       </div>
     </div>

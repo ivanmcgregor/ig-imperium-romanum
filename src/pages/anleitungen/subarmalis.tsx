@@ -1,6 +1,13 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
 import Banner from "@/images/banner.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Subarmalis",
+  description:
+    "Hintergrundinformationen zur Polsterung unter der Rüstung zur Römerzeit",
+};
 
 const subarmalis = () => (
   <>
@@ -12,8 +19,8 @@ const subarmalis = () => (
             Die Subarmalis ist das römische Gegenstück zum mittelalterlichen
             Gambeson. Hierbei handelt es sich im wesentlichen um einen dicken
             Stoff (oder mehrere Lagen dünnen Stoff), welcher die Wucht von
-            Aufschlägen abfedert und verteilt. Dies ist absolut notwendig unter
-            jeder Art von Rüstung (lorica), aber absolut unabdingbar unter
+            Aufschlägen abfedert und verteilt. Dies ist notwendig unter jeder
+            Art von Rüstung (lorica), aber absolut unabdingbar unter
             Kettenhemden. Mit der Zeit wurden Pteruges an den Armen und Torso
             angebracht, die vor allem die Kleidung aus Stoff schützten. Darüber
             hinaus könnten sie eine geringe Schutzwirkung gehabt haben. Einige

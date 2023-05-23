@@ -3,6 +3,13 @@ import Banner from "@/images/banner/banner_tipps+tricks.jpg";
 import { Link } from "@/components/Link/Link";
 import { ButtonWrapper } from "@/components/ButtonWrapper";
 import { AnleitungsVerzeichnis } from "@/components/AnleitungsVerzeichnis";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Tipps und Tricks",
+  description:
+    "Für den Einstieg gibt es hier tipps, tricks und Anleitungen gebündelt",
+};
 
 const tipps = () => (
   <>

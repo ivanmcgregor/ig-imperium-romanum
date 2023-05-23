@@ -155,6 +155,13 @@ import { Section } from "@/components/Section/Section";
 import { StaticImageData } from "next/image";
 import Anschaffungsratgeber from "@/pages/anschaffungsratgeber";
 import { AnschaffungsRatgeber } from "@/components/AnschaffungsRatgeber/AnschaffungsRatgeber";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anschaffungsratgeber",
+  description:
+    "Der kleine Anschaffungsratgeber der IG für neue Darsteller, damit zuerst die relevanten Gegenstände gekauft werden",
+};
 
 const anschaffungsratgeber = () => (
   <div>

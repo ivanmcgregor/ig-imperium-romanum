@@ -1,6 +1,13 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import Banner from "@/images/banner/banner_kontakt.jpg";
 import { Section } from "@/components/Section/Section";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Datenschutz",
+  description:
+    "Alle Infos zum Datenschutz auf der Seite der IG Imperium Romanum",
+};
 
 const datenschutz = () => (
   <div>

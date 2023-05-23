@@ -1,5 +1,11 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import Banner from "@/images/banner.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Schuhe",
+  description: "Hintergrundinformationen zu römischem Schuhwerk",
+};
 
 const schuhe = () => (
   <PageIntro img={Banner}>
@@ -11,8 +17,8 @@ const schuhe = () => (
           (beispielsweise am Hadrian Wall) zeigen eine große Vielfalt an
           Schuhen. Nördlich der Alpen sind geschlossene Schuhe für den Winter
           als normal zu betrachten -- Sandalen im Winter sind keine gute Idee.
-          Geschlossene Schuhe sind für Darsteller gegebenenfalls besser, weil
-          sie das ganze Jahr verwendet werden können.
+          Geschlossene Schuhe sind für neue Darsteller also gegebenenfalls
+          besser, weil sie das ganze Jahr verwendet werden können.
         </p>
         <p>
           Im Militärdienst war es essenziell, guten Halt auf dem Boden zu haben.
@@ -27,7 +33,11 @@ const schuhe = () => (
           <a target="_blank" href="http://florentius.com/calcei-hobnail.htm">
             florentius
           </a>
-          .
+          . Bei Schuhen mit glatter Ledersohle auf leicht schrägem oder nassen
+          Gras wird der Mangel an Haftung schnell offensichtlich, weshalb wir
+          dazu tendieren, dass auch zivilisten außerhalb der Stadt (z.B.
+          Feldarbeiter) zumindest leichte Benagelung unter den Schuhen gehabt
+          haben dürften.
         </p>
         <h3 className="mt-4">Calcei</h3>
         <p>

@@ -4,6 +4,11 @@ import Image from "next/image";
 import Banner from "@/images/banner.jpg";
 import Focale from "@/images/anleitungen/nicos_focale.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Focale",
+};
 
 const focale = () => (
   <>

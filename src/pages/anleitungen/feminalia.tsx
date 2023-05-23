@@ -4,7 +4,13 @@ import Banner from "@/images/banner.jpg";
 import Feminalia from "@/images/anleitungen/nicos_feminalia.jpg";
 import Image from "next/image";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Feminalia",
+  description:
+    "Anleitung zum schneidern einer einfachen römischen Hose (Feminalia)",
+};
 const feminalia = () => (
   <>
     <PageIntro img={Banner}>

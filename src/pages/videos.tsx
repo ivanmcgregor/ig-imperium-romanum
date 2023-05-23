@@ -4,6 +4,12 @@ import { Section } from "@/components/Section/Section";
 import Banner from "@/images/banner/banner_videos.jpeg";
 import { YouTube } from "@/components/Video/YouTube";
 import { Swr } from "@/components/Video/Swr";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Videos",
+  description: "Ausgewählte Videos der IG Imperium Romanum",
+};
 
 const Home = () => {
   return (

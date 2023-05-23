@@ -12,6 +12,13 @@ import Scutum7 from "@/images/anleitungen/Scutum_IMG_3367.jpg";
 import Scutum8 from "@/images/anleitungen/Scutum_IMG_3498.jpg";
 import Scutum9 from "@/images/anleitungen/Scutum_IMG_3389.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Scutum",
+  description:
+    "Schritt für Schritt Anleitung zum bau eines römischem Legionärsschild (Scutum) mit modernen Materialien",
+};
 
 const scutum = () => (
   <>

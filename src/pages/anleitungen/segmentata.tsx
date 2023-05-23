@@ -3,6 +3,12 @@ import { Section } from "@/components/Section/Section";
 import Banner from "@/images/banner.jpg";
 import Segmentata from "@/images/rüstungen.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Segmentata",
+  description: "Hintergrundinformationen zum römischen Segmentpanzer",
+};
 
 const segmentata = () => (
   <>
@@ -53,6 +59,8 @@ const segmentata = () => (
         man sich ans Metall wagt. Und auf jeden Fall sollte man ein bisschen
         Puffer in der Breite einplanen, nicht dass einem die Rüstung dann (und
         sei es in ein paar Jahren) zu eng ist und man sie nicht tragen kann.
+        Idealerweise ist die Subarmalis bereits fertig, wenn es an die
+        Segmentata geht.
       </p>
     </Section>
     <Section title="Kauf einer Segmentata">
@@ -70,7 +78,7 @@ const segmentata = () => (
         günstigeren Modellen) noch einige Anpassungen vornehmen, damit sie
         richtig sitzt. Wir haben den Eindruck, dass bei den Depeka Modellen über
         die letzten Jahre immer mehr gespart wird und die Qualität nachlässt.
-        Einige Riemen und Stifte muss man von Werk aus erstmal austauschen, um
+        Einige Riemen und Stifte muss man von Werk aus direkt austauschen, um
         eine tragbare Rüstung daraus zu machen. Auch sind die Platten oftmals
         nicht so gebogen, dass man eine Rüstung direkt tragen kann oder will.
         Hier ein Vergleich links vor, rechts nach Anpassungen.

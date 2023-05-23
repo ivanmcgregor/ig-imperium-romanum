@@ -3,6 +3,12 @@ import { Section } from "@/components/Section/Section";
 import Banner from "@/images/banner.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import Tunika from "@/images/anleitungen/nicos_tunic.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Tunika",
+  description: "Hintergrundinformationen und Nähanleitung für die Tunika",
+};
 
 const tunika = () => (
   <>

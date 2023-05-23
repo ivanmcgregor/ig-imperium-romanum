@@ -13,6 +13,7 @@ import Nico from "@/images/mitglieder/Nico.jpg";
 import Nina from "@/images/mitglieder/Nina.jpg";
 import Thomas from "@/images/mitglieder/Thomas.jpg";
 import { Members } from "@/components/Members/Members";
+import { Metadata } from "next";
 
 const membersRaw = [
   {
@@ -71,6 +72,11 @@ const times = Math.ceil(membersRaw.length / 3);
 for (let i = 0; i <= times; i++) {
   groups.push(membersRaw.splice(0, 3));
 }
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Mitglieder",
+  description: "Hier sind alle aktiven Mitglieder mit Bild zu sehen",
+};
 
 const mitglieder = () => (
   <>

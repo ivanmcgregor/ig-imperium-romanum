@@ -2,6 +2,14 @@ import { PageIntro } from "@/components/PageIntro/PageIntro";
 
 import Banner from "@/images/banner/banner_termine.jpg";
 import { Events } from "@/components/Events/Events";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Termine",
+  description:
+    "Termine und Veranstaltungen bei denen die IG Imperium Romanum ist",
+};
+
 const termine = () => (
   <>
     <PageIntro img={Banner}>

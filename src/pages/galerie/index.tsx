@@ -4,6 +4,7 @@ import { Section } from "@/components/Section/Section";
 import { galleries as galleriesRaw } from "@/data/galerien";
 import orderBy from "lodash.orderby";
 import { LinkImage } from "@/components/LinkImage/LinkImage";
+import { Metadata } from "next";
 
 type Galleries = Array<{
   link: string;
@@ -20,6 +21,12 @@ interface YearGalleries {
 interface GallerieProps {
   years: Array<YearGalleries>;
 }
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Galerien",
+  description:
+    "Übersichtsseite von allen Bildergalerien der IG Imperium Romanum",
+};
 
 function splitGalleries(galleries: Galleries) {
   const sorted = orderBy(galleries, ["date"], ["desc"]);

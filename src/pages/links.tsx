@@ -1,6 +1,12 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import Banner from "@/images/banner/banner_tipps+tricks.jpg";
 import { Link } from "@/components/Link/Link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Links",
+  description: "Linkliste der IG Imperium Romanum",
+};
 
 const links = () => (
   <div>

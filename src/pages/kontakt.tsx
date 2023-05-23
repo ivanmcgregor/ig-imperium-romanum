@@ -1,5 +1,12 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import Banner from "@/images/banner/banner_kontakt2.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IG Romanum - Kontakt",
+  description: "Kontaktseite der IG Imperium Romanum",
+};
+
 const kontakt = () => (
   <PageIntro img={Banner}>
     <h2 className="mb-5">Kontakt</h2>
