@@ -1,0 +1,50 @@
+.intro {
+    margin-bottom: var(--large-margin);
+}
+
+.mosaic {
+    background-image: url('/assets/mosaik.jpg');
+    background-size: auto 60px;
+    height: 60px;
+    margin-top: 200px;
+}
+.marble1 {
+    background-image: url('/assets/marble.jpg');
+    background-position: bottom left;
+    background-size: 512px;
+    position: relative;
+    height: 310px;
+}
+
+.offsetImage {
+    position: absolute;
+    top: -260px;
+    width: 100%;
+}
+
+.imgCover {
+    object-fit: cover;
+    height: 540px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.marble2 {
+    background-image: url('/assets/marble_short.jpg');
+    background-position: top left;
+    background-size: 410px;
+    background-repeat: repeat-x;
+}
+.borderBox {
+    padding: 20px;
+}
+
+.introSmall {
+    margin-bottom: calc(var(--large-margin) / 2);
+}
+.introSmall .marble1 {
+    height: 100px;
+}
+.introSmall .offsetImage img {
+    height: 330px;
+}

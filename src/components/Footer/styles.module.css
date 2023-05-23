@@ -1,0 +1,20 @@
+.footer {
+    color: var(--white);
+    background-image: url('/assets/marble.jpg');
+    background-size: 512px;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.link {
+    padding: 0;
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+}
+
+.linkActive {
+    text-decoration: underline;
+}

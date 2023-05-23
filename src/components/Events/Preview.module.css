@@ -1,0 +1,16 @@
+.imgTeaser {
+    padding: 140px 30px;
+    background-image: url('/assets/kampflinie.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.spacer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.borderBox {
+    padding: 15px;
+    height: 100%;
+}

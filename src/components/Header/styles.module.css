@@ -1,0 +1,106 @@
+.banner {
+    width: 100%;
+}
+
+.hero {
+    background: var(--primary);
+    background-image: url('/assets/marble.jpg');
+    background-size: 512px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25rem;
+    margin-bottom: 0;
+}
+
+.hero a {
+    color: var(--white);
+    font-size: 3.5rem;
+    text-decoration: none;
+}
+
+.hero a:hover {
+    text-decoration: none;
+}
+
+.banner-mosaik {
+    background-image: url('/assets/mosaik.jpg');
+    background-size: auto 60px;
+    height: 60px;
+}
+
+.toggle {
+    background: var(--white);
+    border: 1px solid var(--black);
+    cursor: pointer;
+    display: none;
+    font-family: var(--btn-font-family);
+    font-size: 18px;
+    padding: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+}
+.navitem {
+    list-style-type: none;
+}
+.navitem a {
+    color: var(--primary);
+    display: block;
+    font-family: var(--headings-font-family);
+    font-size: 1.1rem;
+    padding: 0.5rem 1.3rem;
+    text-decoration: none;
+}
+.active {
+    text-decoration: underline;
+}
+
+.mainnav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0.5rem 1rem;
+}
+.collapse {
+    align-items: center;
+}
+.collapsed {}
+
+.navElements {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+
+}
+
+@media (max-width: 767.98px) {
+    .banner .hero a {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 992px) {
+    .collapse {
+        flex-grow: 1;
+        flex-basis: 100%;
+    }
+    .toggle {
+        display: block;
+    }
+    .navElements {
+        flex-direction: column;
+        margin: 0
+    }
+    .navitem a {
+        padding: 0.5rem 0;
+    }
+    .collapsed {
+        display: none;
+    }
+}
