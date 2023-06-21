@@ -51,7 +51,17 @@ const Home = () => {
           </div>
         </div>
       </PageIntro>
-      <Section title="Nächste Veranstaltungen">
+      <Section
+        title={
+          <span>
+            Nächste Veranstal
+            <span className="d-inline-block d-md-none">
+              -<br />
+            </span>
+            tungen
+          </span>
+        }
+      >
         <EventPreview />
         <div className="row mb-4 mt-4">
           <div className="col-md-6 offset-md-3">

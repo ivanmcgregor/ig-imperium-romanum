@@ -9,7 +9,8 @@
 }
 
 .link {
-    padding: 0;
+    padding: 2px 0;
+    margin-bottom: 4px;
     color: var(--white);
     text-decoration: none;
     display: block;

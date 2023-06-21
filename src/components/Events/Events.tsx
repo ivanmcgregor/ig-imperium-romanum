@@ -25,6 +25,11 @@ export const Events = () => {
           </p>
         </div>
       ))}
+      {events.length === 0 && (
+        <h3 className={`text-center mt-4 pt-4 mb-4 pb-4`}>
+          Aktuell gibt es keine geplanten Termine.
+        </h3>
+      )}
     </div>
   );
 };

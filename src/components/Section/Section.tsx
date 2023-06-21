@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
-import { PropsWithChildren } from "react";
+import { PropsWithChildren, ReactNode } from "react";
 
 interface SectionProps extends PropsWithChildren {
-  title: string;
+  title: string | ReactNode;
   useAlternateHeadlineFont?: boolean;
 }
 export const Section = ({
