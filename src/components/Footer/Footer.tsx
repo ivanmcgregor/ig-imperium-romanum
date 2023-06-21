@@ -82,7 +82,7 @@ export const Footer = () => {
             <Routes routes={secondaryRoutes} />
           </div>
           <div className="col-md-4 text-end pt-1">
-            <div>© {year}, IG Imperium Romanum</div>
+            <div className={styles.link}>© {year}, IG Imperium Romanum</div>
             <Link
               className={`${styles.link} pt-1`}
               href="https://www.youtube.com/@ig-imperiumromanum1879"

@@ -34,7 +34,7 @@ const penula = () => (
 
     <Section title="2. Variante">
       <p>
-        Und eine
+        Und eine{" "}
         <a target="_blank" href="http://www.romanarmy.net/howto.shtml#sagum">
           alternative Anleitung
         </a>

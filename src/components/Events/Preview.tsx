@@ -22,6 +22,13 @@ export const EventPreview = () => {
             </div>
           </div>
         ))}
+        {previewEvents.length === 0 && (
+          <div className={`col-md-6 offset-md-3 ${styles.spacer}`}>
+            <div className={`borderBox text-center ${styles.borderBox}`}>
+              Aktuell gibt es keine geplanten Termine.
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

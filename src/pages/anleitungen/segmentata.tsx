@@ -23,7 +23,7 @@ const segmentata = () => (
             schützt den Körper, alle Schläge, die über den Schild kommen werden
             vom ausgeprägten den Schulterschutz abgefangen. Im laufe der Zeit
             gab es verschiedene Typen dieser Rüstung, beschrieben in dem in der
-            Szene bekannten Buch von M.C. Bishop zu
+            Szene bekannten Buch von M.C. Bishop zu{" "}
             <a
               target="_blank"
               href="https://www.researchgate.net/publication/301655364_Lorica_Segmentata_Volume_I_A_Handbook_of_Articulated_Roman_Plate_Armour"
@@ -38,11 +38,11 @@ const segmentata = () => (
     <Section title="Anfertigen einer Segmentata">
       <p>
         Wenn man eine Segmentata selbst herstellen will braucht man einiges an
-        Werkzeug und Geduld, es gibt jedoch Anleitungen bei
+        Werkzeug und Geduld, es gibt jedoch Anleitungen bei{" "}
         <a target="_blank" href="https://www.larp.com/legioxx/lorica.html">
           Legio XX
-        </a>
-        und
+        </a>{" "}
+        und{" "}
         <a
           target="_blank"
           href="http://www.travelsoutwest.com/docs/seg_instr.pdf"

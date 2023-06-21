@@ -24,7 +24,7 @@ const subarmalis = () => (
             Kettenhemden. Mit der Zeit wurden Pteruges an den Armen und Torso
             angebracht, die vor allem die Kleidung aus Stoff schützten. Darüber
             hinaus könnten sie eine geringe Schutzwirkung gehabt haben. Einige
-            Beispiele gibt es beim
+            Beispiele gibt es beim{" "}
             <a
               target="_blank"
               href="https://romanrecruit.weebly.com/subarmalis.html"
@@ -48,7 +48,7 @@ const subarmalis = () => (
         Stoffdecken (z.B. Wolldecken) vernähen.
       </p>
       <p>
-        Tipps gibts beispielsweise bei
+        Tipps gibts beispielsweise bei{" "}
         <a target="_blank" href="https://www.larp.com/legioxx/subarm.html">
           Legio XX
         </a>
