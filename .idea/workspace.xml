@@ -6,16 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="186fd689-51c1-42f2-8d3d-dc91e53dc5f7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Events/Events.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events/Events.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Events/Preview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events/Preview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/penula.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/penula.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/segmentata.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/segmentata.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/subarmalis.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/subarmalis.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/termine.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/termine.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="next" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +31,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/dates" />
+                    <option name="lastUsedInstant" value="1697880979" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="fix/gconsole-findings" />
                     <option name="lastUsedInstant" value="1687365904" />
@@ -55,10 +51,6 @@
                     <option name="branchName" value="videos" />
                     <option name="lastUsedInstant" value="1681411302" />
                   </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1675849251" />
-                  </RecentBranch>
                 </list>
               </option>
               <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
@@ -71,6 +63,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2K2jaaFIEB1k0OQdAlzcqjALj3P" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -81,7 +76,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "fix/gconsole-findings",
+    "git-widget-placeholder": "feat/dates",
     "last_opened_file_path": "/Users/fabianpiel/Projects/ig-imperium-romanum",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -152,6 +147,7 @@
       <workItem from="1683897470803" duration="5176000" />
       <workItem from="1686208914806" duration="603000" />
       <workItem from="1687364255495" duration="1981000" />
+      <workItem from="1697880863138" duration="2249000" />
     </task>
     <task id="LOCAL-00001" summary="feat(Termine): add new dates">
       <created>1673182209709</created>
@@ -202,7 +198,22 @@
       <option name="project" value="LOCAL" />
       <updated>1684863863045</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chore: remove past calendar entries">
+      <created>1687368408653</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687368408653</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add upcoming events">
+      <option name="closed" value="true" />
+      <created>1697881871023</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697881871023</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +228,8 @@
     <MESSAGE value="feat: BREAKING switch from vue + nuxt to react + next" />
     <MESSAGE value="feat: add video descriptions and links" />
     <MESSAGE value="feat: add SEO/meta info to pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add SEO/meta info to pages" />
+    <MESSAGE value="chore: remove past calendar entries" />
+    <MESSAGE value="feat: add upcoming events" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add upcoming events" />
   </component>
 </project>
