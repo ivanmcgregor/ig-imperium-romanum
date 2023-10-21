@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="186fd689-51c1-42f2-8d3d-dc91e53dc5f7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/calendar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/calendar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,7 @@
       <workItem from="1683897470803" duration="5176000" />
       <workItem from="1686208914806" duration="603000" />
       <workItem from="1687364255495" duration="1981000" />
-      <workItem from="1697880863138" duration="918000" />
+      <workItem from="1697880863138" duration="2249000" />
     </task>
     <task id="LOCAL-00001" summary="feat(Termine): add new dates">
       <created>1673182209709</created>
@@ -204,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687368408653</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add upcoming events">
+      <option name="closed" value="true" />
+      <created>1697881871023</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697881871023</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +229,7 @@
     <MESSAGE value="feat: add video descriptions and links" />
     <MESSAGE value="feat: add SEO/meta info to pages" />
     <MESSAGE value="chore: remove past calendar entries" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: remove past calendar entries" />
+    <MESSAGE value="feat: add upcoming events" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add upcoming events" />
   </component>
 </project>
