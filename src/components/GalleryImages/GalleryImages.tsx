@@ -27,6 +27,8 @@ export const GalleryImages = ({ folder, fotos }: GalleryType) => {
                 ref={ref}
                 onClick={open}
               >
+                {/* show image names by commenting in the line below (do not commit!) */}
+                {/* {url.split("/")[3]} */}
                 <div
                   className={Styles.bgImage}
                   style={{ backgroundImage: `url(${url})` }}

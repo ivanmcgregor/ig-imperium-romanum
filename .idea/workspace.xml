@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="186fd689-51c1-42f2-8d3d-dc91e53dc5f7" name="Changes" comment="chore: update dependencies">
+    <list default="true" id="186fd689-51c1-42f2-8d3d-dc91e53dc5f7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/galerien.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/galerien.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GalleryImages/GalleryImages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GalleryImages/GalleryImages.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +155,7 @@
       <workItem from="1701849232831" duration="597000" />
       <workItem from="1702312031676" duration="1136000" />
       <workItem from="1702974381283" duration="599000" />
-      <workItem from="1703096521095" duration="20811000" />
+      <workItem from="1703096521095" duration="27228000" />
     </task>
     <task id="LOCAL-00001" summary="feat(Termine): add new dates">
       <created>1673182209709</created>
@@ -229,7 +229,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697883299443</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: add 2 galeries">
+      <option name="closed" value="true" />
+      <created>1703501455684</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703501455684</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add 2 more galeries for 2023&#10;fixed images for Großwallstadt">
+      <option name="closed" value="true" />
+      <created>1703508440573</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703508440573</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +263,8 @@
     <MESSAGE value="chore: remove past calendar entries" />
     <MESSAGE value="feat: add upcoming events" />
     <MESSAGE value="chore: update dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update dependencies" />
+    <MESSAGE value="feat: add 2 galeries" />
+    <MESSAGE value="feat: add 2 more galeries for 2023&#10;fixed images for Großwallstadt" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add 2 more galeries for 2023&#10;fixed images for Großwallstadt" />
   </component>
 </project>
