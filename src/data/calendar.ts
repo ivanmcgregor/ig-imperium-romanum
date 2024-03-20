@@ -17,7 +17,7 @@ export const calendar: RawCalendar = [
   {
     time: "2024-05-10",
     from: "10.05.2024",
-    to: "10.05.2024",
+    to: "12.05.2024",
     title: "Spectaculum Worms",
     description:
       "Auch 2024 wollen wir wieder Kultur und gute Laune im Wormser Wäldchen verbreiten",
