@@ -15,6 +15,14 @@ export const calendar: RawCalendar = [
     description: "Er wird automatisch raus gefiltert, dient aber als Beispiel",
   },
   {
+    time: "2024-04-13",
+    from: "12.04.2024",
+    to: "14.04.2024",
+    title: "Probelager",
+    description:
+      "Im Frühjahr erwecken wir unser Lager wieder aus dem Winterschlaf und bereiten alles auf die Saison vor",
+  }
+  ,{
     time: "2024-05-10",
     from: "10.05.2024",
     to: "12.05.2024",
@@ -25,7 +33,7 @@ export const calendar: RawCalendar = [
   {
     time: "2024-06-16",
     from: "16.06.2024",
-    to: "16.06.2024",
+    // to: "16.06.2024",
     title: "Römerfest Villa Haselburg",
     description:
       "Im Park der römischen Villa Haselburg wird ein Römer und Keltenmarkt stattfinden",
@@ -37,5 +45,13 @@ export const calendar: RawCalendar = [
     title: "Historischer Markt Großwallstadt",
     description:
       "Wir freuen uns am 7. Markt der Genii Loci am Main dabei zu sein",
+  },
+  {
+    time: "2024-11-24",
+    from: "24.11.2024",
+    // to: "14.07.2024",
+    title: "Winterwanderung",
+    description:
+      "Alljährliche Wanderung in der Winterausstattung",
   },
 ];
