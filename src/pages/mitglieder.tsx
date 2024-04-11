@@ -3,10 +3,12 @@ import type { Member } from "@/components/Members/types";
 
 import Banner from "@/images/banner/banner_mitglieder.jpg";
 import Andre from "@/images/mitglieder/Andre.jpg";
+import Benedikt from "@/images/mitglieder/Benedikt.jpg";
 import Fabian from "@/images/mitglieder/Fabian.jpg";
 import Franzi from "@/images/mitglieder/Franzi.jpg";
 import Kristin from "@/images/mitglieder/Kristin.jpg";
 import Lars from "@/images/mitglieder/Lars.jpg";
+import Luca from "@/images/mitglieder/Luca.jpg";
 import Manu from "@/images/mitglieder/Manu.jpg";
 import Max from "@/images/mitglieder/Max.jpg";
 import Nico from "@/images/mitglieder/Nico.jpg";
@@ -65,6 +67,16 @@ const membersRaw = [
     img: Max,
     name: "Legionär Maxentius",
     text: "Gnade den Barbaren, wenn Sie die Mulsumlieferung überfallen.",
+  },
+  {
+    img: Benedikt,
+    name: "Legionär Benedictus",
+    text: "Entsprechend seines Namens hört er sich gerne reden und baut dabei seine Sätze im Regelfall meist so, dass ihn keiner mehr versteht.",
+  },
+  {
+    img: Luca,
+    name: "Legionär Lucanus",
+    text: "Man munkelt, dass sein Vater großer Fan eines Rezepts lucanischer Würste war.",
   },
 ];
 const groups: Array<Array<Member>> = [];
