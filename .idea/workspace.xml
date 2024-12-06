@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186fd689-51c1-42f2-8d3d-dc91e53dc5f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GalleryImages/GalleryImages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GalleryImages/GalleryImages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/galerien.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/galerien.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/banner/banner_galerien.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/banner/banner_galerien.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/banner/banner_kontakt2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/banner/banner_kontakt2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/banner/banner_mitglieder.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/banner/banner_mitglieder.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/banner/banner_termine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/banner/banner_termine.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +34,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="nikolaus-update" />
+                    <option name="lastUsedInstant" value="1733505879" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/dates" />
                     <option name="lastUsedInstant" value="1697880979" />
                   </RecentBranch>
@@ -45,10 +52,6 @@
                   <RecentBranch>
                     <option name="branchName" value="v2" />
                     <option name="lastUsedInstant" value="1681411859" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="videos" />
-                    <option name="lastUsedInstant" value="1681411302" />
                   </RecentBranch>
                 </list>
               </option>
@@ -73,31 +76,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/dates&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/stylelint&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "nikolaus-update",
+    "last_opened_file_path": "/Users/fabianpiel/Projects/ig-imperium-romanum",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
