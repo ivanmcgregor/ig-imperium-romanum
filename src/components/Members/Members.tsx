@@ -19,6 +19,7 @@ export const Members = ({ memberGroups }: MembersProps) => {
                     name={member.name}
                     img={member.img}
                     text={member.text}
+                    addendum={member.addendum}
                   />
                 </div>
               ))}

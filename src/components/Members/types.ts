@@ -4,4 +4,5 @@ export interface Member {
   img: StaticImageData;
   name: string;
   text: string;
+  addendum?: string;
 }

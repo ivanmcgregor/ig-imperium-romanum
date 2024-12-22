@@ -4,8 +4,10 @@ import type { Member } from "@/components/Members/types";
 import Banner from "@/images/banner/banner_mitglieder.jpg";
 import Andre from "@/images/mitglieder/Andre.jpg";
 import Benedikt from "@/images/mitglieder/Benedikt.jpg";
+import Christian from "@/images/mitglieder/Christian.jpg";
 import Fabian from "@/images/mitglieder/Fabian.jpg";
 import Franzi from "@/images/mitglieder/Franzi.jpg";
+import Jana from "@/images/mitglieder/Jana.jpg";
 import Kristin from "@/images/mitglieder/Kristin.jpg";
 import Lars from "@/images/mitglieder/Lars.jpg";
 import Luca from "@/images/mitglieder/Luca.jpg";
@@ -13,11 +15,12 @@ import Manu from "@/images/mitglieder/Manu.jpg";
 import Max from "@/images/mitglieder/Max.jpg";
 import Nico from "@/images/mitglieder/Nico.jpg";
 import Nina from "@/images/mitglieder/Nina.jpg";
+import Ralf from "@/images/mitglieder/Ralf.jpg";
 import Thomas from "@/images/mitglieder/Thomas.jpg";
 import { Members } from "@/components/Members/Members";
 import { Metadata } from "next";
 
-const membersRaw = [
+const membersRaw: Array<Member> = [
   {
     img: Nico,
     name: "Optio Nicos",
@@ -74,9 +77,25 @@ const membersRaw = [
     text: "Entsprechend seines Namens hört er sich gerne reden und baut dabei seine Sätze im Regelfall meist so, dass ihn keiner mehr versteht.",
   },
   {
+    img: Christian,
+    name: "Legionär Christianus",
+    text: "Er ist der Legion beigetreten um seinen Glücksspielschulden zu entkommen. Seit dem er im Lager ist tauchen immer mehr Luxusgüter auf...",
+  },
+  {
+    img: Ralf,
+    name: "Legionär Ralfus",
+    text: "Romanisierter Germane aus dem Legionslager bei Vetera. Hat sich nach Mogontiacum versetzen lassen, weil es hier den besseren Wein gibt.",
+  },
+  {
+    img: Jana,
+    name: "Bürgerin Iana",
+    text: "Bürgerin Iana suchte ihr Glück in der germanischen Provinz und fand es bei Legionär Ralfus.",
+  },
+  {
     img: Luca,
     name: "Legionär Lucanus",
     text: "Man munkelt, dass sein Vater großer Fan eines Rezepts lucanischer Würste war.",
+    addendum: "Er wird für immer in unseren Herzen dabei sein."
   },
 ];
 const groups: Array<Array<Member>> = [];

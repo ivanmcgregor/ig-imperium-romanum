@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import Image from "next/image";
 import {Member} from "@/components/Members/types";
 
-export const MemberView = ({ img, name, text }: Member) => {
+export const MemberView = ({ img, name, text, addendum }: Member) => {
   return (
     <>
       <div
@@ -15,6 +15,7 @@ export const MemberView = ({ img, name, text }: Member) => {
           <Image className={styles.image} src={img} alt={`Ein Bild von ${name}`} />
         </div>
         <p className="my-3">{text}</p>
+        {addendum && (<p className="my-3">{addendum}</p>)}
       </div>
     </>
   );
