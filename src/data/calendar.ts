@@ -15,41 +15,57 @@ export const calendar: RawCalendar = [
     description: "Er wird automatisch raus gefiltert, dient aber als Beispiel",
   },
   {
-    time: "2024-04-13",
-    from: "12.04.2024",
-    to: "14.04.2024",
+    time: "2025-02-08",
+    from: "08.02.2025",
+    // to: "08.02.2025",
+    title: "Winterwanderung",
+    description:
+      "Wanderung in der Winterausstattung",
+  },
+  {
+    time: "2025-04-12",
+    from: "12.04.2025",
+    // to: "08.02.2025",
+    title: "Limesmarsch",
+    description:
+      "Wir wollen eine größere Wanderung entlang des Limes machen",
+  },
+  {
+    time: "2025-04-25",
+    from: "25.04.2025",
+    to: "27.04.2025",
     title: "Probelager",
     description:
       "Im Frühjahr erwecken wir unser Lager wieder aus dem Winterschlaf und bereiten alles auf die Saison vor",
   }
   ,{
-    time: "2024-05-10",
-    from: "10.05.2024",
-    to: "12.05.2024",
+    time: "2025-05-29",
+    from: "29.05.2025",
+    to: "01.06.2025",
     title: "Spectaculum Worms",
     description:
-      "Auch 2024 wollen wir wieder Kultur und gute Laune im Wormser Wäldchen verbreiten",
+      "Auch 2025 würden wir gerne wieder am Spectaculum Worms teilnehmen. Die Teilnehmer werden aber noch bekannt gegeben.",
   },
   {
-    time: "2024-06-16",
-    from: "16.06.2024",
-    // to: "16.06.2024",
-    title: "Römerfest Villa Haselburg",
+    time: "2025-06-19",
+    from: "19.06.2025",
+    to: "22.06.2025",
+    title: "Mittelalterspektakel zu Enzberg",
     description:
-      "Im Park der römischen Villa Haselburg wird ein Römer und Keltenmarkt stattfinden",
+      "Dieses Jahr wird es hier einen neuen Markt geben, von allem was wir wissen wird es sehr schön werden.",
   },
   {
-    time: "2024-07-12",
-    from: "12.07.2024",
-    to: "14.07.2024",
-    title: "Historischer Markt Großwallstadt",
+    time: "2025-10-25",
+    from: "25.10.2025",
+    to: "26.10.2025",
+    title: "Ziviler Ausflug",
     description:
-      "Wir freuen uns am 7. Markt der Genii Loci am Main dabei zu sein",
+      "Ausflug ins Museum oder ähnliches",
   },
   {
-    time: "2024-11-24",
-    from: "24.11.2024",
-    // to: "14.07.2024",
+    time: "2025-11-29",
+    from: "29.11.2025",
+    // to: "29.07.2025",
     title: "Winterwanderung",
     description:
       "Alljährliche Wanderung in der Winterausstattung",
