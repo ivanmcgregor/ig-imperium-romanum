@@ -29,8 +29,8 @@ const links = () => (
       <h3 className="h4 mt-4">Händler</h3>
       <ul className="mb-4">
         <li>
-          <a target="_blank" href="https://www.der-roemer-shop.de/">
-            Der Römer Shop
+          <a target="_blank" href="https://vehi-mercatus.de/">
+            Vehi Mercatus
           </a>
         </li>
         <li>
@@ -40,44 +40,32 @@ const links = () => (
           (Ein Besuch zum Anprobieren kann sich lohnen)
         </li>
         <li>
-          <a target="_blank" href="http://www.aus-omas-truhe.de/">
-            Omas Truhe
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="http://www.battlemerchant.com/">
-            Battle Merchant
-          </a>
-        </li>
-        <li>
           <a target="_blank" href="https://www.peraperis.com/">
             Pera Peris
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.cultellus.de/">
-            Der Messermacher Cultellus
-          </a>{" "}
-          (antwortet nicht immer...)
+          <a target="_blank" href="https://www.der-roemer-shop.de/">
+            Der Römer Shop
+          </a>
         </li>
-
         <li>
-          <a
-            target="_blank"
-            href="https://www.fabri-armorum.com/en/c/other-swords/ancient-swords/"
-          >
-            Schwerter von Krondak
-          </a>{" "}
-          (Solide, schaukampffähige Schwerter)
+          <a target="_blank" href="https://www.replik-shop.de/">
+            Der Replik Shop
+          </a>
         </li>
       </ul>
 
       <h3 className="h4 mt-4">Freunde</h3>
       <ul className="mb-4">
         <li>
-          <a target="_blank" href="http://castrum-callido.com/">
-            Verein Für Erlebbare Geschichte der Römischen Antike CASTRUM CALLIDO
-            e.V
+          <a target="_blank" href="https://www.instagram.com/gefolgschaftdeslowen?igsh=eG1pb3NlaGtnMDVx">
+            Gefolgschaft des Löwen
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="http://www.derfrankenklan.de/">
+            Der Frankenklan
           </a>
         </li>
         <li>
