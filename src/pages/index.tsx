@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     "Legionär",
     "Auxiliar",
     "Geschichte",
-    "Living History",
-  ],
+    "Living History"
+  ]
 };
 
 const Home = () => {
@@ -35,19 +35,16 @@ const Home = () => {
           Salvete Freunde der römischen Antike ! <br />
           Wir sind eine römische Interessengemeinschaft, die römische
           Bevölkerung im Zivilen wie auch militärischen Bereich um die Zeit
-          150n. Chr in der Region Civitas Vangionum (Heutiges Rheinhessen)
-          darzustellen versucht. Dabei beziehen wir uns auf regionale Funde, auf
-          Buchquellen, Aussagen und Berichte von Archäologen sowie Autodidaktik
-          die wir selber im Ausleben antiker Lebensweise betreiben.
+          150n. Chr. darstellt. Wir beziehen uns auf regionale Funde, auf
+          Buchquellen, Aussagen und Berichte von Archäologen sowie Erfahrungen aus unserem Reenactment.
+        </p>
+        <p className="spacedParagraph mb-4">
+          Du möchtest die römische Antike leben statt nur erleben? Du suchst Gleichgesinnte, wenn es um römische Kultur
+          und Brauchtum geht? Dann bist du bei uns in der IG Romanum genau richtig.
         </p>
         <div className="row mb-4">
           <div className="col-md-6 offset-md-3">
-            <LinkButton to="/galerie">Bildergalerien</LinkButton>
-          </div>
-        </div>
-        <div className="row mb-4">
-          <div className="col-md-6 offset-md-3">
-            <LinkButton to="/mitglieder">Unsere Mitglieder</LinkButton>
+            <LinkButton to="/kontakt">Melde dich bei uns!</LinkButton>
           </div>
         </div>
       </PageIntro>
@@ -69,40 +66,23 @@ const Home = () => {
           </div>
         </div>
       </Section>
-      <Section title="Anspruch der Gruppe">
-        <p>
-          Wir wollen antike Dinge durch aktives Benutzen und Erleben erforschen.
-          Dabei bauen und fertigen wir viele Gegenstände des römischen Alltags,
-          insbesondere dem eines Soldaten. Oft setzen wir auf Autodidaktik,
-          insbesondere in Bereichen wie Kampftechniken, Schützen, Gesang,
-          Kochen, Schmieden, Nähen usw.
+      <Section title="Unsere Werte">
+        <p className="mb-4">
+          Da wir aus der Region kommen, fokussieren uns in unserer Darstellung auf die Civitas Vangionum, also dem
+          heutigen Rheinhessen. Wir versuchen das römische Leben unserer Vorfahren vor 2000 Jahren nicht nur zu erleben,
+          sondern auch zu leben und dies für andere durch unsere Bemühungen greifbar und nachvollziehbar zu machen.
         </p>
-
-        <p>
-          Da wir alle berufstätig sind, dabei aber keine Schneider:
-          Maschinennähte sind für uns akzeptabel, wenn sie nicht überdeutlich
-          sichtbar sind. Wir freuen uns aber sehr darüber, wenn ein
-          Kleidungsstück authentisch ist. Bei der Stoffverarbeitung bevorzugen
-          wir Leinen und Wollstoffe, insbesondere für Anfänger ist aber auch
-          Baumwolle in Ordnung. Je weiter man in der Darstellung voran
-          schreitet, desto mehr sollte man sich weg von Baumwolle orientieren.
+        <p className="mb-4">
+          Wir bemühen uns um eine gute Darstellung der römischen Antike, die sich an historischen Quellen und Funden
+          orientiert, aber auch den Spaß und die Freude an der Sache nicht zu kurz kommen lässt. In unserer Gruppe
+          nähen, basteln, schmieden und bauen wir sehr viel selbst. Dabei finden wir die Balance, ein Hobby neben dem
+          Beruf zu haben und erlauben uns auch kleinere (für Laien nicht erkennbare) Abkürzungen und Kompromisse.
         </p>
         <p>
-          Moderne Materialien, die auch direkt als solche zu erkennen sind, sind
-          in der Gruppe verpönt. Dazu zählen insbesondere Aluminium, Plastik und
-          Polyester. Aber auch Hohlnieten sind nicht erwünscht.
-        </p>
-        <p>
-          Wir orientieren unsere Darstellung an der Zeit um 150 nach Christus.
-          Wir legen uns dabei bewusst nicht komplett fest und folglich sind für
-          uns auch Darstellungen und Fundstücke, die etwa 20 Jahre davor oder
-          danach datiert werden genehm. Etwas, das 100 Jahre davor oder danach
-          datiert wird, passt allerdings nicht in den Rahmen. Wichtig ist
-          vorrangig ein atmosphärisches, stimmiges, historisch korrektes Bild
-          für den Normalbürger und für Römisch interessierte und belesene.
-          Jedoch nicht für A-Päpste oder für Historiker, welche jede Niete genau
-          datieren können und wollen. Schlussendlich soll es ein uns Spaß
-          machendes Hobby sein, jedoch nicht unsere alleinige Lebensaufgabe.
+          Wenn wir gemeinsam unterwegs sind oder lagern, sind uns der Zusammenhalt und eine gute Stimmung innerhalb der
+          Gruppe sehr wichtig. Wir schätzen die sportliche Herausforderung durch Kämpfe, Formationstraining und
+          Disziplinarübungen. Natürlich legen wir auch Wert auf Gastfreundschaft und ein gemütliches Weinchen am
+          Lagerfeuer. Und vor allem nehmen wir uns selbst nicht allzu ernst.
         </p>
       </Section>
       <Section title="Tipps und Tricks">
