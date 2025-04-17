@@ -50,9 +50,9 @@ export const calendar: RawCalendar = [
     time: "2025-06-19",
     from: "19.06.2025",
     to: "22.06.2025",
-    title: "Mittelalterspektakel zu Enzberg",
+    title: "Mittelalterspektakel Hockenheim",
     description:
-      "Dieses Jahr wird es hier einen neuen Markt geben, von allem was wir wissen wird es sehr schön werden.",
+      "Dieses Jahr probieren wir einen neuen Markt aus, auch wenn der Markt in Hockenheim eine längere Tradition hat. Wir sind gespannt, wie es wird.",
   },
   {
     time: "2025-10-25",
