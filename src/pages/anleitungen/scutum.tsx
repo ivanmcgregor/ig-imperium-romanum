@@ -12,16 +12,42 @@ import Scutum7 from "@/images/anleitungen/Scutum_IMG_3367.jpg";
 import Scutum8 from "@/images/anleitungen/Scutum_IMG_3498.jpg";
 import Scutum9 from "@/images/anleitungen/Scutum_IMG_3389.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "IG Romanum - Anleitung Scutum",
-  description:
-    "Schritt für Schritt Anleitung zum bau eines römischem Legionärsschild (Scutum) mit modernen Materialien",
-};
+import Head from "next/head";
 
 const scutum = () => (
   <>
+    <Head>
+      <title>IG Romanum - Anleitung Scutum</title>
+      <meta
+        name="description"
+        content="Schritt für Schritt Anleitung zum Bau eines römischen Legionärsschilds (Scutum) mit modernen Materialien."
+      />
+      <meta
+        name="keywords"
+        content="Scutum, Legionärsschild, Römisches Reenactment, Schildbau, Anleitung, IG Romanum, Basteln, Ausrüstung"
+      />
+      <meta name="author" content="IG Romanum" />
+      <meta property="og:title" content="IG Romanum - Anleitung Scutum" />
+      <meta
+        property="og:description"
+        content="Schritt für Schritt Anleitung zum Bau eines römischen Legionärsschilds (Scutum) mit modernen Materialien."
+      />
+      <meta property="og:image" content="/images/banner.jpg" />
+      <meta property="og:type" content="article" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="IG Romanum - Anleitung Scutum" />
+      <meta
+        name="twitter:description"
+        content="Schritt für Schritt Anleitung zum Bau eines römischen Legionärsschilds (Scutum) mit modernen Materialien."
+      />
+      <meta name="twitter:image" content="/images/banner.jpg" />
+      <meta name="robots" content="index, follow" />
+      <link
+        rel="canonical"
+        href="https://www.ig-romanum.de/anleitungen/scutum"
+      />
+    </Head>
+
     <PageIntro img={Banner}>
       <h2 className="mb-5">Bau eines Scutums</h2>
       <div className="row mb-4">

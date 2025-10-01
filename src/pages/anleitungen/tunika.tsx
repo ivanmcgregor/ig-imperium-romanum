@@ -4,6 +4,7 @@ import Banner from "@/images/banner.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import Tunika from "@/images/anleitungen/nicos_tunic.jpg";
 import { Metadata } from "next";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "IG Romanum - Anleitung Tunika",
@@ -12,6 +13,34 @@ export const metadata: Metadata = {
 
 const tunika = () => (
   <>
+    <Head>
+      <title>IG Romanum - Anleitung Tunika</title>
+      <meta
+        name="description"
+        content="Hintergrundinformationen und Nähanleitung für die römische Tunika."
+      />
+      <meta
+        name="keywords"
+        content="Tunika, Römer, Reenactment, Kleidung, IG Romanum, Anleitung, Nähen, Ausrüstung"
+      />
+      <meta name="author" content="IG Romanum" />
+      <meta property="og:title" content="IG Romanum - Anleitung Tunika" />
+      <meta
+        property="og:description"
+        content="Hintergrundinformationen und Nähanleitung für die römische Tunika."
+      />
+      <meta property="og:image" content="/images/banner.jpg" />
+      <meta property="og:type" content="article" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="IG Romanum - Anleitung Tunika" />
+      <meta
+        name="twitter:description"
+        content="Hintergrundinformationen und Nähanleitung für die römische Tunika."
+      />
+      <meta name="twitter:image" content="/images/banner.jpg" />
+      <meta name="robots" content="index, follow" />
+      <link rel="canonical" href="https://www.ig-romanum.de/anleitungen/tunika" />
+    </Head>
     <PageIntro img={Banner}>
       <h2 className="mb-5">Die Tunika</h2>
       <div className="row mb-4">

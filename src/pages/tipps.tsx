@@ -4,6 +4,7 @@ import { Link } from "@/components/Link/Link";
 import { ButtonWrapper } from "@/components/ButtonWrapper";
 import { AnleitungsVerzeichnis } from "@/components/AnleitungsVerzeichnis";
 import { Metadata } from "next";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "IG Romanum - Tipps und Tricks",
@@ -13,6 +14,35 @@ export const metadata: Metadata = {
 
 const tipps = () => (
   <>
+    <Head>
+      <title>IG Romanum - Tipps und Tricks</title>
+      <meta
+        name="description"
+        content="Für den Einstieg ins Römerhobby gibt es hier Tipps, Tricks und Anleitungen gebündelt."
+      />
+      <meta
+        name="keywords"
+        content="Tipps, Tricks, Römer, Reenactment, IG Romanum, Anleitung, Ausrüstung, Einstieg"
+      />
+      <meta name="author" content="IG Romanum" />
+      <meta property="og:title" content="IG Romanum - Tipps und Tricks" />
+      <meta
+        property="og:description"
+        content="Für den Einstieg ins Römerhobby gibt es hier Tipps, Tricks und Anleitungen gebündelt."
+      />
+      <meta property="og:image" content="/images/banner/banner_tipps+tricks.jpg" />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="IG Romanum - Tipps und Tricks" />
+      <meta
+        name="twitter:description"
+        content="Für den Einstieg ins Römerhobby gibt es hier Tipps, Tricks und Anleitungen gebündelt."
+      />
+      <meta name="twitter:image" content="/images/banner/banner_tipps+tricks.jpg" />
+      <meta name="robots" content="index, follow" />
+      <link rel="canonical" href="https://www.ig-romanum.de/tipps" />
+    </Head>
+
     <PageIntro img={Banner}>
       <h2 className="mb-5">Tipps und Tricks</h2>
       <div className="row mb-4">

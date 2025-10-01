@@ -1,10 +1,10 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
-import Image from "next/image";
 import Banner from "@/images/banner.jpg";
 import Penula from "@/images/anleitungen/nicos_penula.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import { Metadata } from "next";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "IG Romanum - Anleitung Penula und Sagum",
@@ -13,6 +13,44 @@ export const metadata: Metadata = {
 
 const penula = () => (
   <>
+    <Head>
+      <title>IG Romanum - Anleitung Penula und Sagum</title>
+      <meta
+        name="description"
+        content="Anleitung für römische Mäntel (Penula bzw. Sagum)."
+      />
+      <meta
+        name="keywords"
+        content="Penula, Sagum, Römer, Reenactment, IG Romanum, Anleitung, Mantel, Umhang, Kleidung"
+      />
+      <meta name="author" content="IG Romanum" />
+      <meta
+        property="og:title"
+        content="IG Romanum - Anleitung Penula und Sagum"
+      />
+      <meta
+        property="og:description"
+        content="Anleitung für römische Mäntel (Penula bzw. Sagum)."
+      />
+      <meta property="og:image" content="/images/banner.jpg" />
+      <meta property="og:type" content="article" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:title"
+        content="IG Romanum - Anleitung Penula und Sagum"
+      />
+      <meta
+        name="twitter:description"
+        content="Anleitung für römische Mäntel (Penula bzw. Sagum)."
+      />
+      <meta name="twitter:image" content="/images/banner.jpg" />
+      <meta name="robots" content="index, follow" />
+      <link
+        rel="canonical"
+        href="https://www.ig-romanum.de/anleitungen/penula"
+      />
+    </Head>
+
     <PageIntro img={Banner}>
       <h2 className="mb-5">Die Penula</h2>
       <div className="row mb-4">

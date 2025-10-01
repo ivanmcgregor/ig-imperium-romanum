@@ -2,6 +2,7 @@ import { PageIntro } from "@/components/PageIntro/PageIntro";
 import Banner from "@/images/banner/banner_kontakt.jpg";
 import { Section } from "@/components/Section/Section";
 import { Metadata } from "next";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "IG Romanum - Datenschutz",
@@ -10,7 +11,12 @@ export const metadata: Metadata = {
 };
 
 const datenschutz = () => (
-  <div>
+  <>
+    <Head>
+      <title>IG Romanum - Datenschutz</title>
+      <meta name="author" content="IG Romanum" />
+    </Head>
+
     <PageIntro img={Banner}>
       <h2 className="mb-5">Datenschutz</h2>
       <div className="row mb-4">
@@ -317,7 +323,7 @@ const datenschutz = () => (
         - bleiben unberührt.
       </p>
     </Section>
-  </div>
+  </>
 );
 
 export default datenschutz;
