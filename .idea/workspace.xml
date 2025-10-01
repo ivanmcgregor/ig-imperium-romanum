@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="">
+    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="feat(seo): remove non-working meta info and replace them with actual header meta tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/calendar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/calendar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AnschaffungsRatgeber/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnschaffungsRatgeber/styles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Video/Swr.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/videos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/videos.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feat/meta-tags" />
+                    <option name="lastUsedInstant" value="1758223335" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/texts-and-links" />
                     <option name="lastUsedInstant" value="1742408454" />
                   </RecentBranch>
@@ -60,6 +66,9 @@
     &quot;accountId&quot;: &quot;fc1575c5-8279-4243-8454-1603133cda0a&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -69,23 +78,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/texts-and-links&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "git-widget-placeholder": "feat/meta-tags",
+    "js.debugger.nextJs.config.created.client": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "ts.external.directory.path": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -105,7 +121,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
       </set>
     </attachedChunks>
   </component>
@@ -124,10 +140,36 @@
       <workItem from="1738096143085" duration="1199000" />
       <workItem from="1738917123367" duration="61000" />
       <workItem from="1738917232474" duration="14202000" />
+      <workItem from="1758273488143" duration="1195000" />
+      <workItem from="1758298854720" duration="594000" />
+      <workItem from="1758789127485" duration="2739000" />
+      <workItem from="1758809880516" duration="3298000" />
+      <workItem from="1759161634611" duration="6549000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
+      <option name="closed" value="true" />
+      <created>1759346166089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759346166089</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
+      <option name="closed" value="true" />
+      <created>1759346421007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759346421007</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(seo): remove non-working meta info and replace them with actual header meta tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(seo): remove non-working meta info and replace them with actual header meta tags" />
   </component>
 </project>

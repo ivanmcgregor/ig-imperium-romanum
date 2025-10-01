@@ -6,29 +6,18 @@ import { TeaserButton } from "@/components/Button/TeaserButton";
 import { EventPreview } from "@/components/Events/Preview";
 
 import Banner from "@/images/banner.jpg";
-import Armor from "@/images/rüstungen.jpg";
+import Armor from "@/images/ruestungen.jpg";
 import Shield from "@/images/anleitungen/scutum-außen-teaser.jpeg";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "IG Romanum",
-  description: "Website der IG Imperium Romanum",
-  abstract:
-    "Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben",
-  keywords: [
-    "Römer",
-    "Rheinhessen",
-    "Reenactment",
-    "Legionär",
-    "Auxiliar",
-    "Geschichte",
-    "Living History"
-  ]
-};
 
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>IG Romanum</title>
+        <meta name="description" content="Website der IG Imperium Romanum" />
+        <meta name="abstract" content="Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben" />
+        <meta name="keywords" content="Römer, Rheinhessen, Reenactment, Legionär, Auxiliar, Geschichte, Living History" />
+      </Head>
       <PageIntro img={Banner} isHome={true}>
         <h2 className="mb-4 pb-4">SALVETE, AMICI</h2>
         <p className="spacedParagraph mb-4">
