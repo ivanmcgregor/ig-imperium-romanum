@@ -16,7 +16,18 @@ const Home = () => {
         <title>IG Romanum</title>
         <meta name="description" content="Website der IG Imperium Romanum" />
         <meta name="abstract" content="Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben" />
-        <meta name="keywords" content="Römer, Rheinhessen, Reenactment, Legionär, Auxiliar, Geschichte, Living History" />
+        <meta name="keywords" content="Römer, Rom, römisches Reich, Rheinhessen, Rheinland-Pfalz, Wonnegau, Worms, Wormser Römer, Römer Gruppe, Reenactment, Reenactor, Römer Verein, Römer Darsteller, Antike, Kaiserzeit, Kaiserliche Römer, Mainzer Römer, Mainz, 150 nach Christus, Primigenia, Legio XXII, 22. Legion, Legionär, Auxiliar, Geschichte, Living History, Kaiser Antonius Pius" />
+        <meta name="author" content="IG Romanum" />
+        <meta property="og:title" content="IG Romanum" />
+        <meta property="og:description" content="Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben" />
+        <meta property="og:image" content="/images/banner.jpg" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="IG Romanum" />
+        <meta name="twitter:description" content="Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben" />
+        <meta name="twitter:image" content="/images/banner.jpg" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.ig-romanum.de/" />
       </Head>
       <PageIntro img={Banner} isHome={true}>
         <h2 className="mb-4 pb-4">SALVETE, AMICI</h2>
