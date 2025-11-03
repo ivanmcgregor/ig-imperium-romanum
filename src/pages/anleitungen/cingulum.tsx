@@ -1,5 +1,4 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
-import Banner from "@/images/banner.jpg";
 import { Metadata } from "next";
 import Head from "next/head";
 
@@ -41,18 +40,21 @@ const cingulum = () => (
       />
     </Head>
 
-    <PageIntro img={Banner}>
+    <PageIntro
+      img={`/AnleitungsBilder/cingulum.jpg`}
+      imgAlt="Zeichnerische Darstellung eines römischen Cingulums"
+    >
       <h2 className="mb-5">Das Cingulum</h2>
       <div className="row mb-4">
         <div className="col-md-10 offset-md-1">
           <p>
             Das hauptsächliche Erkennungsmerkmal eines Legionärs war sein mit
             Metallplättchen beschlagener Gürtel. Dieser wurde sowohl auf der
-            Tunika, als auch auf der Rüstung getragen. Die Metallplättchen konnten
-            sehr hochwertig sein und bildeten teils eine Notfallwährung für die
-            Legionäre, die verpfändet oder verkauft werden konnte. Unter dem
-            Gürtel wurde bisweilen auch ein gefaltener Stoff getragen, in den
-            Legionäre Alltagsgegenstände steckten.
+            Tunika, als auch auf der Rüstung getragen. Die Metallplättchen
+            konnten sehr hochwertig sein und bildeten teils eine Notfallwährung
+            für die Legionäre, die verpfändet oder verkauft werden konnte. Unter
+            dem Gürtel wurde bisweilen auch ein gefaltener Stoff getragen, in
+            den Legionäre Alltagsgegenstände steckten.
           </p>
           <p>
             Mit der Zeit war der Gürtel einer gewissen Mode unterworfen, sodass
@@ -64,11 +66,12 @@ const cingulum = () => (
             >
               dieser Artikel von Eckhard Deschler-Erb
             </a>{" "}
-            (Von einem zeitlichen Aspekt kommen die relevanten Schnallen für eine
-            Darstellung um 150 n.Chr. gegen Ende, insbesondere in Abbildung 4 und
-            5. In der Gruppe gibt es selbst gemachte Gürtel, die von diesen
-            Darstellungen inspiriert wurden. Für meinen Balteus lasse ich mich von
-            Abb. 5,5 inspirieren.) Beispiele und Tipps zur Herstellung können auf{" "}
+            (Von einem zeitlichen Aspekt kommen die relevanten Schnallen für
+            eine Darstellung um 150 n.Chr. gegen Ende, insbesondere in Abbildung
+            4 und 5. In der Gruppe gibt es selbst gemachte Gürtel, die von
+            diesen Darstellungen inspiriert wurden. Für meinen Balteus lasse ich
+            mich von Abb. 5,5 inspirieren.) Beispiele und Tipps zur Herstellung
+            können auf{" "}
             <a target="_blank" href="https://www.larp.com/legioxx/balteus.html">
               Legio XX
             </a>{" "}

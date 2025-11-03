@@ -25,7 +25,10 @@ export function getStaticProps({ params }: { params: { slug: string } }) {
 const Gallery = ({ gallery }: { gallery: GalleryType }) => {
   return (
     <>
-      <PageIntro img={`/Galerien/${gallery.folder}/${gallery.coverFoto}`}>
+      <PageIntro
+        img={`/Galerien/${gallery.folder}/${gallery.coverFoto}`}
+        imgAlt={gallery.coverDescription}
+      >
         <h2 className="mb-5">{gallery.title}</h2>
         <div className="row mb-4">
           <div className="col col-md-10 offset-md-1">{gallery.description}</div>

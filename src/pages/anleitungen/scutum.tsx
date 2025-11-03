@@ -1,6 +1,5 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
-import Banner from "@/images/banner.jpg";
 
 import Scutum1 from "@/images/anleitungen/Scutum_IMG_3283.jpg";
 import Scutum2 from "@/images/anleitungen/Scutum_IMG_3288.jpg";
@@ -48,8 +47,12 @@ const scutum = () => (
       />
     </Head>
 
-    <PageIntro img={Banner}>
+    <PageIntro
+      img={`/AnleitungsBilder/scutum.jpg`}
+      imgAlt="Zeichnerische Darstellung eines römischen Scutums"
+    >
       <h2 className="mb-5">Bau eines Scutums</h2>
+      <h3 className="mb-4">Wie man einen römischen Schild selbst bauen kann</h3>
       <div className="row mb-4">
         <div className="col-md-10 offset-md-1">
           <p>
@@ -66,7 +69,9 @@ const scutum = () => (
             dem Messing absplittern können. Wenn man anstelle eines
             Legionärsschildes einen Auxiliarschild machen will, kann man den
             Schritt des Biegens weg lassen und die Form auf die eines typischen
-            Ovalschildes ändern.
+            Ovalschildes ändern. Das selbe gilt für einen flachen Rundschild
+            oder abgerundeten Tropfenschild, wie er von der römischen Kavallerie
+            verwendet wurde.
           </p>
           <p>Eine Anleitung von Fabian.</p>
         </div>

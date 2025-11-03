@@ -4,6 +4,7 @@ import Image, { StaticImageData } from "next/image";
 
 interface PageIntroProps extends PropsWithChildren {
   img: StaticImageData | string;
+  imgAlt: string;
   isHome?: boolean;
 }
 export const PageIntro = ({ children, img, isHome }: PageIntroProps) => {

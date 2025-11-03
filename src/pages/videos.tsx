@@ -3,13 +3,7 @@ import { Section } from "@/components/Section/Section";
 
 import Banner from "@/images/banner/banner_videos.jpeg";
 import { YouTube } from "@/components/Video/YouTube";
-import { Metadata } from "next";
 import Head from "next/head";
-
-export const metadata: Metadata = {
-  title: "IG Romanum - Videos",
-  description: "Ausgewählte Videos der IG Imperium Romanum",
-};
 
 const Home = () => {
   return (
@@ -38,12 +32,18 @@ const Home = () => {
           name="twitter:description"
           content="Ausgewählte Videos der IG Imperium Romanum zu Ausrüstung, Vorstellung und SWR-Dokumentation."
         />
-        <meta name="twitter:image" content="/images/banner/banner_videos.jpeg" />
+        <meta
+          name="twitter:image"
+          content="/images/banner/banner_videos.jpeg"
+        />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.ig-romanum.de/videos" />
       </Head>
 
-      <PageIntro img={Banner}>
+      <PageIntro
+        img={Banner}
+        imgAlt="Darstellung einer Wundbehandlung durch capsarii"
+      >
         <p className="spacedParagraph mb-4">
           Wir erstellen Videos, um etwa als Vorstellung der Gruppe, von
           Ausrüstung oder zur Belustigung. Außerdem war die Gruppe in einer

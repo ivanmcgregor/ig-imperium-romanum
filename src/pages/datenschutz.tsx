@@ -17,7 +17,7 @@ const datenschutz = () => (
       <meta name="author" content="IG Romanum" />
     </Head>
 
-    <PageIntro img={Banner}>
+    <PageIntro img={Banner} imgAlt="Bild von der Gruppe">
       <h2 className="mb-5">Datenschutz</h2>
       <div className="row mb-4">
         <div className="col col-md-10 offset-md-1">

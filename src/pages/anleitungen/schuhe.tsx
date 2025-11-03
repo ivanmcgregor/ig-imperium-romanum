@@ -1,12 +1,5 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
-import Banner from "@/images/banner.jpg";
-import { Metadata } from "next";
 import Head from "next/head";
-
-export const metadata: Metadata = {
-  title: "IG Romanum - Anleitung Schuhe",
-  description: "Hintergrundinformationen zu römischem Schuhwerk",
-};
 
 const schuhe = () => (
   <>
@@ -22,7 +15,11 @@ const schuhe = () => (
       />
       <meta name="author" content="IG Romanum" />
     </Head>
-    <PageIntro img={Banner}>
+
+    <PageIntro
+      img={`/AnleitungsBilder/schuhe.jpg`}
+      imgAlt="Zeichnerische Darstellung von römischen Calcei und Caligae"
+    >
       <h2 className="mb-5">Die Schuhe</h2>
       <div className="row mb-4">
         <div className="col-md-10 offset-md-1">
@@ -35,15 +32,15 @@ const schuhe = () => (
             besser, weil sie das ganze Jahr verwendet werden können.
           </p>
           <p>
-            Im Militärdienst war es essenziell, guten Halt auf dem Boden zu haben.
-            Die Schuhe waren entsprechend benagelt (gängige Praxis bis
+            Im Militärdienst war es essenziell, guten Halt auf dem Boden zu
+            haben. Die Schuhe waren entsprechend benagelt (gängige Praxis bis
             einschließlich zum ersten Weltkrieg). Das selbe Prinzip wird bei
             heutigen Sportschuhen mit Spikes weiter verwendet. Mit Nägeln unterm
             Schuh hat man im Gelände besseren Halt, das Laufen auf stein ist
             allerdings unangenehm bis rutschig. Es gibt daher die Aussage, dass
             die römischen Armeen oftmals neben den römischen Handelsstraßen auf
-            einem extra dafür von Gestrüpp befreiten Bereich wanderten. Tipps zum
-            Benageln gibt es z.B. bei{" "}
+            einem extra dafür von Gestrüpp befreiten Bereich wanderten. Tipps
+            zum Benageln gibt es z.B. bei{" "}
             <a target="_blank" href="http://florentius.com/calcei-hobnail.htm">
               florentius
             </a>
@@ -56,8 +53,8 @@ const schuhe = () => (
           <h3 className="mt-4">Calcei</h3>
           <p>
             Dieser Typ schuh ist einem modernen Stiefel ähnlich. Er ist
-            geschlossen und geht meist bis über den Knöchel. Schöne Beispiele und
-            Tipps gibt es bei{" "}
+            geschlossen und geht meist bis über den Knöchel. Schöne Beispiele
+            und Tipps gibt es bei{" "}
             <a target="_blank" href="http://florentius.com/calcei-main.htm">
               florentius
             </a>

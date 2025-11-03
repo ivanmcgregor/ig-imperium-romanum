@@ -14,11 +14,17 @@ const links = () => (
     <Head>
       <title>IG Romanum - Links</title>
       <meta name="description" content="Linkliste der IG Imperium Romanum" />
-      <meta name="keywords" content="Links, Händler, Freunde, IG Romanum, Römer, Reenactment, Legionär, Auxiliar, Geschichte, Living History" />
+      <meta
+        name="keywords"
+        content="Links, Händler, Freunde, IG Romanum, Römer, Reenactment, Legionär, Auxiliar, Geschichte, Living History"
+      />
       <meta name="author" content="IG Romanum" />
     </Head>
 
-    <PageIntro img={Banner}>
+    <PageIntro
+      img={Banner}
+      imgAlt="Bild von einer Rüstung vor Bearbeitung (links) und einer nach Bearbeitung (rechts)"
+    >
       <h2 className="mb-5">Links</h2>
       <div className="row mb-4">
         <div className="col col-md-10 offset-md-1">
@@ -67,7 +73,10 @@ const links = () => (
       <h3 className="h4 mt-4">Freunde</h3>
       <ul className="mb-4">
         <li>
-          <a target="_blank" href="https://www.instagram.com/gefolgschaftdeslowen?igsh=eG1pb3NlaGtnMDVx">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/gefolgschaftdeslowen?igsh=eG1pb3NlaGtnMDVx"
+          >
             Gefolgschaft des Löwen
           </a>
         </li>

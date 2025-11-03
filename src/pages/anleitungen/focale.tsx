@@ -1,6 +1,5 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
-import Banner from "@/images/banner.jpg";
 import Focale from "@/images/anleitungen/nicos_focale.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import { Metadata } from "next";
@@ -38,9 +37,16 @@ const focale = () => (
       />
       <meta name="twitter:image" content="/images/banner.jpg" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://www.ig-romanum.de/anleitungen/focale" />
+      <link
+        rel="canonical"
+        href="https://www.ig-romanum.de/anleitungen/focale"
+      />
     </Head>
-    <PageIntro img={Banner}>
+
+    <PageIntro
+      img={`/AnleitungsBilder/focale.jpg`}
+      imgAlt="Zeichnerische Darstellung einer römischen Focale"
+    >
       <h2 className="mb-5">Die Focale</h2>
       <div className="row mb-4">
         <div className="col-md-10 offset-md-1">

@@ -1,6 +1,5 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
-import Banner from "@/images/banner.jpg";
 import Penula from "@/images/anleitungen/nicos_penula.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import { Metadata } from "next";
@@ -51,7 +50,10 @@ const penula = () => (
       />
     </Head>
 
-    <PageIntro img={Banner}>
+    <PageIntro
+      img={`/AnleitungsBilder/penula.jpg`}
+      imgAlt="Zeichnerische Darstellung einer römischen Penula"
+    >
       <h2 className="mb-5">Die Penula</h2>
       <div className="row mb-4">
         <div className="col-md-10 offset-md-1">

@@ -42,7 +42,10 @@ const termine = () => (
       <link rel="canonical" href="https://www.ig-romanum.de/termine" />
     </Head>
 
-    <PageIntro img={Banner}>
+    <PageIntro
+      img={Banner}
+      imgAlt="Römische Legionäre marschieren über einen historischen Markt"
+    >
       <h2 className="mb-5">
         Termine und Veranstal
         <span className="d-inline-block d-md-none">

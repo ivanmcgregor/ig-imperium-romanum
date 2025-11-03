@@ -24,9 +24,9 @@ export const Header = () => {
     <nav>
       <div className={styles.banner}>
         <div className={styles["banner-mosaik"]}></div>
-        <h1 className={styles.hero}>
+        <div className={styles.hero}>
           <Link href="/">IG IMPERIUM ROMANUM</Link>
-        </h1>
+        </div>
       </div>
       <div className={styles.mainnav}>
         <button className={styles.toggle} onClick={toggleCollapsed}>

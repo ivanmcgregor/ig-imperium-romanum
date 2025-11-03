@@ -5,6 +5,7 @@ export interface GalleryType {
   description: string;
   folder: string; // Folder containing the images (incl. cover foto)
   coverFoto: string;
+  coverDescription: string;
   fotos: Array<string>;
 }
 
@@ -17,6 +18,7 @@ export const galleries: Array<GalleryType> = [
       "Bereit für die Saison. Alles glänzt und ist bereit für die ersten Besucher.",
     folder: "2024_probelager",
     coverFoto: "titel.jpg",
+    coverDescription: "Das Lager steht, der Tisch ist gefüllt mit Proviant.",
     fotos: [
       "_MG_1433.jpg",
       "_MG_1437.jpg",
@@ -46,6 +48,8 @@ export const galleries: Array<GalleryType> = [
       "Auch 2024 haben wir wieder Kultur und gute Laune im Wormser Wäldchen verbreitet",
     folder: "2024_spectaculum",
     coverFoto: "IMG-20240513-WA0038.jpg",
+    coverDescription:
+      "Alle Legionäre haben vor dem Lager auf dem Mittelaltermarkt Worms Aufstellung genommen",
     fotos: [
       "IMG-20240513-WA0016.jpg",
       "IMG-20240513-WA0021.jpg",
@@ -95,6 +99,8 @@ export const galleries: Array<GalleryType> = [
       "Für diese Wanderung kurz vor Wintereinbruch waren wir im Odenwald. Das Wetter war herrlich, die Strecke vielleicht stellenweise etwas herausfordernder als gedacht.",
     folder: "2023-11_winterwanderung",
     coverFoto: "title.jpeg",
+    coverDescription:
+      "Die Soldaten stehen im herbstlichen Laub bereit zum Aufbruch.",
     fotos: [
       "14.jpeg",
       "1.jpeg",
@@ -120,6 +126,8 @@ export const galleries: Array<GalleryType> = [
       "Dieser Markt war anlässlich des Jubiläums der Stadt Wörth am Main. Eingeladen von unserem Freund Otto hatten wir ein ruhiges Lager mit viel Spaß.",
     folder: "2023-06_woerth",
     coverFoto: "2023-06_2.jpeg",
+    coverDescription:
+      "Mitglieder der IG Romanum haben ihren Optio fürs Bild hoch gehoben, im Hintergrund ist der Eingang zum Lager zu sehen.",
     fotos: [
       "2023-06-19_30.jpg",
       "2023-06-19_26.jpg",
@@ -161,6 +169,8 @@ export const galleries: Array<GalleryType> = [
       "Nach einem regnerischen Start hatten wir ein super Wochenende. Wir haben mit Pfeil und Bogen und ein bisschen mit unserem Geschütz geschossen.",
     folder: "2023-05_Probelager",
     coverFoto: "0801.jpeg",
+    coverDescription:
+      "Capsarii versorgen einen verwundeten Legionär während dessen Kameraden den Feind abhalten.",
     fotos: [
       "0687.jpeg",
       "0701.jpeg",
@@ -188,6 +198,8 @@ export const galleries: Array<GalleryType> = [
       "Wir hatten wieder den Platz direkt am Eingang und durften so (zumindest vom Zeitstrahl her) den Markt eröffnen. Manch einer war so lange vor unserem Lager, dass der Rest des Marktes möglicherweise zu kurz kam. Hier sind die kreuzförmigen Helmverstärkungen bei unseren Helmen sehr gut zu sehen.",
     folder: "2023-05_Worms",
     coverFoto: "19b856f94ee0.jpeg",
+    coverDescription:
+      "Zwei Reihen kämpfer stehen sich plänkelnd gegenüber, mittig im Bild sieht man die Mitglieder der IG Romanum",
     fotos: [
       "IMG_4250.jpg",
       "IMG_4255.jpg",
@@ -219,6 +231,8 @@ export const galleries: Array<GalleryType> = [
       "Auch im Winter 2022 haben wir unsere Ausrüstung in kälterem Klima getestet. Das Wetter hat uns auch schöne Bilder im Schnee beschert, besonders erfreut hat das auch das Kamerateam vom SWR, das uns begleitet hat. Die Videos sind auf der Video Seite verlinkt. Danke an alle Beteiligten!",
     folder: "2022-12_winterwanderung",
     coverFoto: "titel.jpeg",
+    coverDescription:
+      "Legionäre und Nordmänner stehen im verschneiten Wald im Nebel",
     fotos: [
       "1.jpeg",
       "2.jpeg",
@@ -241,6 +255,8 @@ export const galleries: Array<GalleryType> = [
       "Hier haben wir eine kleine Wanderung veranstaltet, um zu schauen was wir bis zur Winterwanderung alles optimieren wollen.",
     folder: "2022-10_herbstwanderung",
     coverFoto: "titel.jpg",
+    coverDescription:
+      "Legionäre, Auxiliare und Zivilistinnen posieren während der Wanderung im Wald",
     fotos: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
   },
   {
@@ -251,6 +267,8 @@ export const galleries: Array<GalleryType> = [
       "Wir waren in Großwallstadt auf einem erfreulich antiken Lager direkt am Main und in super Gesellschaft.",
     folder: "2022-07_grosswallstadt",
     coverFoto: "titel.jpeg",
+    coverDescription:
+      "Mitglieder der IG Romanum stürmen aufgefächert auf die Kamera zu",
     fotos: [
       "Gruppe2.jpeg",
       "Gruppe3.jpeg",
@@ -290,6 +308,8 @@ export const galleries: Array<GalleryType> = [
       "Im Jahr 2022 konnte ganz Worms unser Lager bestaunen und Groß und Klein ließen sich Ausrüstung erklären oder bewunderten sie im Einsatz in der Feldschlacht.",
     folder: "2022-05_Spectaculum",
     coverFoto: "_5280507.JPG",
+    coverDescription:
+      "Die IG Romanum hält in der Feldschlacht das Zentrum der Kampflinie",
     fotos: [
       "_5280498.JPG",
       "_5280499.JPG",
@@ -336,6 +356,8 @@ export const galleries: Array<GalleryType> = [
       "Werbeaktion für das Spectaculum in Worms im Wormser Tiergarten am 15.05.22",
     folder: "2022-05_Werbeaktion",
     coverFoto: "IR_2022_05_00119.jpg",
+    coverDescription:
+      "Optio Nico beantwortet Fragen von Kindern bei der Werbeaktion",
     fotos: [
       "2022-05-17T19.02.27.jpeg",
       "2022-05-17T19.03.24.jpeg",
@@ -360,6 +382,7 @@ export const galleries: Array<GalleryType> = [
       "Die Ausrüstung konnte nach längerem mal wieder in der Praxis getestet werden.",
     folder: "2022-04_Probelager",
     coverFoto: "2022-04-16T17.38.08.jpeg",
+    coverDescription: "Legionär Manulus verteilt Puls an die Truppe.",
     fotos: [
       "2022-04-15T15.59.30.jpeg",
       "2022-04-15T18.56.18.jpeg",
@@ -380,6 +403,8 @@ export const galleries: Array<GalleryType> = [
       "Wir danken dem Frankenklan dafür, dass sie das Freundschaftslager organisiert haben und uns dazu eingeladen haben! Wir hatten viel spaß und freuen uns auf ein nächstes gemeinsames Lager.",
     folder: "2020-09-19_Frankenlager",
     coverFoto: "IMG_7773.JPG",
+    coverDescription:
+      "Mitglieder der IG und des Frankenklans beim Übungskampf.",
     fotos: [
       "IMG_7808.JPG",
       "IMG_7565.JPG",
@@ -412,6 +437,8 @@ export const galleries: Array<GalleryType> = [
       "Wir haben erfolgreich unsere neue Ausrüstung getestet und einige Formationen trainiert.",
     folder: "2020_Probelager",
     coverFoto: "probelager_4343.jpg",
+    coverDescription:
+      "Einmarsch der Legionäre ins Lager nach erfolgreicher Übung.",
     fotos: [
       "probelager_008.JPG",
       "probelager_4122.jpg",
@@ -442,6 +469,8 @@ export const galleries: Array<GalleryType> = [
     description: "Am 08.12.19",
     folder: "2019-12-08_Winterwanderung_Donnersberg",
     coverFoto: "DSC_1212XXXX.jpg",
+    coverDescription:
+      "Legionäre stehen auf dem Gipfel des Donnersbergs im Nebel.",
     fotos: [
       "DSC_1170XX.jpg",
       "DSC_1202XX.jpg",
@@ -458,6 +487,7 @@ export const galleries: Array<GalleryType> = [
     description: "Am 31.08.19",
     folder: "2019-08-19_Hassloch_Marktbesuch",
     coverFoto: "IMG-20190831-WA0066.jpg",
+    coverDescription: "Legionäre und Auxiliare posieren auf dem Markt.",
     fotos: [
       "IMG-20190831-WA0049.jpg",
       "IMG-20190831-WA0057.jpg",
@@ -473,6 +503,8 @@ export const galleries: Array<GalleryType> = [
     description: "Am 11.08.2019",
     folder: "2019-08-11_Angelbachtal_Marktbesuch",
     coverFoto: "IMG-20190824-WA0031.jpg",
+    coverDescription:
+      "Legionäre und Vexilifer stehen für Fotos von begeisterten Marktbesuchern bereit.",
     fotos: [
       "IMG-20190811-WA0017.jpeg",
       "IMG-20190811-WA0021.jpg",
@@ -492,6 +524,8 @@ export const galleries: Array<GalleryType> = [
     description: "Vom 05.07 bis 07.07.19",
     folder: "2019-07-05_Teufelsburg",
     coverFoto: "DSC_0245.JPG",
+    coverDescription:
+      "Legionäre marschieren durch den verwunschenen germanischen Wald.",
     fotos: [
       "DSC_0024.JPG",
       "DSC_0036.JPG",
@@ -543,6 +577,8 @@ export const galleries: Array<GalleryType> = [
       "Werbeaktion für das Spectaculum in Worms im Wormser Tiergarten am 19.05.19",
     folder: "2019-05-19_Werbeaktion",
     coverFoto: "23.18.38_3.jpeg",
+    coverDescription:
+      "Tribun und Rekrut stehen am Eingang des Tiergartens und bewerben das Spektakulum Worms.",
     fotos: [
       "23.18.35.jpeg",
       "23.18.36_1.jpeg",
@@ -566,6 +602,7 @@ export const galleries: Array<GalleryType> = [
     description: "Vom 10.05 bis 13.05.18",
     folder: "2018-05-10_Spectaculum_Worms",
     coverFoto: "32453887_1585507298213278_3882416042038788096_o.jpg",
+    coverDescription: "Göttersdienst im römischen Lager.",
     fotos: [
       "31897608_198530397432088_1924441001271754752_n.jpg",
       "32453887_1585507298213278_3882416042038788096_o.jpg",
@@ -600,6 +637,8 @@ export const galleries: Array<GalleryType> = [
     description: "Am 29.04.2018",
     folder: "2018-04-29_Tiergarten_Werbeaktion",
     coverFoto: "DSC02454.JPG",
+    coverDescription:
+      "Helme über den Schild gehängt beim Werben im Tiergarten.",
     fotos: [
       "DSC02443.JPG",
       "DSC02454.JPG",
@@ -621,6 +660,8 @@ export const galleries: Array<GalleryType> = [
     description: "Am 04.02.2018",
     folder: "2018-02-04_Winterwanderung_Donnersberg",
     coverFoto: "27624693_1345886392183382_6358278783868118534_o.jpg",
+    coverDescription:
+      "Legionere rennen durch den verschneiten Wald auf dem Donnersberg",
     fotos: [
       "27624693_1345886392183382_6358278783868118534_o.jpg",
       "27629533_1345886815516673_522036589577566252_o.jpg",

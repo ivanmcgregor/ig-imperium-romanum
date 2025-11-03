@@ -20,7 +20,10 @@ const kontakt = () => (
       <meta name="author" content="IG Romanum" />
     </Head>
 
-    <PageIntro img={Banner}>
+    <PageIntro
+      img={Banner}
+      imgAlt="Die Mitglieder der IG Romanum präsentieren sich vor ihrem Lager"
+    >
       <h2 className="mb-5">Kontakt</h2>
       <div className="row mb-4">
         <div className="col col-md-10 offset-md-1">

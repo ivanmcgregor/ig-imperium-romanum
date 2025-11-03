@@ -5,10 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="feat(seo): remove non-working meta info and replace them with actual header meta tags">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GallereyPreview/GalleryPreview.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GallereyPreview/GalleryPreview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/convertGallery.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageIntro/PageIntro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageIntro/PageIntro.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/styles.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/calendar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/calendar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/galerien.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/galerien.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/cingulum.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/cingulum.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/feminalia.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/feminalia.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/focale.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/focale.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/hamata.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/hamata.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/penula.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/penula.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/schuhe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/schuhe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/scutum.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/scutum.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/segmentata.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/segmentata.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/subarmalis.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/subarmalis.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anleitungen/tunika.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anleitungen/tunika.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anschaffungsratgeber.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anschaffungsratgeber.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/datenschutz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/datenschutz.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/galerie/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/galerie/[slug].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/galerie/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/galerie/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/kontakt.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/kontakt.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/links.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/links.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mitglieder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mitglieder.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/termine.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/termine.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tipps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tipps.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/videos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/videos.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/meta-tags" />
+        <entry key="$PROJECT_DIR$" value="feat/dates-and-tags" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +67,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/seo" />
+                    <option name="lastUsedInstant" value="1761817842" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feat/dates-and-tags" />
                     <option name="lastUsedInstant" value="1759854409" />
@@ -76,6 +109,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2rFeeinHuii9eCmgWicwlPdvNzQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,7 +123,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "git-widget-placeholder": "feat/dates-and-tags",
+    "git-widget-placeholder": "feat/seo",
     "js.debugger.nextJs.config.created.client": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -96,7 +132,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/prettier",
     "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -124,7 +162,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
       </set>
     </attachedChunks>
   </component>
@@ -147,7 +185,9 @@
       <workItem from="1758298854720" duration="594000" />
       <workItem from="1758789127485" duration="2739000" />
       <workItem from="1758809880516" duration="3298000" />
-      <workItem from="1759161634611" duration="16715000" />
+      <workItem from="1759161634611" duration="20328000" />
+      <workItem from="1761048874013" duration="32820000" />
+      <workItem from="1761746314093" duration="47049000" />
     </task>
     <task id="LOCAL-00001" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
       <option name="closed" value="true" />
@@ -173,11 +213,30 @@
       <option name="project" value="LOCAL" />
       <updated>1759347002873</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
+      <option name="closed" value="true" />
+      <created>1759856673639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759856673639</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(seo): remove non-working meta info and replace them with actual header meta tags" />

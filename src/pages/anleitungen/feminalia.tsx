@@ -1,6 +1,5 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
-import Banner from "@/images/banner.jpg";
 import Feminalia from "@/images/anleitungen/nicos_feminalia.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import { Metadata } from "next";
@@ -44,7 +43,11 @@ const feminalia = () => (
         href="https://www.ig-romanum.de/anleitungen/feminalia"
       />
     </Head>
-    <PageIntro img={Banner}>
+
+    <PageIntro
+      img={`/AnleitungsBilder/feminalia.jpg`}
+      imgAlt="Zeichnerische Darstellung einer römischen Feminalia"
+    >
       <h2 className="mb-5">Die Feminalia</h2>
       <div className="row mb-4">
         <div className="col-md-10 offset-md-1">

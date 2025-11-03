@@ -1,15 +1,8 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
-import Banner from "@/images/banner.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import Tunika from "@/images/anleitungen/nicos_tunic.jpg";
-import { Metadata } from "next";
 import Head from "next/head";
-
-export const metadata: Metadata = {
-  title: "IG Romanum - Anleitung Tunika",
-  description: "Hintergrundinformationen und Nähanleitung für die Tunika",
-};
 
 const tunika = () => (
   <>
@@ -39,9 +32,15 @@ const tunika = () => (
       />
       <meta name="twitter:image" content="/images/banner.jpg" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://www.ig-romanum.de/anleitungen/tunika" />
+      <link
+        rel="canonical"
+        href="https://www.ig-romanum.de/anleitungen/tunika"
+      />
     </Head>
-    <PageIntro img={Banner}>
+    <PageIntro
+      img={`/AnleitungsBilder/tunika.jpg`}
+      imgAlt="Zeichnerische Darstellung eines römischen Tunika"
+    >
       <h2 className="mb-5">Die Tunika</h2>
       <div className="row mb-4">
         <div className="col-md-10 offset-md-1">

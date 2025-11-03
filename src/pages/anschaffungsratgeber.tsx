@@ -21,6 +21,13 @@ import Subarmalis from "@/images/anschaffungsratgeber/AR-Subarmalis.jpg";
 import Tunika from "@/images/anschaffungsratgeber/AR-Tunika.jpg";
 import Wickel from "@/images/anschaffungsratgeber/AR-Wickel.jpg";
 
+import Banner from "@/images/banner/banner_tipps+tricks.jpg";
+import { Section } from "@/components/Section/Section";
+import { StaticImageData } from "next/image";
+import { AnschaffungsRatgeber } from "@/components/AnschaffungsRatgeber/AnschaffungsRatgeber";
+import { Metadata } from "next";
+import Head from "next/head";
+
 interface Category {
   title: string;
   intro: string;
@@ -150,12 +157,6 @@ const categories: Array<Category> = [
     ],
   },
 ];
-import Banner from "@/images/banner/banner_tipps+tricks.jpg";
-import { Section } from "@/components/Section/Section";
-import { StaticImageData } from "next/image";
-import { AnschaffungsRatgeber } from "@/components/AnschaffungsRatgeber/AnschaffungsRatgeber";
-import { Metadata } from "next";
-import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "IG Romanum - Anschaffungsratgeber",
@@ -167,22 +168,46 @@ const anschaffungsratgeber = () => (
   <>
     <Head>
       <title>IG Romanum - Anschaffungsratgeber</title>
-      <meta name="description" content="Der kleine Anschaffungsratgeber der IG Romanum für neue Darsteller, damit zuerst die relevanten Gegenstände gekauft werden" />
-      <meta name="keywords" content="Römisches Reenactment, Ausrüstung, Legionär, IG Romanum, Kleidung, Ratgeber" />
+      <meta
+        name="description"
+        content="Der kleine Anschaffungsratgeber der IG Romanum für neue Darsteller, damit zuerst die relevanten Gegenstände gekauft werden"
+      />
+      <meta
+        name="keywords"
+        content="Römisches Reenactment, Ausrüstung, Legionär, IG Romanum, Kleidung, Ratgeber"
+      />
       <meta name="author" content="IG Romanum" />
       <meta property="og:title" content="IG Romanum - Anschaffungsratgeber" />
-      <meta property="og:description" content="Empfehlungen für die Reihenfolge der Anschaffung römischer Ausrüstung und Kleidung als Reenactor." />
-      <meta property="og:image" content="/images/banner/banner_tipps+tricks.jpg" />
+      <meta
+        property="og:description"
+        content="Empfehlungen für die Reihenfolge der Anschaffung römischer Ausrüstung und Kleidung als Reenactor."
+      />
+      <meta
+        property="og:image"
+        content="/images/banner/banner_tipps+tricks.jpg"
+      />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="IG Romanum - Anschaffungsratgeber" />
-      <meta name="twitter:description" content="Empfehlungen für die Anschaffung römischer Ausrüstung und Kleidung." />
-      <meta name="twitter:image" content="/images/banner/banner_tipps+tricks.jpg" />
+      <meta
+        name="twitter:description"
+        content="Empfehlungen für die Anschaffung römischer Ausrüstung und Kleidung."
+      />
+      <meta
+        name="twitter:image"
+        content="/images/banner/banner_tipps+tricks.jpg"
+      />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://www.ig-romanum.de/anschaffungsratgeber" />
+      <link
+        rel="canonical"
+        href="https://www.ig-romanum.de/anschaffungsratgeber"
+      />
     </Head>
 
-    <PageIntro img={Banner}>
+    <PageIntro
+      img={Banner}
+      imgAlt="Bild von einer Rüstung vor Bearbeitung (links) und einer nach Bearbeitung (rechts)"
+    >
       <h2 className="mb-5">
         Anschaffungs
         <span className="d-inline-block d-md-none">

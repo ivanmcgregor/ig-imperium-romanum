@@ -5,6 +5,8 @@ import { galleries as galleriesRaw } from "@/data/galerien";
 import orderBy from "lodash.orderby";
 import { LinkImage } from "@/components/LinkImage/LinkImage";
 import { Metadata } from "next";
+import { convertGallery } from "@/utils/convertGallery";
+import Head from "next/head";
 
 type Galleries = Array<{
   link: string;
@@ -53,12 +55,7 @@ function splitGalleries(galleries: Galleries) {
   return orderBy(Object.values(split), ["year"], ["desc"]);
 }
 export function getStaticProps() {
-  const galleries: Galleries = galleriesRaw.map((gallery) => ({
-    date: gallery.date,
-    link: `/galerie/${gallery.link}`,
-    title: gallery.title,
-    coverUrl: `/Galerien/${gallery.folder}/${gallery.coverFoto}`,
-  }));
+  const galleries: Galleries = galleriesRaw.map(convertGallery);
 
   return { props: { years: splitGalleries(galleries) } };
 }
@@ -66,7 +63,18 @@ export function getStaticProps() {
 const galerie = ({ years }: GallerieProps) => {
   return (
     <>
-      <PageIntro img={Banner}>
+      <Head>
+        <title>IG Romanum - Bildergalerien</title>
+        <meta name="description" content="Bildergalerien der IG Romanum" />
+        <meta name="abstract" content="Bildergalerien der IG Romanum" />
+        <meta name="keywords" content="IG Romanum, Bildergalerien, Galerie" />
+        <meta name="author" content="IG Imperium Romanum" />
+      </Head>
+
+      <PageIntro
+        img={Banner}
+        imgAlt="Bild vom Lager als Symbolbild für die vielen Galerien von verschiedenen Lagern und Events"
+      >
         <h2 className="mb-5">Galerie</h2>
         <div className="row mb-4">
           <div className="col col-md-10 offset-md-1">
