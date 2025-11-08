@@ -26,7 +26,6 @@ import { Section } from "@/components/Section/Section";
 import { StaticImageData } from "next/image";
 import { AnschaffungsRatgeber } from "@/components/AnschaffungsRatgeber/AnschaffungsRatgeber";
 import { Metadata } from "next";
-import Head from "next/head";
 
 interface Category {
   title: string;
@@ -161,49 +160,39 @@ const categories: Array<Category> = [
 export const metadata: Metadata = {
   title: "IG Romanum - Anschaffungsratgeber",
   description:
-    "Der kleine Anschaffungsratgeber der IG für neue Darsteller, damit zuerst die relevanten Gegenstände gekauft werden",
+    "Der kleine Anschaffungsratgeber der IG Romanum für neue Darsteller, damit zuerst die relevanten Gegenstände gekauft werden",
+  keywords: [
+    "Römisches Reenactment",
+    "Ausrüstung",
+    "Legionär",
+    "IG Romanum",
+    "Kleidung",
+    "Ratgeber",
+  ],
+  authors: [{ name: "IG Romanum" }],
+  openGraph: {
+    title: "IG Romanum - Anschaffungsratgeber",
+    description:
+      "Empfehlungen für die Reihenfolge der Anschaffung römischer Ausrüstung und Kleidung als Reenactor.",
+    images: ["/images/banner/banner_tipps+tricks.jpg"],
+    type: "website",
+    url: "https://www.ig-romanum.de/anschaffungsratgeber",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum - Anschaffungsratgeber",
+    description:
+      "Empfehlungen für die Anschaffung römischer Ausrüstung und Kleidung.",
+    images: ["/images/banner/banner_tipps+tricks.jpg"],
+  },
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.ig-romanum.de/anschaffungsratgeber",
+  },
 };
 
-const anschaffungsratgeber = () => (
+const Anschaffungsratgeber = () => (
   <>
-    <Head>
-      <title>IG Romanum - Anschaffungsratgeber</title>
-      <meta
-        name="description"
-        content="Der kleine Anschaffungsratgeber der IG Romanum für neue Darsteller, damit zuerst die relevanten Gegenstände gekauft werden"
-      />
-      <meta
-        name="keywords"
-        content="Römisches Reenactment, Ausrüstung, Legionär, IG Romanum, Kleidung, Ratgeber"
-      />
-      <meta name="author" content="IG Romanum" />
-      <meta property="og:title" content="IG Romanum - Anschaffungsratgeber" />
-      <meta
-        property="og:description"
-        content="Empfehlungen für die Reihenfolge der Anschaffung römischer Ausrüstung und Kleidung als Reenactor."
-      />
-      <meta
-        property="og:image"
-        content="/images/banner/banner_tipps+tricks.jpg"
-      />
-      <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="IG Romanum - Anschaffungsratgeber" />
-      <meta
-        name="twitter:description"
-        content="Empfehlungen für die Anschaffung römischer Ausrüstung und Kleidung."
-      />
-      <meta
-        name="twitter:image"
-        content="/images/banner/banner_tipps+tricks.jpg"
-      />
-      <meta name="robots" content="index, follow" />
-      <link
-        rel="canonical"
-        href="https://www.ig-romanum.de/anschaffungsratgeber"
-      />
-    </Head>
-
     <PageIntro
       img={Banner}
       imgAlt="Bild von einer Rüstung vor Bearbeitung (links) und einer nach Bearbeitung (rechts)"
@@ -259,4 +248,4 @@ const anschaffungsratgeber = () => (
   </>
 );
 
-export default anschaffungsratgeber;
+export default Anschaffungsratgeber;

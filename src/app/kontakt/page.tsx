@@ -1,25 +1,42 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import Banner from "@/images/banner/banner_kontakt2.jpg";
 import { Metadata } from "next";
-import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "IG Romanum - Kontakt",
   description: "Kontaktseite der IG Imperium Romanum",
+  keywords: [
+    "Kontakt",
+    "IG Romanum",
+    "Römer",
+    "Reenactment",
+    "Legionär",
+    "Auxiliar",
+    "Geschichte",
+    "Living History",
+  ],
+  authors: [{ name: "IG Romanum" }],
+  openGraph: {
+    title: "IG Romanum - Kontakt",
+    description: "Kontaktseite der IG Imperium Romanum",
+    images: ["/images/banner/banner_kontakt2.jpg"],
+    type: "website",
+    url: "https://www.ig-romanum.de/kontakt",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum - Kontakt",
+    description: "Kontaktseite der IG Imperium Romanum",
+    images: ["/images/banner/banner_kontakt2.jpg"],
+  },
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.ig-romanum.de/kontakt",
+  },
 };
 
-const kontakt = () => (
+const Kontakt = () => (
   <>
-    <Head>
-      <title>IG Romanum - Kontakt</title>
-      <meta name="description" content="Kontaktseite der IG Imperium Romanum" />
-      <meta
-        name="keywords"
-        content="Kontakt, IG Romanum, Römer, Reenactment, Legionär, Auxiliar, Geschichte, Living History"
-      />
-      <meta name="author" content="IG Romanum" />
-    </Head>
-
     <PageIntro
       img={Banner}
       imgAlt="Die Mitglieder der IG Romanum präsentieren sich vor ihrem Lager"
@@ -31,6 +48,13 @@ const kontakt = () => (
           Interesse an der Darstellung eines antiken Römers oder möchtest sogar
           mal bei einem Event bei unserer Gruppe reinschnuppern? Dann melde Dich
           einfach bei uns, wir heißen jeden herzlich willkommen!
+        </div>
+
+        <div className="col col-md-10 offset-md-1">
+          Du organisierst ein römisches Event, sei es im Rahmen eines Marktes,
+          in einem Museum oder an einem historischen Ort? Schreib uns gerne an
+          und wenn es bei uns zeitlich und räumlich passt, können wir gerne
+          zusammenarbeiten!
         </div>
       </div>
       <div className="d-flex justify-content-around flex-wrap">
@@ -56,4 +80,4 @@ const kontakt = () => (
   </>
 );
 
-export default kontakt;
+export default Kontakt;

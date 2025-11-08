@@ -1,9 +1,10 @@
-import Image, { StaticImageData } from "next/image";
+"use client";
+
+import { StaticImageData } from "next/image";
 import Styles from "./styles.module.css";
 import Modal from "react-bootstrap/Modal";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import { useState } from "react";
-import { LinkButton } from "@/components/Button/LinkButton";
 import { Button } from "@/components/Button/Button";
 
 interface AnschaffungsElementProps {

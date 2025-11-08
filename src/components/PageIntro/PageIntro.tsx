@@ -7,7 +7,12 @@ interface PageIntroProps extends PropsWithChildren {
   imgAlt: string;
   isHome?: boolean;
 }
-export const PageIntro = ({ children, img, isHome }: PageIntroProps) => {
+export const PageIntro = ({
+  children,
+  img,
+  imgAlt,
+  isHome,
+}: PageIntroProps) => {
   return (
     <div
       className={`${Styles.intro} text-center ${!isHome && Styles.introSmall}`}
@@ -17,17 +22,9 @@ export const PageIntro = ({ children, img, isHome }: PageIntroProps) => {
         <div className={Styles.offsetImage}>
           <div className="container">
             {typeof img === "string" ? (
-              <img
-                src={img}
-                className={Styles.imgCover}
-                alt="Einführungsbild der Seite"
-              />
+              <img src={img} className={Styles.imgCover} alt={imgAlt} />
             ) : (
-              <Image
-                src={img}
-                className={Styles.imgCover}
-                alt="Einführungsbild der Seite"
-              />
+              <Image src={img} className={Styles.imgCover} alt={imgAlt} />
             )}
           </div>
         </div>

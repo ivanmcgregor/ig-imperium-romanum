@@ -35,7 +35,10 @@ const links = () => (
           haben was die Qualität und Verarbeitung angeht, und wo die
           Unterschiede liegen. Einen groben Zusammenschnitt was man sich wann
           zulegen sollte findest du unter unserem{" "}
-          <Link href="/anschaffungsratgeber">Anschaffungsratgeber</Link>.
+          <Link href="/src/app/anschaffungsratgeber/anschaffungsratgeber">
+            Anschaffungsratgeber
+          </Link>
+          .
         </div>
       </div>
     </PageIntro>

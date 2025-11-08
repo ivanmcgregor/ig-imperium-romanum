@@ -1,4 +1,4 @@
-import Head from "next/head";
+import { Metadata } from "next";
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
 import { LinkButton } from "@/components/Button/LinkButton";
@@ -10,38 +10,65 @@ import Banner from "@/images/banner.jpg";
 import Armor from "@/images/ruestungen.jpg";
 import Shield from "@/images/anleitungen/scutum-außen-teaser.jpeg";
 
+export const metadata: Metadata = {
+  title: "IG Romanum",
+  description: "Website der IG Imperium Romanum",
+  abstract:
+    "Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben",
+  keywords: [
+    "Römer",
+    "Rom",
+    "römisches Reich",
+    "Rheinhessen",
+    "Rheinland-Pfalz",
+    "Wonnegau",
+    "Worms",
+    "Wormser Römer",
+    "Römer Gruppe",
+    "Reenactment",
+    "Reenactor",
+    "Römer Verein",
+    "Römer Darsteller",
+    "Antike",
+    "Kaiserzeit",
+    "Kaiserliche Römer",
+    "Mainzer Römer",
+    "Mainz",
+    "150 nach Christus",
+    "Primigenia",
+    "Legio XXII",
+    "22. Legion",
+    "Legionär",
+    "Auxiliar",
+    "Geschichte",
+    "Living History",
+    "Kaiser Antonius Pius",
+  ],
+  authors: [{ name: "IG Romanum" }],
+  openGraph: {
+    title: "IG Romanum",
+    description:
+      "Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben",
+    images: ["/images/banner.jpg"],
+    type: "website",
+    url: "https://www.ig-romanum.de/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum",
+    description:
+      "Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben",
+    images: ["/images/banner.jpg"],
+  },
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.ig-romanum.de/",
+  },
+};
+
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>IG Romanum</title>
-        <meta name="description" content="Website der IG Imperium Romanum" />
-        <meta
-          name="abstract"
-          content="Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben"
-        />
-        <meta
-          name="keywords"
-          content="Römer, Rom, römisches Reich, Rheinhessen, Rheinland-Pfalz, Wonnegau, Worms, Wormser Römer, Römer Gruppe, Reenactment, Reenactor, Römer Verein, Römer Darsteller, Antike, Kaiserzeit, Kaiserliche Römer, Mainzer Römer, Mainz, 150 nach Christus, Primigenia, Legio XXII, 22. Legion, Legionär, Auxiliar, Geschichte, Living History, Kaiser Antonius Pius"
-        />
-        <meta name="author" content="IG Romanum" />
-        <meta property="og:title" content="IG Romanum" />
-        <meta
-          property="og:description"
-          content="Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben"
-        />
-        <meta property="og:image" content="/images/banner.jpg" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="IG Romanum" />
-        <meta
-          name="twitter:description"
-          content="Die IG Romanum will das Leben um 150 n.Chr. in Rheinhessen durch aktives Benutzen und Erleben erforschen. Wir bauen und fertigen viele Gegenstände des römischen Alltags selbst und bieten so einen Einblick in das Lagerleben"
-        />
-        <meta name="twitter:image" content="/images/banner.jpg" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ig-romanum.de/" />
-      </Head>
       <PageIntro
         img={Banner}
         isHome={true}
@@ -63,7 +90,7 @@ const Home = () => {
         </p>
         <div className="row mb-4">
           <div className="col-md-6 offset-md-3">
-            <LinkButton to="/kontakt">Melde dich bei uns!</LinkButton>
+            <LinkButton to="/Kontakt">Melde dich bei uns!</LinkButton>
           </div>
         </div>
       </PageIntro>

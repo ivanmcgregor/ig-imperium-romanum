@@ -25,7 +25,7 @@
 .imgCover {
     object-fit: cover;
     height: 540px;
-    width: 100%;
+    width: auto;
     max-width: 100%;
 }
 

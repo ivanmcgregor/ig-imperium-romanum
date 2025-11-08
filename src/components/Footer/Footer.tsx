@@ -1,5 +1,7 @@
+"use client";
+
 import styles from "./styles.module.css";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import schildBild from "@/images/schild.jpg";
@@ -33,7 +35,7 @@ const secondaryRoutes: Routes = [
     name: "Videos",
   },
   {
-    path: "/kontakt",
+    path: "/Kontakt",
     name: "Kontakt",
   },
   {
@@ -43,7 +45,7 @@ const secondaryRoutes: Routes = [
 ];
 
 const Routes = ({ routes }: { routes: Routes }) => {
-  const { pathname } = useRouter();
+  const pathname = usePathname();
   return (
     <>
       {routes.map(({ path, name }) => (

@@ -1,7 +1,9 @@
+"use client";
+
 import styles from "./styles.module.css";
 import Link from "next/link";
 import { useState } from "react";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 const routes = [
   { path: "/", name: "STARTSEITE" },
@@ -10,7 +12,7 @@ const routes = [
   { path: "/videos", name: "VIDEOS" },
   { path: "/mitglieder", name: "MITGLIEDER" },
   { path: "/termine", name: "TERMINE" },
-  { path: "/kontakt", name: "KONTAKT" },
+  { path: "/Kontakt", name: "KONTAKT" },
 ];
 
 export const Header = () => {
@@ -18,7 +20,7 @@ export const Header = () => {
   const toggleCollapsed = () => {
     setCollapsed(!collapsed);
   };
-  const { pathname } = useRouter();
+  const pathname = usePathname();
 
   return (
     <nav>
