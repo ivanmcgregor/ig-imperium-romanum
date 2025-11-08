@@ -6,7 +6,6 @@ import orderBy from "lodash.orderby";
 import { LinkImage } from "@/components/LinkImage/LinkImage";
 import { Metadata } from "next";
 import { convertGallery } from "@/utils/convertGallery";
-import Head from "next/head";
 
 type Galleries = Array<{
   link: string;
@@ -20,14 +19,32 @@ interface YearGalleries {
   galleries: Galleries;
 }
 
-interface GallerieProps {
-  years: Array<YearGalleries>;
-}
-
 export const metadata: Metadata = {
-  title: "IG Romanum - Galerien",
-  description:
-    "Übersichtsseite von allen Bildergalerien der IG Imperium Romanum",
+  title: "IG Romanum - Bildergalerien",
+  description: "Bildergalerien der IG Romanum",
+  keywords: ["IG Romanum", "Bildergalerien", "Galerie"],
+  authors: [{ name: "IG Imperium Romanum" }],
+  abstract: "Bildergalerien der IG Romanum",
+  openGraph: {
+    title: "IG Romanum - Bildergalerien",
+    description: "Bildergalerien der IG Romanum",
+    images: ["/images/banner/banner_galerien.jpg"],
+    type: "website",
+    url: "https://www.ig-romanum.de/galerie",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum - Bildergalerien",
+    description: "Bildergalerien der IG Romanum",
+    images: ["/images/banner/banner_galerien.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://www.ig-romanum.de/galerie",
+  },
 };
 
 function splitGalleries(galleries: Galleries) {
@@ -49,28 +66,19 @@ function splitGalleries(galleries: Galleries) {
         },
       };
     },
-    {}
+    {},
   );
 
   return orderBy(Object.values(split), ["year"], ["desc"]);
 }
-export function getStaticProps() {
-  const galleries: Galleries = galleriesRaw.map(convertGallery);
 
-  return { props: { years: splitGalleries(galleries) } };
-}
+const galleries: Galleries = galleriesRaw.map(convertGallery);
 
-const galerie = ({ years }: GallerieProps) => {
+const years = splitGalleries(galleries);
+
+const GaleriePage = () => {
   return (
     <>
-      <Head>
-        <title>IG Romanum - Bildergalerien</title>
-        <meta name="description" content="Bildergalerien der IG Romanum" />
-        <meta name="abstract" content="Bildergalerien der IG Romanum" />
-        <meta name="keywords" content="IG Romanum, Bildergalerien, Galerie" />
-        <meta name="author" content="IG Imperium Romanum" />
-      </Head>
-
       <PageIntro
         img={Banner}
         imgAlt="Bild vom Lager als Symbolbild für die vielen Galerien von verschiedenen Lagern und Events"
@@ -107,4 +115,4 @@ const galerie = ({ years }: GallerieProps) => {
   );
 };
 
-export default galerie;
+export default GaleriePage;

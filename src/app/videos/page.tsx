@@ -1,45 +1,46 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
-
 import Banner from "@/images/banner/banner_videos.jpeg";
 import { YouTube } from "@/components/Video/YouTube";
-import Head from "next/head";
+import { Metadata } from "next";
 
-const Home = () => {
+export const metadata: Metadata = {
+  title: "IG Romanum - Videos",
+  description:
+    "Ausgewählte Videos der IG Imperium Romanum zu Ausrüstung, Vorstellung und Dokus.",
+  keywords: [
+    "Videos",
+    "IG Romanum",
+    "Römisches Reenactment",
+    "Ausrüstung",
+    "Dokumentation",
+    "YouTube",
+  ],
+  authors: [{ name: "IG Romanum" }],
+  openGraph: {
+    title: "IG Romanum - Videos",
+    description:
+      "Ausgewählte Videos der IG Imperium Romanum zu Ausrüstung, Vorstellung und SWR-Dokumentation.",
+    images: ["/images/banner/banner_videos.jpeg"],
+    type: "website",
+    url: "https://www.ig-romanum.de/videos",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum - Videos",
+    description:
+      "Ausgewählte Videos der IG Imperium Romanum zu Ausrüstung, Vorstellung und SWR-Dokumentation.",
+    images: ["/images/banner/banner_videos.jpeg"],
+  },
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.ig-romanum.de/videos",
+  },
+};
+
+const Videos = () => {
   return (
     <>
-      <Head>
-        <title>IG Romanum - Videos</title>
-        <meta
-          name="description"
-          content="Ausgewählte Videos der IG Imperium Romanum zu Ausrüstung, Vorstellung und Dokus."
-        />
-        <meta
-          name="keywords"
-          content="Videos, IG Romanum, Römisches Reenactment, Ausrüstung, Dokumentation, YouTube"
-        />
-        <meta name="author" content="IG Romanum" />
-        <meta property="og:title" content="IG Romanum - Videos" />
-        <meta
-          property="og:description"
-          content="Ausgewählte Videos der IG Imperium Romanum zu Ausrüstung, Vorstellung und SWR-Dokumentation."
-        />
-        <meta property="og:image" content="/images/banner/banner_videos.jpeg" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="IG Romanum - Videos" />
-        <meta
-          name="twitter:description"
-          content="Ausgewählte Videos der IG Imperium Romanum zu Ausrüstung, Vorstellung und SWR-Dokumentation."
-        />
-        <meta
-          name="twitter:image"
-          content="/images/banner/banner_videos.jpeg"
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.ig-romanum.de/videos" />
-      </Head>
-
       <PageIntro
         img={Banner}
         imgAlt="Darstellung einer Wundbehandlung durch capsarii"
@@ -76,4 +77,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Videos;

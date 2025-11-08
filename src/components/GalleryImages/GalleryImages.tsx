@@ -1,3 +1,5 @@
+"use client";
+
 import type { GalleryType } from "@/data/galerien";
 import Styles from "./styles.module.scss";
 import { Gallery, Item } from "react-photoswipe-gallery";

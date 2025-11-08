@@ -4,34 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="feat(seo): add content to home page, optimize headlines, image alt tags">
-      <change afterPath="$PROJECT_DIR$/src/app/SPQR.ttf.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/mitglieder/membersRaw.ts" afterDir="false" />
+    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="sub-feat(app): Migration to app folder pt2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AnschaffungsRatgeber/AnschaffungsElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnschaffungsRatgeber/AnschaffungsElement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Events/Events.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events/Events.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Events/Preview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events/Preview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageIntro/PageIntro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageIntro/PageIntro.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageIntro/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageIntro/styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/not-found.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/anschaffungsratgeber.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/anschaffungsratgeber/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/datenschutz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/datenschutz/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/kontakt.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/kontakt/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/links.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/links.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/mitglieder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/mitglieder/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/galerie/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/galerie/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/galerie/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/galerie/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +95,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "git-widget-placeholder": "feat/seo",
     "js.debugger.nextJs.config.created.client": "true",
-    "last_opened_file_path": "/Users/fabianpiel/Projects/ig-imperium-romanum/src/app",
+    "last_opened_file_path": "/Users/fabianpiel/Projects/ig-imperium-romanum/src/app/galerie/[slug]",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -136,14 +112,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/galerie/[slug]" />
       <recent name="$PROJECT_DIR$/src/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/galerie" />
+      <recent name="$PROJECT_DIR$/src/app/anleitungen/tunika" />
       <recent name="$PROJECT_DIR$/src/app/mitglieder" />
       <recent name="$PROJECT_DIR$/src/app/kontakt" />
       <recent name="$PROJECT_DIR$/src/app/datenschutz" />
-      <recent name="$PROJECT_DIR$/src/app/anschaffungsratgeber" />
-      <recent name="$PROJECT_DIR$/src/app" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -194,7 +171,7 @@
       <workItem from="1758809880516" duration="3298000" />
       <workItem from="1759161634611" duration="20328000" />
       <workItem from="1761048874013" duration="32820000" />
-      <workItem from="1761746314093" duration="75600000" />
+      <workItem from="1761746314093" duration="83950000" />
     </task>
     <task id="LOCAL-00001" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
       <option name="closed" value="true" />
@@ -236,7 +213,31 @@
       <option name="project" value="LOCAL" />
       <updated>1762182929599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sub-feat(app): Migration to app folder pt1">
+      <option name="closed" value="true" />
+      <created>1762613726215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762613726215</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sub-feat(app): Migration to app folder pt1">
+      <option name="closed" value="true" />
+      <created>1762613738914</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762613738914</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sub-feat(app): Migration to app folder pt2">
+      <option name="closed" value="true" />
+      <created>1762620572266</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762620572266</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +259,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat(seo): remove non-working meta info and replace them with actual header meta tags" />
     <MESSAGE value="feat(seo): add content to home page, optimize headlines, image alt tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(seo): add content to home page, optimize headlines, image alt tags" />
+    <MESSAGE value="sub-feat(app): Migration to app folder pt1" />
+    <MESSAGE value="sub-feat(app): Migration to app folder pt2" />
+    <option name="LAST_COMMIT_MESSAGE" value="sub-feat(app): Migration to app folder pt2" />
   </component>
 </project>

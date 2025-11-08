@@ -90,7 +90,7 @@ const Home = () => {
         </p>
         <div className="row mb-4">
           <div className="col-md-6 offset-md-3">
-            <LinkButton to="/Kontakt">Melde dich bei uns!</LinkButton>
+            <LinkButton to="/kontakt">Melde dich bei uns!</LinkButton>
           </div>
         </div>
       </PageIntro>

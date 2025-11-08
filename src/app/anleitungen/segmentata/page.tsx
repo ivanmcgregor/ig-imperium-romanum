@@ -2,41 +2,43 @@ import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
 import Segmentata from "@/images/ruestungen.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
-import Head from "next/head";
+import { Metadata } from "next";
 
-const segmentata = () => (
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Segmentata",
+  description: "Hintergrundinformationen zum römischen Segmentpanzer",
+  keywords: [
+    "Segmentata",
+    "Lorica Segmentata",
+    "Römer",
+    "Reenactment",
+    "IG Romanum",
+    "Anleitung",
+    "Ausrüstung",
+    "Rüstung",
+  ],
+  authors: [{ name: "IG Romanum" }],
+  openGraph: {
+    title: "IG Romanum - Anleitung Segmentata",
+    description: "Hintergrundinformationen zum römischen Segmentpanzer",
+    images: ["/images/banner.jpg"],
+    type: "article",
+    url: "https://www.ig-romanum.de/anleitungen/segmentata",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum - Anleitung Segmentata",
+    description: "Hintergrundinformationen zum römischen Segmentpanzer",
+    images: ["/images/banner.jpg"],
+  },
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.ig-romanum.de/anleitungen/segmentata",
+  },
+};
+
+const SegmentataPage = () => (
   <>
-    <Head>
-      <title>IG Romanum - Anleitung Segmentata</title>
-      <meta
-        name="description"
-        content="Hintergrundinformationen zum römischen Segmentpanzer"
-      />
-      <meta
-        name="keywords"
-        content="Segmentata, Lorica Segmentata, Römer, Reenactment, IG Romanum, Anleitung, Ausrüstung, Rüstung"
-      />
-      <meta name="author" content="IG Romanum" />
-      <meta property="og:title" content="IG Romanum - Anleitung Segmentata" />
-      <meta
-        property="og:description"
-        content="Hintergrundinformationen zum römischen Segmentpanzer"
-      />
-      <meta property="og:image" content="/images/banner.jpg" />
-      <meta property="og:type" content="article" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="IG Romanum - Anleitung Segmentata" />
-      <meta
-        name="twitter:description"
-        content="Hintergrundinformationen zum römischen Segmentpanzer"
-      />
-      <meta name="twitter:image" content="/images/banner.jpg" />
-      <meta name="robots" content="index, follow" />
-      <link
-        rel="canonical"
-        href="https://www.ig-romanum.de/anleitungen/segmentata"
-      />
-    </Head>
     <PageIntro
       img={`/AnleitungsBilder/segmentata.jpg`}
       imgAlt="Zeichnerische Darstellung einer römischen Lorica Segmentata"
@@ -127,4 +129,4 @@ const segmentata = () => (
   </>
 );
 
-export default segmentata;
+export default SegmentataPage;

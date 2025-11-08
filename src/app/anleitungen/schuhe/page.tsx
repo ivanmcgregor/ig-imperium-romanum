@@ -1,21 +1,27 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
-import Head from "next/head";
+import { Metadata } from "next";
 
-const schuhe = () => (
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Schuhe",
+  description: "Hintergrundinformationen zu römischem Schuhwerk.",
+  keywords: [
+    "Schuhe",
+    "Caligae",
+    "Calcei",
+    "Stiefel",
+    "Offener Kampfstiefel",
+    "Römer",
+    "Reenactment",
+    "Kleidung",
+    "IG Romanum",
+    "Anleitung",
+    "Ausrüstung",
+  ],
+  authors: [{ name: "IG Romanum" }],
+};
+
+const SchuhePage = () => (
   <>
-    <Head>
-      <title>IG Romanum - Anleitung Schuhe</title>
-      <meta
-        name="description"
-        content="Hintergrundinformationen zu römischem Schuhwerk."
-      />
-      <meta
-        name="keywords"
-        content="Schuhe, Römer, Reenactment, Kleidung, IG Romanum, Anleitung, Ausrüstung"
-      />
-      <meta name="author" content="IG Romanum" />
-    </Head>
-
     <PageIntro
       img={`/AnleitungsBilder/schuhe.jpg`}
       imgAlt="Zeichnerische Darstellung von römischen Calcei und Caligae"
@@ -35,12 +41,13 @@ const schuhe = () => (
             Im Militärdienst war es essenziell, guten Halt auf dem Boden zu
             haben. Die Schuhe waren entsprechend benagelt (gängige Praxis bis
             einschließlich zum ersten Weltkrieg). Das selbe Prinzip wird bei
-            heutigen Sportschuhen mit Spikes weiter verwendet. Mit Nägeln unterm
-            Schuh hat man im Gelände besseren Halt, das Laufen auf stein ist
-            allerdings unangenehm bis rutschig. Es gibt daher die Aussage, dass
-            die römischen Armeen oftmals neben den römischen Handelsstraßen auf
-            einem extra dafür von Gestrüpp befreiten Bereich wanderten. Tipps
-            zum Benageln gibt es z.B. bei{" "}
+            heutigen Sportschuhen mit Spikes weiter verwendet. Mit Nägeln auf
+            der Unterseite des Schuhs hat man im Gelände besseren Halt, das
+            Laufen auf stein ist allerdings unangenehm und teils rutschig. Es
+            gibt daher die Aussage, dass die römischen Armeen bei langen
+            Märschen und gutem Wetter oftmals neben den römischen Handelsstraßen
+            auf einem extra dafür von Gestrüpp befreiten Bereich wanderten.
+            Tipps zum Benageln gibt es z.B. bei{" "}
             <a target="_blank" href="http://florentius.com/calcei-hobnail.htm">
               florentius
             </a>
@@ -64,7 +71,10 @@ const schuhe = () => (
           <p>
             Die typischen Militärsandalen haben den Vorteil, dass der Fuß gut
             belüftet ist und auch nach einer Flussdurchquerung wieder trocknet.
-            Die Ausführlichste Anleitung ist wohl die von{" "}
+            Doch eigentlich handelt es sich bei den Caligae um offene
+            Kampfstiefel, da sie bis über den Knöchel gehen und diesen so
+            stützen. Eine Anleitung zum Anfertigen von Caligae findet sich
+            beispielsweise bei{" "}
             <a
               target="_blank"
               href="https://web.archive.org/web/20190406043535/http://www.legiotricesima.org/campusMartis/MakingCaligae/MakingAuthenticCaligae.html"
@@ -79,4 +89,4 @@ const schuhe = () => (
   </>
 );
 
-export default schuhe;
+export default SchuhePage;

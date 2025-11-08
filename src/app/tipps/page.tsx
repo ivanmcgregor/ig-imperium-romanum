@@ -3,45 +3,49 @@ import Banner from "@/images/banner/banner_tipps+tricks.jpg";
 import { Link } from "@/components/Link/Link";
 import { ButtonWrapper } from "@/components/ButtonWrapper";
 import { AnleitungsVerzeichnis } from "@/components/AnleitungsVerzeichnis";
-import Head from "next/head";
+import { Metadata } from "next";
+
+export const generateMetadata = (): Metadata => ({
+  title: "IG Romanum - Tipps und Tricks",
+  description:
+    "Für den Einstieg ins Römerhobby gibt es hier Tipps, Tricks und Anleitungen gebündelt.",
+  keywords: [
+    "Tipps",
+    "Tricks",
+    "Römer",
+    "Reenactment",
+    "IG Romanum",
+    "Anleitung",
+    "Ausrüstung",
+    "Einstieg",
+  ],
+  authors: [{ name: "IG Romanum" }],
+  openGraph: {
+    title: "IG Romanum - Tipps und Tricks",
+    description:
+      "Für den Einstieg ins Römerhobby gibt es hier Tipps, Tricks und Anleitungen gebündelt.",
+    images: ["/images/banner/banner_tipps+tricks.jpg"],
+    type: "website",
+    url: "https://www.ig-romanum.de/tipps",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum - Tipps und Tricks",
+    description:
+      "Für den Einstieg ins Römerhobby gibt es hier Tipps, Tricks und Anleitungen gebündelt.",
+    images: ["/images/banner/banner_tipps+tricks.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://www.ig-romanum.de/tipps",
+  },
+});
 
 const tipps = () => (
   <>
-    <Head>
-      <title>IG Romanum - Tipps und Tricks</title>
-      <meta
-        name="description"
-        content="Für den Einstieg ins Römerhobby gibt es hier Tipps, Tricks und Anleitungen gebündelt."
-      />
-      <meta
-        name="keywords"
-        content="Tipps, Tricks, Römer, Reenactment, IG Romanum, Anleitung, Ausrüstung, Einstieg"
-      />
-      <meta name="author" content="IG Romanum" />
-      <meta property="og:title" content="IG Romanum - Tipps und Tricks" />
-      <meta
-        property="og:description"
-        content="Für den Einstieg ins Römerhobby gibt es hier Tipps, Tricks und Anleitungen gebündelt."
-      />
-      <meta
-        property="og:image"
-        content="/images/banner/banner_tipps+tricks.jpg"
-      />
-      <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="IG Romanum - Tipps und Tricks" />
-      <meta
-        name="twitter:description"
-        content="Für den Einstieg ins Römerhobby gibt es hier Tipps, Tricks und Anleitungen gebündelt."
-      />
-      <meta
-        name="twitter:image"
-        content="/images/banner/banner_tipps+tricks.jpg"
-      />
-      <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://www.ig-romanum.de/tipps" />
-    </Head>
-
     <PageIntro
       img={Banner}
       imgAlt="Bild von einer Rüstung vor Bearbeitung (links) und einer nach Bearbeitung (rechts)"

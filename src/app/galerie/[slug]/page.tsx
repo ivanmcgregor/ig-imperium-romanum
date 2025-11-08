@@ -1,13 +1,9 @@
-import { galleries, GalleryType } from "@/data/galerien";
+import { galleries } from "@/data/galerien";
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { GalleryImages } from "@/components/GalleryImages/GalleryImages";
 
-export async function getStaticPaths() {
-  const paths = galleries.map(({ link }) => ({
-    params: { slug: link },
-  }));
-
-  return { paths, fallback: false };
+export async function generateStaticParams() {
+  return galleries.map(({ link }) => ({ slug: link }));
 }
 
 function getGalleryBySlug(slug: string) {
@@ -15,14 +11,11 @@ function getGalleryBySlug(slug: string) {
   return galleries.find((g) => g.link.toLowerCase() === link);
 }
 
-export function getStaticProps({ params }: { params: { slug: string } }) {
-  const gallery = getGalleryBySlug(params.slug);
+const Gallery = async ({ params }: { params: Promise<{ slug: string }> }) => {
+  const { slug } = await params;
 
-  // Pass post data to the page via props
-  return { props: { gallery } };
-}
+  const gallery = getGalleryBySlug(slug)!;
 
-const Gallery = ({ gallery }: { gallery: GalleryType }) => {
   return (
     <>
       <PageIntro

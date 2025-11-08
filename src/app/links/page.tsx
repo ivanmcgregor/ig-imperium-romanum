@@ -2,25 +2,27 @@ import { PageIntro } from "@/components/PageIntro/PageIntro";
 import Banner from "@/images/banner/banner_tipps+tricks.jpg";
 import { Link } from "@/components/Link/Link";
 import { Metadata } from "next";
-import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "IG Romanum - Links",
   description: "Linkliste der IG Imperium Romanum",
+  keywords: [
+    "Links",
+    "Händler",
+    "Freunde",
+    "IG Romanum",
+    "Römer",
+    "Reenactment",
+    "Legionär",
+    "Auxiliar",
+    "Geschichte",
+    "Living History",
+  ],
+  authors: [{ name: "IG Romanum" }],
 };
 
-const links = () => (
+const Links = () => (
   <>
-    <Head>
-      <title>IG Romanum - Links</title>
-      <meta name="description" content="Linkliste der IG Imperium Romanum" />
-      <meta
-        name="keywords"
-        content="Links, Händler, Freunde, IG Romanum, Römer, Reenactment, Legionär, Auxiliar, Geschichte, Living History"
-      />
-      <meta name="author" content="IG Romanum" />
-    </Head>
-
     <PageIntro
       img={Banner}
       imgAlt="Bild von einer Rüstung vor Bearbeitung (links) und einer nach Bearbeitung (rechts)"
@@ -98,4 +100,4 @@ const links = () => (
   </>
 );
 
-export default links;
+export default Links;

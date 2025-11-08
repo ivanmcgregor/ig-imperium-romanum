@@ -1,41 +1,45 @@
 import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
-import Head from "next/head";
+import { Metadata } from "next";
 
-const subarmalis = () => (
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Subarmalis",
+  description:
+    "Hintergrundinformationen zum römischen Polsterwams unter der Rüstung (Subarmalis).",
+  keywords: [
+    "Subarmalis",
+    "Polsterung",
+    "Römer",
+    "Rüstungspolsterung",
+    "Lorica",
+    "Reenactment",
+    "IG Romanum",
+    "Anleitung",
+  ],
+  authors: [{ name: "IG Romanum" }],
+  openGraph: {
+    title: "IG Romanum - Anleitung Subarmalis",
+    description:
+      "Hintergrundinformationen zum römischen Polsterwams unter der Rüstung (Subarmalis).",
+    images: ["/images/banner.jpg"],
+    type: "article",
+    url: "https://www.ig-romanum.de/anleitungen/subarmalis",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum - Anleitung Subarmalis",
+    description:
+      "Hintergrundinformationen zum römischen Polsterwams unter der Rüstung (Subarmalis).",
+    images: ["/images/banner.jpg"],
+  },
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.ig-romanum.de/anleitungen/subarmalis",
+  },
+};
+
+const SubarmalisPage = () => (
   <>
-    <Head>
-      <title>IG Romanum - Anleitung Subarmalis</title>
-      <meta
-        name="description"
-        content="Hintergrundinformationen zum römischen Polsterwams unter der Rüstung (Subarmalis)."
-      />
-      <meta
-        name="keywords"
-        content="Subarmalis, Polsterung, Römer, Rüstung, Lorica Segmentata, Reenactment, IG Romanum, Anleitung, Vorläufer des Gambeson"
-      />
-      <meta name="author" content="IG Romanum" />
-      <meta property="og:title" content="IG Romanum - Anleitung Subarmalis" />
-      <meta
-        property="og:description"
-        content="Hintergrundinformationen zum römischen Polsterwams unter der Rüstung (Subarmalis)."
-      />
-      <meta property="og:image" content="/images/banner.jpg" />
-      <meta property="og:type" content="article" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="IG Romanum - Anleitung Subarmalis" />
-      <meta
-        name="twitter:description"
-        content="Hintergrundinformationen zum römischen Polsterwams unter der Rüstung (Subarmalis)."
-      />
-      <meta name="twitter:image" content="/images/banner.jpg" />
-      <meta name="robots" content="index, follow" />
-      <link
-        rel="canonical"
-        href="https://www.ig-romanum.de/anleitungen/subarmalis"
-      />
-    </Head>
-
     <PageIntro
       img={`/AnleitungsBilder/subarmalis.jpg`}
       imgAlt="Zeichnerische Darstellung einer römischen Subarmalis"
@@ -65,7 +69,6 @@ const subarmalis = () => (
         </div>
       </div>
     </PageIntro>
-
     <Section title="Anfertigen einer Subarmalis">
       <p>
         Da nie eine Subarmalis gefunden oder deren Machart und Herstellung
@@ -95,4 +98,4 @@ const subarmalis = () => (
   </>
 );
 
-export default subarmalis;
+export default SubarmalisPage;

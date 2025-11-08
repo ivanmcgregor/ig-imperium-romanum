@@ -12,7 +12,7 @@ const routes = [
   { path: "/videos", name: "VIDEOS" },
   { path: "/mitglieder", name: "MITGLIEDER" },
   { path: "/termine", name: "TERMINE" },
-  { path: "/Kontakt", name: "KONTAKT" },
+  { path: "/kontakt", name: "KONTAKT" },
 ];
 
 export const Header = () => {

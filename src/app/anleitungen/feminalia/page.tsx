@@ -3,47 +3,45 @@ import { Section } from "@/components/Section/Section";
 import Feminalia from "@/images/anleitungen/nicos_feminalia.jpg";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import { Metadata } from "next";
-import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "IG Romanum - Anleitung Feminalia",
   description:
     "Anleitung zum schneidern einer einfachen römischen Hose (Feminalia)",
+  keywords: [
+    "Feminalia",
+    "Römer",
+    "Reenactment",
+    "IG Romanum",
+    "Anleitung",
+    "Kleidung",
+    "Hose",
+    "Ausrüstung",
+  ],
+  authors: [{ name: "IG Romanum" }],
+  openGraph: {
+    title: "IG Romanum - Anleitung Feminalia",
+    description:
+      "Anleitung zum schneidern einer einfachen römischen Hose (Feminalia).",
+    images: ["/images/banner.jpg"],
+    type: "article",
+    url: "https://www.ig-romanum.de/anleitungen/feminalia",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum - Anleitung Feminalia",
+    description:
+      "Anleitung zum schneidern einer einfachen römischen Hose (Feminalia).",
+    images: ["/images/banner.jpg"],
+  },
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.ig-romanum.de/anleitungen/feminalia",
+  },
 };
-const feminalia = () => (
-  <>
-    <Head>
-      <title>IG Romanum - Anleitung Feminalia</title>
-      <meta
-        name="description"
-        content="Anleitung zum schneidern einer einfachen römischen Hose (Feminalia)."
-      />
-      <meta
-        name="keywords"
-        content="Feminalia, Römer, Reenactment, IG Romanum, Anleitung, Kleidung, Hose, Ausrüstung"
-      />
-      <meta name="author" content="IG Romanum" />
-      <meta property="og:title" content="IG Romanum - Anleitung Feminalia" />
-      <meta
-        property="og:description"
-        content="Anleitung zum schneidern einer einfachen römischen Hose (Feminalia)."
-      />
-      <meta property="og:image" content="/images/banner.jpg" />
-      <meta property="og:type" content="article" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="IG Romanum - Anleitung Feminalia" />
-      <meta
-        name="twitter:description"
-        content="Anleitung zum schneidern einer einfachen römischen Hose (Feminalia)."
-      />
-      <meta name="twitter:image" content="/images/banner.jpg" />
-      <meta name="robots" content="index, follow" />
-      <link
-        rel="canonical"
-        href="https://www.ig-romanum.de/anleitungen/feminalia"
-      />
-    </Head>
 
+const FeminaliaPage = () => (
+  <>
     <PageIntro
       img={`/AnleitungsBilder/feminalia.jpg`}
       imgAlt="Zeichnerische Darstellung einer römischen Feminalia"
@@ -61,11 +59,9 @@ const feminalia = () => (
         </div>
       </div>
     </PageIntro>
-
     <Section title="1. Variante">
       <AnleitungsBild src={Feminalia} alt="Nicos Anleitung für Feminalia" />
     </Section>
-
     <Section title={"2. Variante"}>
       <p>
         Alternativ kannst du auch andere für die Zeit übliche Schnittmuster
@@ -84,4 +80,4 @@ const feminalia = () => (
   </>
 );
 
-export default feminalia;
+export default FeminaliaPage;

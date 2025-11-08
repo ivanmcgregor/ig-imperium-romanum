@@ -2,41 +2,46 @@ import { PageIntro } from "@/components/PageIntro/PageIntro";
 import { Section } from "@/components/Section/Section";
 import { AnleitungsBild } from "@/components/AnleitungsBild/AnleitungsBild";
 import Tunika from "@/images/anleitungen/nicos_tunic.jpg";
-import Head from "next/head";
+import { Metadata } from "next";
 
-const tunika = () => (
+export const metadata: Metadata = {
+  title: "IG Romanum - Anleitung Tunika",
+  description:
+    "Hintergrundinformationen und Nähanleitung für die römische Tunika.",
+  keywords: [
+    "Tunika",
+    "Römer",
+    "Reenactment",
+    "Kleidung",
+    "IG Romanum",
+    "Anleitung",
+    "Nähen",
+    "Ausrüstung",
+  ],
+  authors: [{ name: "IG Romanum" }],
+  openGraph: {
+    title: "IG Romanum - Anleitung Tunika",
+    description:
+      "Hintergrundinformationen und Nähanleitung für die römische Tunika.",
+    images: ["/images/banner.jpg"],
+    type: "article",
+    url: "https://www.ig-romanum.de/anleitungen/tunika",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IG Romanum - Anleitung Tunika",
+    description:
+      "Hintergrundinformationen und Nähanleitung für die römische Tunika.",
+    images: ["/images/banner.jpg"],
+  },
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.ig-romanum.de/anleitungen/tunika",
+  },
+};
+
+const TunikaPage = () => (
   <>
-    <Head>
-      <title>IG Romanum - Anleitung Tunika</title>
-      <meta
-        name="description"
-        content="Hintergrundinformationen und Nähanleitung für die römische Tunika."
-      />
-      <meta
-        name="keywords"
-        content="Tunika, Römer, Reenactment, Kleidung, IG Romanum, Anleitung, Nähen, Ausrüstung"
-      />
-      <meta name="author" content="IG Romanum" />
-      <meta property="og:title" content="IG Romanum - Anleitung Tunika" />
-      <meta
-        property="og:description"
-        content="Hintergrundinformationen und Nähanleitung für die römische Tunika."
-      />
-      <meta property="og:image" content="/images/banner.jpg" />
-      <meta property="og:type" content="article" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="IG Romanum - Anleitung Tunika" />
-      <meta
-        name="twitter:description"
-        content="Hintergrundinformationen und Nähanleitung für die römische Tunika."
-      />
-      <meta name="twitter:image" content="/images/banner.jpg" />
-      <meta name="robots" content="index, follow" />
-      <link
-        rel="canonical"
-        href="https://www.ig-romanum.de/anleitungen/tunika"
-      />
-    </Head>
     <PageIntro
       img={`/AnleitungsBilder/tunika.jpg`}
       imgAlt="Zeichnerische Darstellung eines römischen Tunika"
@@ -103,4 +108,4 @@ const tunika = () => (
   </>
 );
 
-export default tunika;
+export default TunikaPage;

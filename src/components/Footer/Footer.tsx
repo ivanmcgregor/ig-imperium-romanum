@@ -35,7 +35,7 @@ const secondaryRoutes: Routes = [
     name: "Videos",
   },
   {
-    path: "/Kontakt",
+    path: "/kontakt",
     name: "Kontakt",
   },
   {
