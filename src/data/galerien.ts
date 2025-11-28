@@ -9,6 +9,17 @@ export interface GalleryType {
   fotos: Array<string>;
 }
 
+/**
+ * How to maintain galleries
+ *
+ * 1. Create a new folder in the public/Galerien folder with a unique name (e.g. 2024_eventname)
+ * 2. Add all photos to this folder. They should be converted to .webp and no larger than 2000px on the longest side
+ * 3. Create a new entry in the galleries array below with the relevant information
+ * 4. The coverFoto should be the filename of the cover photo in the folder
+ * 5. The fotos array should contain the filenames of all photos in the folder. The order of images will tictate the order on the final page.
+ * 6. Save and commit the changes
+ */
+
 export const galleries: Array<GalleryType> = [
   {
     link: "2024_probelager",
