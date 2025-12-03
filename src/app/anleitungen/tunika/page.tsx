@@ -69,7 +69,9 @@ const TunikaPage = () => (
             Ersatztunika, die man verwenden kann, wenn die eine dreckig ist.
             Außerdem weiß man, dass es üblich war, mehrere Tuniken übereinander
             zu ziehen, insbesondere da Leinen deutlich angenehmer auf der Haut
-            ist als Wolle.
+            ist als Wolle. Damals waren Tuniken meist aus einem Stück gewebt,
+            wobei die Öffnungen für Kopf und Arme direkt beim Weben ausgespart
+            wurden.
           </p>
           <p>
             Gerade bei Darstellungen im Frühling und Winter ist eine wollene

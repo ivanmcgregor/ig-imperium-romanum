@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="sub-feat(a18n): avoid &quot;empty&quot; Links">
-      <change afterPath="$PROJECT_DIR$/src/app/sitemap.ts" afterDir="false" />
+    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="sub-feat(seo): add sitemap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/anleitungen/cingulum/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/anleitungen/cingulum/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/anleitungen/tunika/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/anleitungen/tunika/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +103,7 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
     "npm.dev.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/prettier",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -184,7 +186,7 @@
       <workItem from="1761048874013" duration="32820000" />
       <workItem from="1761746314093" duration="102390000" />
       <workItem from="1763377443939" duration="5667000" />
-      <workItem from="1764169195635" duration="9548000" />
+      <workItem from="1764169195635" duration="16724000" />
     </task>
     <task id="LOCAL-00001" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
       <option name="closed" value="true" />
@@ -274,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764607753454</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sub-feat(seo): add sitemap">
+      <option name="closed" value="true" />
+      <created>1764609635245</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764609635245</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +310,8 @@
     <MESSAGE value="sub-feat(app): Migration to app folder pt2" />
     <MESSAGE value="chore: Add docs to galleries" />
     <MESSAGE value="sub-feat(a18n): avoid &quot;empty&quot; Links" />
-    <option name="LAST_COMMIT_MESSAGE" value="sub-feat(a18n): avoid &quot;empty&quot; Links" />
+    <MESSAGE value="sub-feat(seo): add sitemap" />
+    <option name="LAST_COMMIT_MESSAGE" value="sub-feat(seo): add sitemap" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
