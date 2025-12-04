@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="sub-feat(seo): add sitemap">
+    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="chore(cve): update next to fix CVE-2025-66478">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/anleitungen/cingulum/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/anleitungen/cingulum/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/anleitungen/tunika/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/anleitungen/tunika/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "dev.nx.console.last_ai_configure_notification_timestamp": "1764169255239",
+    "dev.nx.console.last_ai_configure_notification_timestamp": "1765574792273",
     "git-widget-placeholder": "#75 on feat/seo",
     "js.debugger.nextJs.config.created.client": "true",
     "last_opened_file_path": "/Users/fabianpiel/Projects/ig-imperium-romanum/src/app/galerie/[slug]",
@@ -107,7 +109,7 @@
     "npm.dev.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/prettier",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "watcher.settings",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -125,7 +127,7 @@
       <recent name="$PROJECT_DIR$/src/app/datenschutz" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
     </configuration>
@@ -151,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +188,7 @@
       <workItem from="1761048874013" duration="32820000" />
       <workItem from="1761746314093" duration="102390000" />
       <workItem from="1763377443939" duration="5667000" />
-      <workItem from="1764169195635" duration="16724000" />
+      <workItem from="1764169195635" duration="21169000" />
     </task>
     <task id="LOCAL-00001" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
       <option name="closed" value="true" />
@@ -284,7 +286,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764609635245</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="sub-feat(seo): add more content">
+      <option name="closed" value="true" />
+      <created>1764776825058</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764776825058</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore(cve): update next to fix CVE-2025-66478">
+      <option name="closed" value="true" />
+      <created>1764843673956</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1764843673956</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +329,9 @@
     <MESSAGE value="chore: Add docs to galleries" />
     <MESSAGE value="sub-feat(a18n): avoid &quot;empty&quot; Links" />
     <MESSAGE value="sub-feat(seo): add sitemap" />
-    <option name="LAST_COMMIT_MESSAGE" value="sub-feat(seo): add sitemap" />
+    <MESSAGE value="sub-feat(seo): add more content" />
+    <MESSAGE value="chore(cve): update next to fix CVE-2025-66478" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(cve): update next to fix CVE-2025-66478" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

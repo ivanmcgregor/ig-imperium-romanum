@@ -82,7 +82,7 @@ const Cingulum = () => (
 
     <Section title={"Herstellung eines Cingulum"}>
       <h3>Materialien</h3>
-      <p>
+      <p className="mb-4">
         Es ist davon auszugehen, dass der Gürtel überwiegend aus Leder
         gearbeitet war. Es gibt Funde, bei denen das Leder zu der Zeit
         durchbrochen war (Thorsberg) oder mit Stickereien (z.T. Golddraht,
@@ -105,7 +105,7 @@ const Cingulum = () => (
         breiter und die Beschläge kleiner wurden, würde es ins Bild passen.
       </p>
 
-      <p>
+      <p className="mb-4">
         Da die Verzierungen auch als "fest montierte Notfallgeldbörse"
         fungierten, waren sie oft aus werthaltigem Material, oft versilbert oder
         komplett aus Silber. Wir nehmen gerne Messing, da es damals auch
@@ -115,7 +115,7 @@ const Cingulum = () => (
         immer noch versilbern.
       </p>
 
-      <p>
+      <p className="mb-4">
         Die Beschläge waren wohl so auf dem Gürtel angeordnet, dass von der
         Zunge her wenige Beschläge kamen, dann die Aufhängung für den Pugio,
         dann einige Beschläge am Rücken entlang und schlussendlich die Schnalle
@@ -124,7 +124,7 @@ const Cingulum = () => (
         sein, als auch als eigenständiges Teil montiert werden.
       </p>
 
-      <p>
+      <p className="mb-4">
         Die senkrecht herabhängenden Streifen bilden eine Art Schürze. Diese war
         der Mode unterworfen und variierte in der Länge, bevor es im Laufe des
         2. Jahrhunderts außer Mode geriet. Vermutlich erhofften sich die

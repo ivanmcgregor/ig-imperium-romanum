@@ -75,10 +75,10 @@
   "resolved" "https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.2.3.tgz"
   "version" "1.2.3"
 
-"@next/env@15.5.6":
-  "integrity" "sha512-3qBGRW+sCGzgbpc5TS1a0p7eNxnOarGVQhZxfvTdnV0gFI61lX7QNtQ4V1TSREctXzYn5NetbUsLvyqwLFJM6Q=="
-  "resolved" "https://registry.npmjs.org/@next/env/-/env-15.5.6.tgz"
-  "version" "15.5.6"
+"@next/env@15.5.8":
+  "integrity" "sha512-ejZHa3ogTxcy851dFoNtfB5B2h7AbSAtHbR5CymUlnz4yW1QjHNufVpvTu8PTnWBKFKjrd4k6Gbi2SsCiJKvxw=="
+  "resolved" "https://registry.npmjs.org/@next/env/-/env-15.5.8.tgz"
+  "version" "15.5.8"
 
 "@next/eslint-plugin-next@15.5.3":
   "integrity" "sha512-SdhaKdko6dpsSr0DldkESItVrnPYB1NS2NpShCSX5lc7SSQmLZt5Mug6t2xbiuVWEVDLZSuIAoQyYVBYp0dR5g=="
@@ -87,10 +87,10 @@
   dependencies:
     "fast-glob" "3.3.1"
 
-"@next/swc-darwin-arm64@15.5.6":
-  "integrity" "sha512-ES3nRz7N+L5Umz4KoGfZ4XX6gwHplwPhioVRc25+QNsDa7RtUF/z8wJcbuQ2Tffm5RZwuN2A063eapoJ1u4nPg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.5.6.tgz"
-  "version" "15.5.6"
+"@next/swc-darwin-arm64@15.5.7":
+  "integrity" "sha512-IZwtxCEpI91HVU/rAUOOobWSZv4P2DeTtNaCdHqLcTJU4wdNXgAySvKa/qJCgR5m6KI8UsKDXtO2B31jcaw1Yw=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.5.7.tgz"
+  "version" "15.5.7"
 
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
@@ -1832,25 +1832,25 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next@15.5.6":
-  "integrity" "sha512-zTxsnI3LQo3c9HSdSf91O1jMNsEzIXDShXd4wVdg9y5shwLqBXi4ZtUUJyB86KGVSJLZx0PFONvO54aheGX8QQ=="
-  "resolved" "https://registry.npmjs.org/next/-/next-15.5.6.tgz"
-  "version" "15.5.6"
+"next@15.5.8":
+  "integrity" "sha512-Tma2R50eiM7Fx6fbDeHiThq7sPgl06mBr76j6Ga0lMFGrmaLitFsy31kykgb8Z++DR2uIEKi2RZ0iyjIwFd15Q=="
+  "resolved" "https://registry.npmjs.org/next/-/next-15.5.8.tgz"
+  "version" "15.5.8"
   dependencies:
-    "@next/env" "15.5.6"
+    "@next/env" "15.5.8"
     "@swc/helpers" "0.5.15"
     "caniuse-lite" "^1.0.30001579"
     "postcss" "8.4.31"
     "styled-jsx" "5.1.6"
   optionalDependencies:
-    "@next/swc-darwin-arm64" "15.5.6"
-    "@next/swc-darwin-x64" "15.5.6"
-    "@next/swc-linux-arm64-gnu" "15.5.6"
-    "@next/swc-linux-arm64-musl" "15.5.6"
-    "@next/swc-linux-x64-gnu" "15.5.6"
-    "@next/swc-linux-x64-musl" "15.5.6"
-    "@next/swc-win32-arm64-msvc" "15.5.6"
-    "@next/swc-win32-x64-msvc" "15.5.6"
+    "@next/swc-darwin-arm64" "15.5.7"
+    "@next/swc-darwin-x64" "15.5.7"
+    "@next/swc-linux-arm64-gnu" "15.5.7"
+    "@next/swc-linux-arm64-musl" "15.5.7"
+    "@next/swc-linux-x64-gnu" "15.5.7"
+    "@next/swc-linux-x64-musl" "15.5.7"
+    "@next/swc-win32-arm64-msvc" "15.5.7"
+    "@next/swc-win32-x64-msvc" "15.5.7"
     "sharp" "^0.34.3"
 
 "normalize-path@^3.0.0", "normalize-path@~3.0.0":
