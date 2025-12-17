@@ -17,6 +17,7 @@
     color: var(--white);
     font-size: 3.5rem;
     text-decoration: none;
+    font-family: var(--headings-font-family);
 }
 
 .hero a:hover {

@@ -1,5 +1,5 @@
-import { LinkButton } from "./LinkButton";
-import styles from "./teaserstyles.module.css";
+import Styles from "./teaserstyles.module.css";
+import ButtonStyles from "./styles.module.css";
 import Link from "next/link";
 import { PropsWithChildren } from "react";
 
@@ -9,14 +9,24 @@ interface TeaserButtonProps extends PropsWithChildren {
 }
 export const TeaserButton = ({ to, img, children }: TeaserButtonProps) => {
   return (
-    <div className={`${styles.linkWithImage} pb-4`}>
-      <LinkButton to={to}>{children}</LinkButton>
-      <Link className={styles.imageContainer} href={to}>
+    <Link className={`${Styles.linkWithImage} pb-4`} href={to}>
+      <div className={ButtonStyles.button}>{children}</div>
+      <div className={Styles.imageContainer}>
         <div
-          className={styles.image}
-          style={{ backgroundImage: `url('${img}')` }}
+          className={Styles.image}
+          style={{ backgroundImage: `url(${img})` }}
         ></div>
-      </Link>
-    </div>
+      </div>
+    </Link>
+
+    // <div className={`${styles.linkWithImage} pb-4`}>
+    //   <LinkButton to={to}>{children}</LinkButton>
+    //   <Link className={styles.imageContainer} href={to}>
+    //     <div
+    //       className={styles.image}
+    //       style={{ backgroundImage: `url('${img}')` }}
+    //     ></div>
+    //   </Link>
+    // </div>
   );
 };

@@ -1,7 +1,9 @@
+"use client";
+
 import styles from "./styles.module.css";
 import Link from "next/link";
 import { useState } from "react";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 const routes = [
   { path: "/", name: "STARTSEITE" },
@@ -18,15 +20,15 @@ export const Header = () => {
   const toggleCollapsed = () => {
     setCollapsed(!collapsed);
   };
-  const { pathname } = useRouter();
+  const pathname = usePathname();
 
   return (
     <nav>
       <div className={styles.banner}>
         <div className={styles["banner-mosaik"]}></div>
-        <h1 className={styles.hero}>
+        <div className={styles.hero}>
           <Link href="/">IG IMPERIUM ROMANUM</Link>
-        </h1>
+        </div>
       </div>
       <div className={styles.mainnav}>
         <button className={styles.toggle} onClick={toggleCollapsed}>

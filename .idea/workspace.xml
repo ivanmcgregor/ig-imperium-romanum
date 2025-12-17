@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="feat(seo): remove non-working meta info and replace them with actual header meta tags">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="chore(cve): update next to fix CVE-2025-66478">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/calendar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/calendar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/anleitungen/cingulum/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/anleitungen/cingulum/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/meta-tags" />
+        <entry key="$PROJECT_DIR$" value="feat/dates-and-tags" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +39,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/seo" />
+                    <option name="lastUsedInstant" value="1761817842" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feat/dates-and-tags" />
                     <option name="lastUsedInstant" value="1759854409" />
@@ -76,33 +81,64 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2rFeeinHuii9eCmgWicwlPdvNzQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "git-widget-placeholder": "feat/dates-and-tags",
-    "js.debugger.nextJs.config.created.client": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "ts.external.directory.path": "/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;dev.nx.console.last_ai_configure_notification_timestamp&quot;: &quot;1765574792273&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#75 on feat/seo&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/src/app/galerie/[slug]&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/prettier&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/galerie/[slug]" />
+      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/galerie" />
+      <recent name="$PROJECT_DIR$/src/app/anleitungen/tunika" />
+      <recent name="$PROJECT_DIR$/src/app/mitglieder" />
+      <recent name="$PROJECT_DIR$/src/app/kontakt" />
+      <recent name="$PROJECT_DIR$/src/app/datenschutz" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -118,13 +154,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
       </set>
     </attachedChunks>
   </component>
@@ -147,7 +184,11 @@
       <workItem from="1758298854720" duration="594000" />
       <workItem from="1758789127485" duration="2739000" />
       <workItem from="1758809880516" duration="3298000" />
-      <workItem from="1759161634611" duration="16715000" />
+      <workItem from="1759161634611" duration="20328000" />
+      <workItem from="1761048874013" duration="32820000" />
+      <workItem from="1761746314093" duration="102390000" />
+      <workItem from="1763377443939" duration="5667000" />
+      <workItem from="1764169195635" duration="21169000" />
     </task>
     <task id="LOCAL-00001" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
       <option name="closed" value="true" />
@@ -173,14 +214,131 @@
       <option name="project" value="LOCAL" />
       <updated>1759347002873</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
+      <option name="closed" value="true" />
+      <created>1759856673639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759856673639</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(seo): add content to home page, optimize headlines, image alt tags">
+      <option name="closed" value="true" />
+      <created>1762182929599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762182929599</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sub-feat(app): Migration to app folder pt1">
+      <option name="closed" value="true" />
+      <created>1762613726215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762613726215</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sub-feat(app): Migration to app folder pt1">
+      <option name="closed" value="true" />
+      <created>1762613738914</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762613738914</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sub-feat(app): Migration to app folder pt2">
+      <option name="closed" value="true" />
+      <created>1762620572266</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762620572266</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sub-feat(app): Migration to app folder pt2">
+      <option name="closed" value="true" />
+      <created>1762622350894</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762622350894</updated>
+    </task>
+    <task id="LOCAL-00010" summary="chore: Add docs to galleries">
+      <option name="closed" value="true" />
+      <created>1764328198693</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764328198693</updated>
+    </task>
+    <task id="LOCAL-00011" summary="sub-feat(a18n): avoid &quot;empty&quot; Links">
+      <option name="closed" value="true" />
+      <created>1764607753454</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764607753454</updated>
+    </task>
+    <task id="LOCAL-00012" summary="sub-feat(seo): add sitemap">
+      <option name="closed" value="true" />
+      <created>1764609635245</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764609635245</updated>
+    </task>
+    <task id="LOCAL-00013" summary="sub-feat(seo): add more content">
+      <option name="closed" value="true" />
+      <created>1764776825058</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764776825058</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore(cve): update next to fix CVE-2025-66478">
+      <option name="closed" value="true" />
+      <created>1764843673956</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1764843673956</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat(seo): remove non-working meta info and replace them with actual header meta tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(seo): remove non-working meta info and replace them with actual header meta tags" />
+    <MESSAGE value="feat(seo): add content to home page, optimize headlines, image alt tags" />
+    <MESSAGE value="sub-feat(app): Migration to app folder pt1" />
+    <MESSAGE value="sub-feat(app): Migration to app folder pt2" />
+    <MESSAGE value="chore: Add docs to galleries" />
+    <MESSAGE value="sub-feat(a18n): avoid &quot;empty&quot; Links" />
+    <MESSAGE value="sub-feat(seo): add sitemap" />
+    <MESSAGE value="sub-feat(seo): add more content" />
+    <MESSAGE value="chore(cve): update next to fix CVE-2025-66478" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(cve): update next to fix CVE-2025-66478" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    text-decoration: none;
 }
 
 .imageContainer {
@@ -28,8 +29,8 @@
     cursor: pointer;
     transform: scale(1.15);
 }
-.linkWithImage:hover a,
-.linkWithImage:focus a {
+.linkWithImage:hover div,
+.linkWithImage:focus div {
     background-color: var(--primary-hover);
     border-color: var(--primary-hover);
 }

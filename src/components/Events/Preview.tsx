@@ -1,3 +1,5 @@
+"use client";
+
 import { useEvents } from "./useEvents";
 import styles from "./Preview.module.css";
 
