@@ -104,8 +104,8 @@ export const calendar: RawCalendar = [
     time: "2026-07-09",
     from: "09.07.2026",
     to: "12.07.2026",
-    title: "Mittelaltermarkt Großwallstadt",
+    title: "Mittelaltermarkt Grosswallstadt",
     description:
-      "Ein schöner Markt direkt am Main, zu dem wir immer gerne fahren",
+      "Ein schöner Markt in Großwallstadt direkt am Main, zu dem wir immer gerne fahren",
   },
 ];

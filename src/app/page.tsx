@@ -86,7 +86,7 @@ const Home = () => {
         <p className="spacedParagraph mb-4">
           Du möchtest die römische Antike leben statt nur erleben? Du suchst
           Gleichgesinnte, wenn es um römische Kultur und Brauchtum geht? Dann
-          bist du bei uns in der IG Romanum genau richtig.
+          bist du bei uns in der IG Romanum genau richtig!
         </p>
         <div className="row mb-4">
           <div className="col-md-6 offset-md-3">
@@ -141,7 +141,7 @@ const Home = () => {
           Gruppenmitgliedern je nach Veranstaltung. In der Gruppe ist die
           militärische Darstellung stärker ausgeprägt, weshalb häufig die
           verschiedenen Aspekte des Lebens von Legionären und Auxilliaren im
-          Fokus steht. So üben wir das Agieren in Formation, den Umgang mit
+          Fokus stehen. So üben wir das Agieren in Formation, den Umgang mit
           Waffen und kochen im Lager authentischen römischen Puls. Aber in der
           Gruppe wird beispielsweise auch Handwerk betrieben, so kann man
           beispielsweise Nadelbinden im Lager beobachten. Wir zeigen den

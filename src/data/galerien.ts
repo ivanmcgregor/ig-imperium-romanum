@@ -272,7 +272,7 @@ export const galleries: Array<GalleryType> = [
   },
   {
     link: "2022_grosswallstadt",
-    title: "Markt Großwallstadt",
+    title: "Markt Grosswallstadt",
     date: "2022-07-08",
     description:
       "Wir waren in Großwallstadt auf einem erfreulich antiken Lager direkt am Main und in super Gesellschaft.",
