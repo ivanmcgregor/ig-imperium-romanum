@@ -1,0 +1,4 @@
+npx lint-staged
+
+# remove comment in next line to test commit script
+# exit 1

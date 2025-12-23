@@ -13,7 +13,7 @@ export const GallereyPreview = () => {
   return (
     <div
       className={styles.imgTeaser}
-      style={{ backgroundImage: `url(${coverUrl})` }}
+      style={{ backgroundImage: `url(${coverUrl}.webp)` }}
     >
       <LinkButton to={link}>Neuste Bildergallerie: {title}</LinkButton>
     </div>

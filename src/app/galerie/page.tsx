@@ -102,7 +102,7 @@ const GaleriePage = () => {
             <div className="row">
               {galleries.map(({ title, link, coverUrl }) => (
                 <div className="col-12 col-md-6" key={title}>
-                  <LinkImage bgImage={coverUrl} href={link}>
+                  <LinkImage bgImage={`${coverUrl}.webp`} href={link}>
                     {title}
                   </LinkImage>
                 </div>

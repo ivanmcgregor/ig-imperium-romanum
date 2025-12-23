@@ -19,7 +19,7 @@ const Gallery = async ({ params }: { params: Promise<{ slug: string }> }) => {
   return (
     <>
       <PageIntro
-        img={`/Galerien/${gallery.folder}/${gallery.coverFoto}`}
+        img={`/Galerien/${gallery.folder}/${gallery.coverFoto}.webp`}
         imgAlt={gallery.coverDescription}
       >
         <h2 className="mb-5">{gallery.title}</h2>
