@@ -6,7 +6,7 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 
 export const GalleryImages = ({ folder, fotos }: GalleryType) => {
-  const preppedFotos = fotos.map((foto) => `/Galerien/${folder}/${foto}`);
+  const preppedFotos = fotos.map((foto) => `/Galerien/${folder}/${foto}.webp`);
 
   return (
     <Gallery>

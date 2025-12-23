@@ -1,13 +1,8 @@
 # Website der IG Imperium Romanum
 
-## Datenpflege: 
+## Setup
 
-Alle sich häufig ändernden Daten (Calendar, Gallerien) sind in `src/data` hinterlegt. Die Bilder der Gallerien müssen separat im public Ordner abgelegt werden.
-
-
-## Next
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This site is using [Next.js](https://nextjs.org/) to generate static assets during the build and 
 
 ### Getting Started
 
@@ -16,7 +11,7 @@ install dependencies:
 npm install
 ```
 
-First, run the development server:
+run the development server:
 
 ```bash
 npm run dev
@@ -24,11 +19,30 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx` (or a page at another folder in `app/`). The page auto-updates as you edit the file.
+## Data maintenance
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This website is set up to be easily extendable without too much technical knowledge. The areas that change most often are optimized the most.
 
-### Learn More
+### Calendar
+
+The calendar on the home page and on the detail page is automatically generated based on the events located in `./src/data/calendar.ts`. The data is typed, so if you make mistakes, typescript will let you know (if you use an editor that supports typing like VS Code).
+
+### Galleries
+
+The fotos of Galleries need to be added to `./public/Galerien`. For them to be used, they must be added to `./src/data/galerien.ts`
+
+To convert `.jpg`/`.jpeg` files to `.webp`, you can run
+
+```bash
+node scripts/optimize-images.js
+```
+
+On committing, the precommit hook will try to convert any missed new images to webp.
+
+See more detailed steps to maintain galleries in `./src/data/galerien.ts`.
+
+
+## Next
 
 To learn more about Next.js, take a look at the following resources:
 

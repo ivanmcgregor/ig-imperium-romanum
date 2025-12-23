@@ -9,6 +9,7 @@
   },
   "author": "Fabian Piel",
   "private": true,
+  "packageManager": "npm@11.6.2",
   "bugs": {
     "url": "https://github.com/ivanmcgregor/ig-imperium-romanum/issues"
   },
@@ -17,7 +18,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "optimize-galleries": "node scripts/optimize-images.js",
+    "prepare": "husky"
   },
   "dependencies": {
     "@types/node": "18.15.11",
@@ -41,10 +44,20 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-unused-imports": "2.0.0",
     "prettier": "3.6.2",
-    "sass": "1.62.1"
+    "sass": "1.62.1",
+    "glob": "13.0.0",
+    "sharp": "0.34.5",
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7"
   },
   "overrides": {
     "@types/react": "19.1.13",
     "@types/react-dom": "19.1.9"
+  },
+  "lint-staged": {
+    "public/Galerien/**/*.{jpg,jpeg}": [
+      "node scripts/optimize-images.js",
+      "git add"
+    ]
   }
 }

@@ -4,11 +4,784 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="chore(cve): update next to fix CVE-2025-66478">
+    <list default="true" id="8f82e72f-0950-470d-ae45-1e405ddee695" name="Changes" comment="feat(galleries): add conversion to webp and docs">
+      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27624693_1345886392183382_6358278783868118534_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27629533_1345886815516673_522036589577566252_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27711404_1237764579690179_1705747562_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27744136_1237767493023221_1359544900_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27745070_1237764666356837_1490045079_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27746188_1237762406357063_987216590_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27747496_1345886075516747_2506664013442706204_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27785327_1237762653023705_773061439_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/IMG_20180208_134811.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02443.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02454.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02477.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02480.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02482.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02483.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02484.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02489.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02491.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02495.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02502.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/31897608_198530397432088_1924441001271754752_n.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/32453887_1585507298213278_3882416042038788096_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/32457918_1585506958213312_5245024623199780864_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/32460660_1889183171133678_3778015265497808896_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/32530740_1585505401546801_9093003256681988096_o.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0034.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0035.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0037.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0039.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0041.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0043.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0048.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0050.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0051.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0059.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180515-WA0002.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180516-WA0023.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG_20180511_133015.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG_20180512_221954.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG_20180512_222043.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG_20180512_222135.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/Worms_329.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/Worms_330.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/Worms_38.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.35.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.36.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.36_1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.36_2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37_1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37_2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37_3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37_4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.38.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.38_1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.38_2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.38_3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0024.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0036.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0062.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0083.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0092.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0127.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0137.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0139.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0158.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0162.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0178.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0181.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0200.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0203.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0215.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0217.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0228.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0232.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0238.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0245.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0251.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0271.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0278.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0283.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0295.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0300.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0310.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0334.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0336.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0337.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0342.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0018.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0019.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0020.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0026.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0028.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0033.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0040.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0044.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG_20190705_202755282.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0017.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0021.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0022.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0024.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0025.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0032.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190821-WA0015.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190821-WA0022.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190824-WA0031.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0049.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0057.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0061.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0064.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0066.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1170XX.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1202XX.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1212XXXX.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1222XXXX.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1253.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1257XXX.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7565.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7575.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7588.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7591.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7596.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7598.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7599.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7602.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7608.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7711.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7715.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7716.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7717.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7772.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7773.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7774.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7775.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7795.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7801.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7808.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7816.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_002.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_003.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_006.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_008.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_016.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_017.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_023.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_027.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_030.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4087.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4101.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4122.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4129.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4142.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4149.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4327.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4343.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4954.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4956.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4967.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-15T15.59.30.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-15T18.56.18.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.06.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.07.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.08.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.09.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.10.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-18T10.07.36.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-18T13.07.22.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-29T21.56.00.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T07.00.05.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T07.00.06.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.21.33.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.21.34.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.21.35.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.30.14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.30.15.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.30.16.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T12.44.08.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-06-02T00.46.46.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-06-02T00.46.47.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/453.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/458.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/460-b.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/471.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/485.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/502.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/504.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/530-b.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/534.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/548.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/7987488814737879140.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/R5RU8162.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43189.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43215.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43222.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43284.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43382.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280498.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280499.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280507.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280580.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280584.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280585.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/2022-05-17T19.02.27.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/2022-05-17T19.03.24.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00015.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00036.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00119.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00194.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00328.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00378.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00439.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00471.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00498.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00510.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00554.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Feldschlacht2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Feldschlacht5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Feldschlacht8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe32.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe62.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager12.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager22.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht13.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht15.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht16.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/feldschlacht1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/titel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/titel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/10.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/11.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/titel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0687.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0701.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0702.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0715.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0724.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0730.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0731.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0743.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0750.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0780.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0801.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0835.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0886.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0890.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0900.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0905.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/00811461.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/130_b.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/133.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/19b856f94ee0.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/2021407672312802486_n.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/274-b.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/298-b.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/299.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/301-b.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/305-c.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/307.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/323.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/324.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/4182874136589976030_n.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/7016422086242261065_n.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/712494486173458864_n.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/7339837290661312594_n.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/IMG_4250.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/IMG_4255.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/c8329398099c.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_09.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_12.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_13.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_18.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_21.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_26.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_30.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_32.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_33.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_35.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_37.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_39.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_42.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_44.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_47.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_48.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_49.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_50.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_51.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_52.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_53.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_54.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_55.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_56.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_57.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_58.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06_1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06_2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06_5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/10.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/11.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/12.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/13.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/title.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240413-WA0001.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240413-WA0019.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240413-WA0020.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240413-WA0022.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240416-WA0011.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240416-WA0014.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240416-WA0017.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240416-WA0022.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1433.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1437.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1452.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1461.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1516.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1520.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1525.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1529.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1534.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1536.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_probelager/titel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240510-WA0005.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240511-WA0002.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240512-WA0013.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0005.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0010.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0011.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0013.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0014.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0015.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0016.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0019.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0020.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0021.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0031.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0033.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0036.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0038.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0041.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0048.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0079.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/optimize-images.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/anleitungen/cingulum/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/anleitungen/cingulum/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27624693_1345886392183382_6358278783868118534_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27629533_1345886815516673_522036589577566252_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27711404_1237764579690179_1705747562_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27744136_1237767493023221_1359544900_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27745070_1237764666356837_1490045079_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27746188_1237762406357063_987216590_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27747496_1345886075516747_2506664013442706204_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/27785327_1237762653023705_773061439_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-02-04_Winterwanderung_Donnersberg/IMG_20180208_134811.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02443.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02454.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02477.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02480.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02482.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02483.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02484.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02489.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02491.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02495.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-04-29_Tiergarten_Werbeaktion/DSC02502.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/31897608_198530397432088_1924441001271754752_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/32453887_1585507298213278_3882416042038788096_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/32457918_1585506958213312_5245024623199780864_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/32460660_1889183171133678_3778015265497808896_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/32530740_1585505401546801_9093003256681988096_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0051.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180513-WA0059.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180515-WA0002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG-20180516-WA0023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG_20180511_133015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG_20180512_221954.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG_20180512_222043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/IMG_20180512_222135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/Worms_329.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/Worms_330.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2018-05-10_Spectaculum_Worms/Worms_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.35.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.36.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.36_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.36_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37_3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.37_4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.38.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.38_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.38_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-05-19_Werbeaktion/23.18.38_3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0024.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0036.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0062.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0083.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0092.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0127.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0137.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0139.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0158.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0162.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0178.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0181.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0200.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0203.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0215.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0217.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0228.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0232.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0238.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0245.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0251.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0271.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0278.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0283.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0295.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0300.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0310.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0334.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0336.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0337.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/DSC_0342.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG-20190707-WA0044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-07-05_Teufelsburg/IMG_20190705_202755282.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190811-WA0032.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190821-WA0015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190821-WA0022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-11_Angelbachtal_Marktbesuch/IMG-20190824-WA0031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0049.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0057.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-08-19_Hassloch_Marktbesuch/IMG-20190831-WA0066.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1170XX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1202XX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1212XXXX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1222XXXX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1253.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2019-12-08_Winterwanderung_Donnersberg/DSC_1257XXX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7565.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7575.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7588.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7591.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7596.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7598.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7599.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7602.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7608.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7711.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7715.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7716.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7717.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7772.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7773.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7774.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7775.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7795.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7801.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7808.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020-09-19_Frankenlager/IMG_7816.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_002.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_003.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_006.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_008.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_016.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_017.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_023.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_027.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_030.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4087.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4142.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4327.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4343.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4954.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4956.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2020_Probelager/probelager_4967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-15T15.59.30.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-15T18.56.18.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.06.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.07.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.08.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.09.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-16T17.38.10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-18T10.07.36.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-04_Probelager/2022-04-18T13.07.22.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-29T21.56.00.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T07.00.05.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T07.00.06.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.21.33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.21.34.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.21.35.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.30.14.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.30.15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T09.30.16.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-05-30T12.44.08.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-06-02T00.46.46.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/2022-06-02T00.46.47.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/453.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/460-b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/471.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/502.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/504.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/530-b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/548.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/7987488814737879140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/R5RU8162.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43189.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43215.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43222.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43284.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/RUO43382.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280498.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280499.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280507.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280580.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280584.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Spectaculum/_5280585.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/2022-05-17T19.02.27.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/2022-05-17T19.03.24.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00194.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00328.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00378.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00439.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00471.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00498.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00510.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-05_Werbeaktion/IR_2022_05_00554.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Feldschlacht2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Feldschlacht5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Feldschlacht8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe32.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe62.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Gruppe7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager12.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager22.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Lager8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht13.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht14.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht16.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/Nacht5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/feldschlacht1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-07_grosswallstadt/titel.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-10_herbstwanderung/titel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2022-12_winterwanderung/titel.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0687.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0701.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0702.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0715.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0724.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0730.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0731.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0743.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0750.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0780.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0801.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0835.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0886.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0890.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0900.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Probelager/0905.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/00811461.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/130_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/19b856f94ee0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/2021407672312802486_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/274-b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/298-b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/299.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/301-b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/305-c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/307.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/323.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/324.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/4182874136589976030_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/7016422086242261065_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/712494486173458864_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/7339837290661312594_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/IMG_4250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/IMG_4255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-05_Worms/c8329398099c.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06-19_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-06_woerth/2023-06_5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/12.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/13.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/14.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2023-11_winterwanderung/title.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240413-WA0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240413-WA0019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240413-WA0020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240413-WA0022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240416-WA0011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240416-WA0014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240416-WA0017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/IMG-20240416-WA0022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1433.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1452.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1461.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1516.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1520.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1525.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1529.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/_MG_1536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_probelager/titel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240510-WA0005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240511-WA0002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240512-WA0013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0038.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Galerien/2024_spectaculum/IMG-20240513-WA0079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/galerie/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/galerie/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/galerie/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/galerie/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GallereyPreview/GalleryPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GallereyPreview/GalleryPreview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GalleryImages/GalleryImages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GalleryImages/GalleryImages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/galerien.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/galerien.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +789,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/dates-and-tags" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +850,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ivanmcgregor/ig-imperium-romanum.git&quot;,
-    &quot;accountId&quot;: &quot;fc1575c5-8279-4243-8454-1603133cda0a&quot;
+    &quot;accountId&quot;: &quot;5623f947-46d5-4cfe-b1fe-3a6a6227005b&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -89,31 +868,32 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;dev.nx.console.last_ai_configure_notification_timestamp&quot;: &quot;1765574792273&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#75 on feat/seo&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/src/app/galerie/[slug]&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/prettier&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/fabianpiel/Projects/ig-imperium-romanum/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "dev.nx.console.last_ai_configure_notification_timestamp": "1765574792273",
+    "git-widget-placeholder": "feat/img-to-webp",
+    "js.debugger.nextJs.config.created.client": "true",
+    "last_opened_file_path": "/Users/fabianpiel/Projects/ig-imperium-romanum/src/app/galerie/[slug]",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.optimize-galleries.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "/Users/fabian.piel/Projects/ig-imperium-romanum/node_modules/prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "ts.external.directory.path": "/Users/fabian.piel/Projects/ig-imperium-romanum/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/galerie/[slug]" />
@@ -151,9 +931,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="optimize-galleries" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="optimize-galleries" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.optimize-galleries" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -161,7 +952,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
       </set>
     </attachedChunks>
   </component>
@@ -189,6 +980,7 @@
       <workItem from="1761746314093" duration="102390000" />
       <workItem from="1763377443939" duration="5667000" />
       <workItem from="1764169195635" duration="21169000" />
+      <workItem from="1766485081873" duration="10810000" />
     </task>
     <task id="LOCAL-00001" summary="feat(seo): remove non-working meta info and replace them with actual header meta tags">
       <option name="closed" value="true" />
@@ -302,7 +1094,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764843673956</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat(galleries): add conversion to webp and docs">
+      <option name="closed" value="true" />
+      <created>1766504114480</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766504114480</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +1131,8 @@
     <MESSAGE value="sub-feat(seo): add sitemap" />
     <MESSAGE value="sub-feat(seo): add more content" />
     <MESSAGE value="chore(cve): update next to fix CVE-2025-66478" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(cve): update next to fix CVE-2025-66478" />
+    <MESSAGE value="feat(galleries): add conversion to webp and docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(galleries): add conversion to webp and docs" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
