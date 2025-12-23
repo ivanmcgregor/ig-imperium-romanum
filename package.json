@@ -9,6 +9,7 @@
   },
   "author": "Fabian Piel",
   "private": true,
+  "packageManager": "npm@11.6.2",
   "bugs": {
     "url": "https://github.com/ivanmcgregor/ig-imperium-romanum/issues"
   },
