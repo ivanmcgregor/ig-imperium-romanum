@@ -31,7 +31,9 @@ The calendar on the home page and on the detail page is automatically generated 
 
 The fotos of Galleries need to be added to `./public/Galerien`. For them to be used, they must be added to `./src/data/galerien.ts`
 
-To convert `.jpg`/`.jpeg` files to `.webp`, you can run
+While maintaining some galleries I had an issue that the webp could not be edited anymore. Hence I recommend to work with jpeg and only convert when the images need no editing anymore. The script will also resize the images to a maximum height and width.
+
+To convert `.jpg`/`.jpeg` files to `.webp` manually, you can run
 
 ```bash
 node scripts/optimize-images.js

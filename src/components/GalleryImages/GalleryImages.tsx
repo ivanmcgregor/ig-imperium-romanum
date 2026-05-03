@@ -1,12 +1,15 @@
 "use client";
 
 import type { GalleryType } from "@/data/galerien";
+import { galleryImageBgValue } from "@/utils/galleryImageUrl";
 import Styles from "./styles.module.scss";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 
 export const GalleryImages = ({ folder, fotos }: GalleryType) => {
-  const preppedFotos = fotos.map((foto) => `/Galerien/${folder}/${foto}.webp`);
+  const preppedFotos = fotos.map((foto) =>
+    galleryImageBgValue(`/Galerien/${folder}/${foto}`),
+  );
 
   return (
     <Gallery>
@@ -17,7 +20,7 @@ export const GalleryImages = ({ folder, fotos }: GalleryType) => {
             original={url}
             content={
               <div
-                style={{ backgroundImage: `url(${url})` }}
+                style={{ backgroundImage: url }}
                 className={Styles.galleryImage}
               />
             }
@@ -30,10 +33,12 @@ export const GalleryImages = ({ folder, fotos }: GalleryType) => {
                 onClick={open}
               >
                 {/* show image names by commenting in the line below (do not commit!) */}
-                {/* {url.split("/")[3]} */}
+                {process.env.NODE_ENV === "development"
+                  ? url.split("/")[3]
+                  : null}
                 <div
                   className={Styles.bgImage}
-                  style={{ backgroundImage: `url(${url})` }}
+                  style={{ backgroundImage: url }}
                 ></div>
               </div>
             )}

@@ -21,7 +21,10 @@ export const AnleitungsVerzeichnis = () => {
           <div className="col-12 col-md-6" key={text}>
             {/* The images should have the same name as the page and be in the*/}
             {/* folder `public/AnleitungsBilder` and in `.jpg format.*/}
-            <LinkImage bgImage={`/AnleitungsBilder/${text}.jpg`} href={path}>
+            <LinkImage
+              bgImage={`url(/AnleitungsBilder/${text}.jpg)`}
+              href={path}
+            >
               {text}
             </LinkImage>
           </div>
