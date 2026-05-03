@@ -43,12 +43,12 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-unused-imports": "2.0.0",
+    "glob": "13.0.0",
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7",
     "prettier": "3.6.2",
     "sass": "1.62.1",
-    "glob": "13.0.0",
-    "sharp": "0.34.5",
-    "husky": "9.1.7",
-    "lint-staged": "16.2.7"
+    "sharp": "0.34.5"
   },
   "overrides": {
     "@types/react": "19.1.13",

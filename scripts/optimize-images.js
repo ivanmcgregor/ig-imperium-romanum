@@ -16,15 +16,15 @@ async function optimizeImage(filePath) {
   const outputPath = path.join(directory, `${fileName}.webp`);
 
   try {
-    const image = sharp(filePath);
+    const image = sharp(filePath).autoOrient(); // ensure mobile phone orientation is applied, as meta info is counted as descriptive on webp
     const metadata = await image.metadata();
 
     // Resize only if larger than 2000px on the longer side
     let transform = image;
     if (metadata.width > MAX_WIDTH || metadata.height > MAX_HEIGHT) {
       transform = transform.resize({
-        width: metadata.width >= metadata.height ? MAX_WIDTH : null,
-        height: metadata.height > metadata.width ? MAX_HEIGHT : null,
+        width: MAX_WIDTH,
+        height: MAX_WIDTH,
         fit: "inside",
         withoutEnlargement: true,
       });
