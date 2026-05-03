@@ -14,13 +14,13 @@ export interface GalleryType {
  * 0. Create a new branch in git.
  * 1. Create a new folder in the public/Galerien folder with a unique name (e.g. 2024_eventname)
  * 2. Add all photos you want in this gallery to this folder.
- * 3. Run the script to convert them to webp and resize them to be no larger than 2000px on the longest side. Works with `.jpg` and `.jpeg` images.
- *   Either open a terminal (or other command line interface) in this project's root folder and execute `npm run optimize-images`
- *   Or check if your IDE can run the commands from the package.json or README.md
- * 4. Create a new entry in the galleries array below with the relevant information (see info at the type above)
- * 5. The coverFoto should be the filename of the cover photo in the folder. This foto should work well when auto-scaled to a square and wide image.
- * 6. The fotos array should contain the filenames of all photos in the folder. The order of images will dictate the order on the final page. You can omit the folder and file ending as everything should be `.webp`.
- * 7. Save and test that the gallery works fine in the gallery overview and in the single view.
+ * 3. Create a new entry in the galleries array below with the relevant information (see info at the type above)
+ * 4. The coverFoto should be the filename of the cover photo in the folder. This foto should work well when auto-scaled to a square and wide image.
+ * 5. The fotos array should contain the filenames of all photos in the folder. The order of images will dictate the order on the final page. You can omit the folder and file ending as everything should be `.webp`.
+ * 6. Save and test that the gallery works fine in the gallery overview and in the single view.
+ * 7. (Optionally) Run the script to convert them to webp and resize them to be no larger than 2000px on the longest side. Works with `.jpg` and `.jpeg` images.
+ *    Either open a terminal (or other command line interface) in this project's root folder and execute `npm run optimize-images`
+ *    Or check if your IDE can run the commands from the package.json or README.md
  * 8. Commit the changes, push them and open a pull request on GitHub.
  */
 
@@ -88,24 +88,59 @@ export const galleries: Array<GalleryType> = [
       "IMG-20240513-WA0079",
     ],
   },
-  // {
-  //   link: "2024_haselburg",
-  //   title: "Römerfest Villa Haselburg",
-  //   date: "2024-06-16",
-  //   description: "",
-  //   folder: "2024-",
-  //   coverFoto: "",
-  //   fotos: [],
-  // },
-  // {
-  //   link: "2024_grosswallstadt",
-  //   title: "Historischer Markt Großwallstadt",
-  //   date: "2024-07-12",
-  //   description: "",
-  //   folder: "2024-",
-  //   coverFoto: "",
-  //   fotos: [],
-  // },
+  {
+    link: "2024_haselburg",
+    title: "Römerfest Villa Haselburg",
+    date: "2024-06-16",
+    description:
+      "Im schönen Odenwald sind wir auf die Legio XVII Albica von der Elbe gestoßen. Zusammen haben wir ein paar Formationen gezeigt und Nicos hat im Anschluss einen römischen Gottesdienst abgehalten",
+    folder: "2024_haselburg",
+    coverFoto: "15-WA0009",
+    coverDescription: "",
+    fotos: [
+      "16-WA0020",
+      "00.17.55_5",
+      "00.17.56",
+      "00.17.57_3",
+      "16-WA0011",
+      "00.17.57",
+      "14-WA0007",
+      "15-WA0006",
+      "15-WA0009",
+      "15-WA0010",
+      "15-WA0011",
+      "16-WA0002",
+      "16-WA0005",
+      "16-WA0012",
+      "15-WA0023",
+      "16-WA0001",
+    ],
+  },
+  {
+    link: "2024_grosswallstadt",
+    title: "Historischer Markt Grosswallstadt",
+    date: "2024-07-12",
+    description:
+      "Auf dem Markt waren auch der Ludus Nemesis aus Hamburg. Wir haben uns sehr über die angenehme Gesellschaft gefreut, gerne wieder!",
+    folder: "2024_grosswallstadt",
+    coverFoto: "title",
+    coverDescription:
+      "Die IG und Ludus Nemesis stoßen gemeinsam auf einen erfolgreichen Markt an",
+    fotos: [
+      "17.58_7",
+      "17.59_3",
+      "17.59_5",
+      "17.59_6",
+      "17.59_7",
+      "17.59_8",
+      "17.59_9",
+      "18.00",
+      "17.59_10",
+      "17.59_11",
+      "17.58_11",
+      "17.58_2",
+    ],
+  },
   {
     link: "2023_winterwanderung",
     title: "Winterwanderung",

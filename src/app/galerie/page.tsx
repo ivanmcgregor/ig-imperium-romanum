@@ -6,6 +6,7 @@ import orderBy from "lodash.orderby";
 import { LinkImage } from "@/components/LinkImage/LinkImage";
 import { Metadata } from "next";
 import { convertGallery } from "@/utils/convertGallery";
+import { galleryImageBgValue } from "@/utils/galleryImageUrl";
 
 type Galleries = Array<{
   link: string;
@@ -102,7 +103,10 @@ const GaleriePage = () => {
             <div className="row">
               {galleries.map(({ title, link, coverUrl }) => (
                 <div className="col-12 col-md-6" key={title}>
-                  <LinkImage bgImage={`${coverUrl}.webp`} href={link}>
+                  <LinkImage
+                    bgImage={galleryImageBgValue(coverUrl)}
+                    href={link}
+                  >
                     {title}
                   </LinkImage>
                 </div>
