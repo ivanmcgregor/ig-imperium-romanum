@@ -86,23 +86,15 @@ export const calendar: RawCalendar = [
       "Auch 2026 würden wir gerne wieder am Spectaculum Worms teilnehmen. Die Teilnehmer werden aber noch bekannt gegeben.",
   },
   {
-    time: "2026-06-05",
-    from: "05.06.2026",
-    to: "06.06.2026",
-    title: "Römerfest Alzey",
-    description:
-      "Bei diesem Römerfest waren wir bislang als Tagesgäste dabei, 2026 wollen wir auch mit Lager teilnehmen.",
-  },
-  {
-    time: "2026-06-19",
-    from: "19.06.2026",
+    time: "2026-06-21",
+    from: "21.06.2026",
     // to: "19.06.2026",
     title: "Römerfest Villa Haselburg",
     description: "Ein schöner Markt auf historischer Stätte",
   },
   {
-    time: "2026-07-09",
-    from: "09.07.2026",
+    time: "2026-07-10",
+    from: "10.07.2026",
     to: "12.07.2026",
     title: "Mittelaltermarkt Grosswallstadt",
     description:
