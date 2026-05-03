@@ -32,7 +32,7 @@ export const GalleryImages = ({ folder, fotos }: GalleryType) => {
                 ref={ref}
                 onClick={open}
               >
-                {/* show image names by commenting in the line below (do not commit!) */}
+                {/* show image names by commenting in the line below (will only be shown during development!) */}
                 {process.env.NODE_ENV === "development"
                   ? url.split("/")[3]
                   : null}

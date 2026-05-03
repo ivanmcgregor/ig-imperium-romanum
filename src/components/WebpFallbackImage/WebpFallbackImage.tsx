@@ -1,5 +1,6 @@
 "use client";
 
+import { galleryImageBgValue } from "@/utils/galleryImageUrl";
 import { useState } from "react";
 
 interface WebpFallbackImageProps {
@@ -13,23 +14,21 @@ export const WebpFallbackImage = ({
   alt,
   className,
 }: WebpFallbackImageProps) => {
-  const [useJpgFallback, setUseJpgFallback] = useState(false);
-  const webp = `${basePath}.webp`;
-  const jpg = `${basePath}.jpg`;
-  const src = useJpgFallback ? jpg : webp;
-
-  const handleError = () => {
-    if (!useJpgFallback) {
-      setUseJpgFallback(true);
-    }
-  };
+  if (process.env.NODE_ENV !== "development") {
+    return <img src={`${basePath}.webp`} alt={alt} className={className} />;
+  }
 
   return (
-    <img
-      src={src}
-      alt={alt}
-      className={className}
-      onError={handleError}
-    />
+    <div
+      style={{
+        width: "100%",
+        height: "330px",
+        backgroundImage: galleryImageBgValue(basePath),
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
+      &nbsp;
+    </div>
   );
 };
