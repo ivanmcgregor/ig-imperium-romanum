@@ -47,14 +47,19 @@ const Kontakt = () => (
           Du hast Fragen zu unserer Truppe oder den vielen Anleitungen? Du hast
           Interesse an der Darstellung eines antiken Römers oder möchtest sogar
           mal bei einem Event bei unserer Gruppe reinschnuppern? Dann melde Dich
-          einfach bei uns, wir heißen jeden herzlich willkommen!
+          einfach bei uns, wir heißen jeden herzlich willkommen! Wir kommen
+          vorwiegend aus dem Dreieck zwischen Bingen, Frankfurt und Mannheim und
+          freuen uns insbesondere über Mitglieder aus der Region, da wir uns
+          auch neben den Märkten zum Basteln, planen und besprechen treffen.
         </div>
 
         <div className="col col-md-10 offset-md-1">
           Du organisierst ein römisches Event, sei es im Rahmen eines Marktes,
           in einem Museum oder an einem historischen Ort? Schreib uns gerne an
           und wenn es bei uns zeitlich und räumlich passt, können wir gerne
-          zusammenarbeiten!
+          zusammenarbeiten! Durch die Anreise zum Lager und vom Lager bevorzugen
+          wir Events, die innerhalb von 90 Minuten mit dem Auto von Alzey aus
+          erreichbar sind.
         </div>
       </div>
       <div className="d-flex justify-content-around flex-wrap">

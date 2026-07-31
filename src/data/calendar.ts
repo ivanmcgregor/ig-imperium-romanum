@@ -100,4 +100,12 @@ export const calendar: RawCalendar = [
     description:
       "Ein schöner Markt in Großwallstadt direkt am Main, zu dem wir immer gerne fahren",
   },
+  {
+    time: "2026-08-29",
+    from: "29.08.2026",
+    to: "30.08.2026",
+    title: "Sucellus Römerspektakel",
+    description:
+      "Vor 50 Jahren wurde in Kinheim an der Mosel eine Darstellung des Weingottes Sucellus gefunden, das wird gefeiert!",
+  },
 ];
