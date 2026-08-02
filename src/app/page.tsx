@@ -248,10 +248,11 @@ const Home = () => {
           Veranstaltungen zusagst, erwarten wir, dass du auch erscheinst.
         </p>
         <p className="mb-3">
-          Wir treffen uns zu Veranstaltungen, die meist in Rheinlandpfalz und
+          Wir treffen uns zu Veranstaltungen, die meist in Rheinland-Pfalz und
           Hessen stattfinden. Du solltest gut nach Mainz, Wiesbaden oder Worms
-          kommen. Wir treffen uns auch außerhalb von Reenactmentveranstaltungen,
-          beispielsweise zum gemeinsamen Museumsbesuch oder zum Stammtisch.
+          kommen können. Wir treffen uns auch außerhalb von
+          Reenactmentveranstaltungen, beispielsweise zum gemeinsamen
+          Museumsbesuch oder zum Stammtisch.
         </p>
         <p className="mb-3">
           Wer neu startet, braucht erstmal gar keine Ausrüstung, weil wir viel
